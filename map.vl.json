@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Global Tsunamis (since 1900)",
+    "width": 900,
+    "height": 480,
+    "projection": {"type": "equalEarth"},
+    "layer": [
+      {
+        "data": {"sphere": true},
+        "mark": {"type": "geoshape", "filled": true, "fill": "#cce5ff", "stroke": null}
+      },
+  
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Week9/ne_110m.json",
+          "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        },
+        "mark": {"type": "geoshape", "fill": "#b7e1cd", "stroke": "white", "strokeWidth": 0.5}
+      },
+  
+   
+      {
+        "data": {"graticule": {"step": [20, 20]}},
+        "mark": {"type": "geoshape", "filled": false, "stroke": "#cbd5e1", "strokeWidth": 0.6}
+      },
+  
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/tsunami_points_1900plus.csv"
+        },
+        "transform": [
+          {"filter": "isValid(datum.LATITUDE) && isValid(datum.LONGITUDE)"}
+        ],
+        "mark": {"type": "point", "shape": "triangle-up", "opacity": 0.8},
+        "encoding": {
+          "longitude": {"field": "LONGITUDE", "type": "quantitative"},
+          "latitude": {"field": "LATITUDE", "type": "quantitative"},
+          "size": {"field": "TS_INTENSITY", "type": "quantitative", "title": "Tsunami intensity", "scale": {"range": [20, 300]}},
+          "color": {"field": "EQ_MAGNITUDE", "type": "quantitative", "title": "Earthquake Magnitude", "scale": {"scheme": "tealblues"}},
+          "tooltip": [
+            {"field": "LOCATION_NAME", "title": "Location"},
+            {"field": "COUNTRY", "title": "Country"},
+            {"field": "YEAR", "title": "Year"},
+            {"field": "CAUSE", "title": "Cause"},
+            {"field": "TS_INTENSITY", "title": "Intensity"},
+            {"field": "EQ_MAGNITUDE", "title": "EQ Magnitude"}
+          ]
+        }
+      }
+    ]
+  }
+  
