@@ -1,16 +1,234 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Tsunami Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Global Tsunamis (since 1900) — FIT3179</title>
+
+  <!-- Vega libraries -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <!-- Favicons are optional -->
+  <link rel="icon" href="data:,">
+
+  <style>
+    /* ===== Base + Theme ===== */
+    :root {
+      --bg: #ffffff;
+      --fg: #0f172a;
+      --muted: #5b6672;
+      --panel: #f7f9fb;
+      --accent: #0b6efd;
+      --border: #e6edf5;
+      --shadow: 0 1px 0 rgba(15,23,42,.04), 0 8px 28px rgba(2,6,23,.06);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --fg: #ecf2ff;
+        --muted: #a2b1c6;
+        --panel: #0f172a;
+        --accent: #5ea3ff;
+        --border: #1f2a44;
+        --shadow: 0 1px 0 rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.45);
+      }
+    }
+
+    /* ===== Layout ===== */
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg); color: var(--fg);
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      text-rendering: optimizeLegibility;
+    }
+    header {
+      padding: 2.5rem 1.25rem 1.25rem;
+      max-width: 1100px; margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 .35rem;
+      font-size: clamp(28px, 3.5vw, 40px);
+      letter-spacing: -0.01em;
+    }
+    .subtitle {
+      color: var(--muted);
+      max-width: 70ch;
+      margin: 0 0 .75rem;
+    }
+    .meta {
+      font-size: .9rem; color: var(--muted);
+    }
+
+    main {
+      max-width: 1100px; margin: 0 auto; padding: 0 1.25rem 3rem;
+    }
+    .grid {
+      display: grid; gap: 1.25rem; grid-template-columns: 1fr;
+    }
+    @media (min-width: 980px) {
+      .grid { grid-template-columns: 1.35fr .65fr; }
+    }
+
+    /* ===== Cards / Panels ===== */
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .card .card-body { padding: 1rem; }
+    .card h2 {
+      font-size: clamp(20px, 2.4vw, 26px);
+      margin: .25rem 0 0.5rem;
+    }
+    .note { color: var(--muted); font-size: .95rem; }
+
+    /* ===== Skeleton ===== */
+    .skeleton {
+      display: block; width: 100%; height: 520px;
+      background: linear-gradient(90deg, rgba(200,210,220,.25) 25%, rgba(200,210,220,.45) 37%, rgba(200,210,220,.25) 63%);
+      background-size: 400% 100%; animation: shimmer 1.25s infinite;
+      border-radius: 12px;
+    }
+    @keyframes shimmer { 0%{background-position: 100% 0;} 100%{background-position: 0 0;} }
+
+    /* ===== Callouts ===== */
+    .callouts { display: grid; gap: .75rem; grid-template-columns: 1fr; }
+    @media (min-width: 680px) { .callouts { grid-template-columns: repeat(2,1fr); } }
+    .callout {
+      border: 1px dashed var(--border);
+      border-radius: 14px; padding: .75rem .9rem; background: transparent;
+    }
+    .caps { text-transform: uppercase; letter-spacing: .06em; font-weight: 700; font-size: .78rem; color: var(--muted); }
+
+    /* ===== Footer ===== */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem; color: var(--muted);
+      max-width: 1100px; margin: 0 auto 2rem;
+    }
+
+    /* Print: hide controls & shadows */
+    @media print {
+      .card { box-shadow: none; }
+    }
+  </style>
 </head>
 <body>
-  <div id="vis"></div>
-  <script>
-    vegaEmbed('#vis', 'map.vl.json', {actions:false});
+  <header>
+    <h1>Global Tsunamis (since 1900)</h1>
+    <p class="subtitle">
+      Where and when do tsunamis strike, and how severe are they? This page
+      presents a geographic view alongside concise takeaways and sources.
+    </p>
+    <div class="meta">Built with Vega-Lite • Last updated <span id="lastUpdated"></span></div>
+  </header>
+
+  <main>
+    <section class="grid" aria-labelledby="map-title">
+      <!-- Map + figure -->
+      <div class="card" role="figure" aria-labelledby="map-title" aria-describedby="map-desc">
+        <div class="card-body">
+          <h2 id="map-title">World Map of Tsunami Events</h2>
+          <p id="map-desc" class="note">
+            Each triangle marks a recorded tsunami since 1900. Size encodes intensity; colour encodes earthquake magnitude.
+            Hover for details. (Use the controls inside the visualisation if present.)
+          </p>
+          <div id="map-skeleton" class="skeleton" aria-hidden="true"></div>
+          <div id="vis" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- Side callouts / summary bullets -->
+      <aside class="card">
+        <div class="card-body">
+          <h2>Key Points</h2>
+          <div class="callouts">
+            <div class="callout">
+              <div class="caps">Hotspot</div>
+              The Pacific “Ring of Fire” concentrates most events due to subduction-zone quakes.
+            </div>
+            <div class="callout">
+              <div class="caps">Severity</div>
+              Higher intensities cluster near major plate boundaries; large magnitudes don’t always mean the deadliest outcomes.
+            </div>
+            <div class="callout">
+              <div class="caps">Time</div>
+              Use the year filter (if enabled) to isolate eras—e.g., post-2000 patterns vs earlier decades.
+            </div>
+            <div class="callout">
+              <div class="caps">Caveats</div>
+              Early-century under-reporting and changes in instrumentation affect counts; compare across decades with care.
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Sources -->
+    <section class="card" style="margin-top:1rem">
+      <div class="card-body">
+        <h2>Sources</h2>
+        <ul id="sources-list" class="note" aria-label="Data sources list">
+          <!-- Auto-populated if sources.csv exists -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Author: Your Name • Course: FIT3179 Data Visualisation •
+    <a href="https://vega.github.io/vega-lite/" target="_blank" rel="noopener noreferrer">Vega-Lite</a> •
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
+  </footer>
+
+  <script type="module">
+    // Update "Last updated" stamp
+    document.getElementById("lastUpdated").textContent =
+      new Date().toISOString().slice(0,10);
+
+    // Embed the visualisation
+    import embed from "https://cdn.jsdelivr.net/npm/vega-embed@6";
+    const target = document.getElementById("vis");
+    const skeleton = document.getElementById("map-skeleton");
+
+    embed("#vis", "map.vl.json", {
+      actions: false,
+      tooltip: {theme: "custom"}
+    }).then(() => {
+      // Reveal the chart, hide the skeleton
+      skeleton.style.display = "none";
+      target.style.display = "block";
+    }).catch(err => {
+      skeleton.style.display = "none";
+      target.style.display = "block";
+      target.innerHTML =
+        `<div style="padding:1rem;color:#c00">Failed to load visualisation: ${String(err)}</div>`;
+      console.error(err);
+    });
+
+    // Optional: load sources.csv (header, citation columns) into the list
+    fetch("sources.csv")
+      .then(r => r.ok ? r.text() : "")
+      .then(text => {
+        if (!text) return;
+        const rows = text.trim().split(/\r?\n/).map(l => l.split(","));
+        const [header, ...data] = rows;
+        const ul = document.getElementById("sources-list");
+        if (!ul) return;
+        data.forEach(cols => {
+          const li = document.createElement("li");
+          li.textContent = cols.join(" — ");
+          ul.appendChild(li);
+        });
+        if (!data.length) {
+          ul.innerHTML = "<li>No sources listed.</li>";
+        }
+      })
+      .catch(() => {/* silent if file not found */});
   </script>
 </body>
 </html>
