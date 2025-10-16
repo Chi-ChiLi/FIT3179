@@ -1,234 +1,205 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Global Tsunamis (since 1900) — FIT3179</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Vega libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <!-- Vega libs (pinned like example) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-  <!-- Favicons are optional -->
-  <link rel="icon" href="data:,">
+  <!-- Your own CSS (optional) -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- Pure CSS (grid helpers, like the example) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+    integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+
+  <!-- Tailwind (utility classes, like the example) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
   <style>
-    /* ===== Base + Theme ===== */
-    :root {
-      --bg: #ffffff;
-      --fg: #0f172a;
-      --muted: #5b6672;
-      --panel: #f7f9fb;
-      --accent: #0b6efd;
-      --border: #e6edf5;
-      --shadow: 0 1px 0 rgba(15,23,42,.04), 0 8px 28px rgba(2,6,23,.06);
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0b1220;
-        --fg: #ecf2ff;
-        --muted: #a2b1c6;
-        --panel: #0f172a;
-        --accent: #5ea3ff;
-        --border: #1f2a44;
-        --shadow: 0 1px 0 rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.45);
-      }
-    }
-
-    /* ===== Layout ===== */
-    html, body {
-      margin: 0; padding: 0;
-      background: var(--bg); color: var(--fg);
-      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-      text-rendering: optimizeLegibility;
-    }
-    header {
-      padding: 2.5rem 1.25rem 1.25rem;
-      max-width: 1100px; margin: 0 auto;
-    }
-    h1 {
-      margin: 0 0 .35rem;
-      font-size: clamp(28px, 3.5vw, 40px);
-      letter-spacing: -0.01em;
-    }
-    .subtitle {
-      color: var(--muted);
-      max-width: 70ch;
-      margin: 0 0 .75rem;
-    }
-    .meta {
-      font-size: .9rem; color: var(--muted);
-    }
-
-    main {
-      max-width: 1100px; margin: 0 auto; padding: 0 1.25rem 3rem;
-    }
-    .grid {
-      display: grid; gap: 1.25rem; grid-template-columns: 1fr;
-    }
-    @media (min-width: 980px) {
-      .grid { grid-template-columns: 1.35fr .65fr; }
-    }
-
-    /* ===== Cards / Panels ===== */
-    .card {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-    .card .card-body { padding: 1rem; }
-    .card h2 {
-      font-size: clamp(20px, 2.4vw, 26px);
-      margin: .25rem 0 0.5rem;
-    }
-    .note { color: var(--muted); font-size: .95rem; }
-
-    /* ===== Skeleton ===== */
-    .skeleton {
-      display: block; width: 100%; height: 520px;
-      background: linear-gradient(90deg, rgba(200,210,220,.25) 25%, rgba(200,210,220,.45) 37%, rgba(200,210,220,.25) 63%);
-      background-size: 400% 100%; animation: shimmer 1.25s infinite;
-      border-radius: 12px;
-    }
-    @keyframes shimmer { 0%{background-position: 100% 0;} 100%{background-position: 0 0;} }
-
-    /* ===== Callouts ===== */
-    .callouts { display: grid; gap: .75rem; grid-template-columns: 1fr; }
-    @media (min-width: 680px) { .callouts { grid-template-columns: repeat(2,1fr); } }
-    .callout {
-      border: 1px dashed var(--border);
-      border-radius: 14px; padding: .75rem .9rem; background: transparent;
-    }
-    .caps { text-transform: uppercase; letter-spacing: .06em; font-weight: 700; font-size: .78rem; color: var(--muted); }
-
-    /* ===== Footer ===== */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 1.25rem; color: var(--muted);
-      max-width: 1100px; margin: 0 auto 2rem;
-    }
-
-    /* Print: hide controls & shadows */
-    @media print {
-      .card { box-shadow: none; }
-    }
+    /* Minimal structure to match the example’s vibe if css/styles.css is missing */
+    :root { --bg:#04121b; --overlay:rgba(0,0,0,.35); --panel:rgba(255,255,255,.08); --text:#e6f2ff; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:"Ubuntu", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif; }
+    #bg { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(1) opacity(.35); z-index: -2; }
+    .slideshow { max-width: 1200px; margin: 0 auto; padding-bottom: 5rem; }
+    .slide { padding: 2rem 1rem 3rem; }
+    .heading { text-align:center; margin-top: 3.5rem; }
+    .heading p { font-family: "Yeseva One", serif; font-size: clamp(28px, 3.2vw, 40px); letter-spacing: .5px; margin: 0; }
+    .center { display:flex; justify-content:center; align-items:center; }
+    .text { color: rgba(255,255,255,.88); line-height: 1.7; }
+    .subheading { font-family: "Yeseva One", serif; font-size: clamp(20px, 2.2vw, 26px); margin: .5rem 0 .25rem; }
+    .columns-2 { column-count: 2; column-gap: 1.5rem; }
+    .card { background: var(--panel); border: 1px solid rgba(255,255,255,.12); border-radius: 14px; }
+    .buttons { background: var(--panel); border-radius: 12px; padding: .75rem; }
+    .caption { color: rgba(255,255,255,.7); font-size:.95rem; }
+    a { color:#8bd3ff; }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>Global Tsunamis (since 1900)</h1>
-    <p class="subtitle">
-      Where and when do tsunamis strike, and how severe are they? This page
-      presents a geographic view alongside concise takeaways and sources.
-    </p>
-    <div class="meta">Built with Vega-Lite • Last updated <span id="lastUpdated"></span></div>
-  </header>
+  <!-- Background image (replace with your own or remove) -->
+  <img id="bg" src="images/ocean_depths2.png" alt="ocean background">
 
-  <main>
-    <section class="grid" aria-labelledby="map-title">
-      <!-- Map + figure -->
-      <div class="card" role="figure" aria-labelledby="map-title" aria-describedby="map-desc">
-        <div class="card-body">
-          <h2 id="map-title">World Map of Tsunami Events</h2>
-          <p id="map-desc" class="note">
-            Each triangle marks a recorded tsunami since 1900. Size encodes intensity; colour encodes earthquake magnitude.
-            Hover for details. (Use the controls inside the visualisation if present.)
-          </p>
-          <div id="map-skeleton" class="skeleton" aria-hidden="true"></div>
-          <div id="vis" style="display:none"></div>
-        </div>
+  <div class="slideshow">
+
+    <!-- Title Slide -->
+    <div id="title" class="center slide mt-12">
+      <div class="text-center">
+        <p class="text-6xl md:text-8xl font-semibold" style="font-family:'Yeseva One', serif;">Global Tsunamis</p>
+        <p class="mt-4 text-lg md:text-xl opacity-90">A visual story of where, when, and how severely tsunamis have struck since 1900</p>
+        <p class="mt-2 caption">Author: Your Name • Course: FIT3179 • Last updated <span id="updated"></span></p>
       </div>
+    </div>
 
-      <!-- Side callouts / summary bullets -->
-      <aside class="card">
-        <div class="card-body">
-          <h2>Key Points</h2>
-          <div class="callouts">
-            <div class="callout">
-              <div class="caps">Hotspot</div>
-              The Pacific “Ring of Fire” concentrates most events due to subduction-zone quakes.
+    <!-- Map Slide Heading -->
+    <div class="heading">
+      <p>Global Distribution</p>
+    </div>
+
+    <!-- Map Slide -->
+    <div id="map_slide" class="slide">
+      <div class="pure-g">
+        <!-- Left: text -->
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="pr-0 md:pr-16">
+            <p class="subheading">Where do tsunamis occur?</p>
+            <p class="text columns-2" style="margin-bottom: 1.2em;">
+              Most recorded tsunamis are concentrated along subduction zones—the Pacific “Ring of Fire”—where great
+              earthquakes displace the seafloor. Each triangle on the map represents an event since 1900. Size encodes
+              tsunami intensity; colour encodes earthquake magnitude. Hover for details, and use any built-in controls
+              to filter by time or cause.
+            </p>
+            <p class="caption">Notes: Early-century records may be incomplete. Visual encodings emphasise pattern, not precise risk.</p>
+          </div>
+        </div>
+
+        <!-- Right: map -->
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="card p-3">
+            <div id="map_embed" class="center">
+              <div id="map_vis" class="w-full"></div>
             </div>
-            <div class="callout">
-              <div class="caps">Severity</div>
-              Higher intensities cluster near major plate boundaries; large magnitudes don’t always mean the deadliest outcomes.
-            </div>
-            <div class="callout">
-              <div class="caps">Time</div>
-              Use the year filter (if enabled) to isolate eras—e.g., post-2000 patterns vs earlier decades.
-            </div>
-            <div class="callout">
-              <div class="caps">Caveats</div>
-              Early-century under-reporting and changes in instrumentation affect counts; compare across decades with care.
+          </div>
+          <div class="center mt-2">
+            <div class="flex items-center gap-2 caption">
+              <img src="images/magnifying_glass.png" alt="" style="width: 18px; height: 18px;">
+              <span>Interact: hover points • filter inside the chart (if enabled)</span>
             </div>
           </div>
         </div>
-      </aside>
-    </section>
-
-    <!-- Sources -->
-    <section class="card" style="margin-top:1rem">
-      <div class="card-body">
-        <h2>Sources</h2>
-        <ul id="sources-list" class="note" aria-label="Data sources list">
-          <!-- Auto-populated if sources.csv exists -->
-        </ul>
       </div>
-    </section>
-  </main>
+    </div>
 
-  <footer>
-    Author: Your Name • Course: FIT3179 Data Visualisation •
-    <a href="https://vega.github.io/vega-lite/" target="_blank" rel="noopener noreferrer">Vega-Lite</a> •
-    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
-  </footer>
+    <!-- Trends Slide Heading -->
+    <div class="heading">
+      <p>Trends Over Time</p>
+    </div>
 
-  <script type="module">
-    // Update "Last updated" stamp
-    document.getElementById("lastUpdated").textContent =
-      new Date().toISOString().slice(0,10);
+    <!-- Trends Slide (optional: wire a timeline .vg.json later) -->
+    <div id="trends_slide" class="slide">
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="card p-4">
+            <div id="timeline_vis"></div>
+          </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="pr-0 md:pr-16">
+            <p class="subheading">How has frequency changed?</p>
+            <p class="text">
+              Drag across the timeline (if enabled) to focus the map on specific eras. Reporting improved over the
+              20th century, so apparent increases may reflect detection rather than true frequency changes. Pair this
+              view with impact metrics for a more complete picture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    // Embed the visualisation
-    import embed from "https://cdn.jsdelivr.net/npm/vega-embed@6";
-    const target = document.getElementById("vis");
-    const skeleton = document.getElementById("map-skeleton");
+    <!-- Impact Slide Heading -->
+    <div class="heading">
+      <p>Severity & Impact</p>
+    </div>
 
-    embed("#vis", "map.vl.json", {
-      actions: false,
-      tooltip: {theme: "custom"}
-    }).then(() => {
-      // Reveal the chart, hide the skeleton
-      skeleton.style.display = "none";
-      target.style.display = "block";
-    }).catch(err => {
-      skeleton.style.display = "none";
-      target.style.display = "block";
-      target.innerHTML =
-        `<div style="padding:1rem;color:#c00">Failed to load visualisation: ${String(err)}</div>`;
-      console.error(err);
-    });
+    <!-- Impact Slide (optional: magnitude vs fatalities chart) -->
+    <div id="impact_slide" class="slide">
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-2-3">
+          <div class="card p-4">
+            <div id="impact_vis"></div>
+          </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+          <div class="pl-0 md:pl-10">
+            <p class="subheading">Magnitude isn’t everything</p>
+            <p class="text">
+              The human toll depends on many factors: distance to shore, bathymetry, coastal defences, warning time,
+              and population exposure. Large magnitudes do not always correspond to the deadliest outcomes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    // Optional: load sources.csv (header, citation columns) into the list
-    fetch("sources.csv")
-      .then(r => r.ok ? r.text() : "")
+    <!-- Sources Slide -->
+    <div class="heading">
+      <p>Sources & Credits</p>
+    </div>
+
+    <div id="sources_slide" class="slide">
+      <div class="pure-g">
+        <div class="pure-u-1">
+          <div class="card p-5">
+            <p class="subheading">Data</p>
+            <ul id="sources_list" class="text list-disc pl-6">
+              <!-- Populated from sources.csv if present -->
+            </ul>
+            <p class="caption mt-3">
+              This work is licensed under a
+              <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">CC BY 4.0</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- /slideshow -->
+
+  <!-- --------------------- -->
+  <!-- Vega Embeds -->
+  <!-- --------------------- -->
+  <script>
+    // stamp
+    document.getElementById('updated').textContent = new Date().toISOString().slice(0,10);
+
+    // Required: your existing map spec
+    vegaEmbed('#map_vis', 'map.vl.json', {"actions": false}).catch(console.error);
+
+    // Optional: if/when you add these files, they’ll auto-render.
+    // vegaEmbed('#timeline_vis', 'timeline.vl.json', {"actions": false}).catch(()=>{});
+    // vegaEmbed('#impact_vis', 'impact.vl.json', {"actions": false}).catch(()=>{});
+
+    // Optional: load sources.csv into the list (simple CSV with header row)
+    fetch('sources.csv').then(r => r.ok ? r.text() : '')
       .then(text => {
         if (!text) return;
-        const rows = text.trim().split(/\r?\n/).map(l => l.split(","));
-        const [header, ...data] = rows;
-        const ul = document.getElementById("sources-list");
-        if (!ul) return;
-        data.forEach(cols => {
-          const li = document.createElement("li");
-          li.textContent = cols.join(" — ");
+        const [header, ...rows] = text.trim().split(/\r?\n/);
+        const ul = document.getElementById('sources_list');
+        rows.forEach(line => {
+          const li = document.createElement('li');
+          li.textContent = line.split(',').join(' — ');
           ul.appendChild(li);
         });
-        if (!data.length) {
-          ul.innerHTML = "<li>No sources listed.</li>";
-        }
-      })
-      .catch(() => {/* silent if file not found */});
+      }).catch(()=>{});
   </script>
+
 </body>
 </html>
