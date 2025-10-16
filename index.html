@@ -44,6 +44,7 @@
 
   <div class="slideshow">
 
+    <!-- Title Slide -->
     <div id="title" class="center slide mt-12">
       <div class="text-center">
         <p class="text-6xl md:text-8xl font-semibold" style="font-family:'Yeseva One', serif;">Global Tsunamis</p>
@@ -52,10 +53,59 @@
       </div>
     </div>
 
+    <!-- Introductory Slide -->
+    <div id="intro_slide" class="slide">
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="pr-0 md:pr-16">
+            <p class="subheading">What causes a tsunami?</p>
+            <p class="text">
+              Tsunamis are long, powerful sea waves most often triggered by undersea earthquakes, volcanic eruptions, 
+              or landslides that displace large volumes of water. When the seafloor suddenly shifts, it pushes the entire 
+              water column upward, releasing immense energy that travels outward as waves. In deep water, these waves can 
+              move faster than a jet plane — up to 800 km/h — but are barely noticeable at the surface.
+            </p>
+            <p class="text">
+              As tsunamis approach shallow coastal areas, the wave energy compresses, slowing their speed but increasing 
+              their height dramatically. This process, known as <em>shoaling</em>, can transform a gentle offshore swell 
+              into a wall of water that inundates coastlines with devastating force.
+            </p>
+          </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="center">
+            <img src="images/tsunami_formation_diagram.png" 
+                 alt="Diagram showing tsunami formation from undersea earthquake"
+                 style="width: 90%; border-radius: 12px; border: 1px solid rgba(255,255,255,.1); box-shadow: 0 0 20px rgba(0,0,0,.4);">
+          </div>
+          <p class="caption center mt-2">Illustration: Undersea fault movement generates waves that radiate outward across the ocean.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Global Impact Overview -->
+    <div id="overview_slide" class="slide">
+      <div class="pure-g">
+        <div class="pure-u-1">
+          <p class="subheading">A global hazard shaped by the ocean floor</p>
+          <p class="text">
+            Around 80% of the world’s tsunamis occur within the Pacific Ocean’s <em>Ring of Fire</em>, where major tectonic plates 
+            collide. Historic events such as the 2004 Indian Ocean tsunami and the 2011 Tōhoku tsunami in Japan demonstrate 
+            their devastating potential — both causing immense loss of life and reshaping entire coastlines. Modern monitoring 
+            networks, like the Pacific Tsunami Warning System, now use seismographs and ocean buoys to detect and track these 
+            waves in real-time, improving global preparedness and response.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map Slide Heading -->
     <div class="heading">
       <p>Global Distribution</p>
     </div>
 
+    <!-- Map Slide -->
     <div id="map_slide" class="slide">
       <div class="pure-g">
         <div class="pure-u-1 pure-u-md-1-2">
@@ -132,18 +182,8 @@
 
   <!-- Embeds -->
   <script>
-    // Last updated stamp
     document.getElementById('updated').textContent = new Date().toISOString().slice(0,10);
-
-    // 👉 Load YOUR spec from /Visualisations/
-    vegaEmbed('#map_vis', 'Visualisations/global_tsunamis_interactive.vl.json', { actions: false })
-      .catch(console.error);
-
-    // Optional future charts:
-    // vegaEmbed('#timeline_vis', 'Visualisations/timeline.vl.json', { actions:false }).catch(()=>{});
-    // vegaEmbed('#impact_vis', 'Visualisations/impact.vl.json', { actions:false }).catch(()=>{});
-
-    // Optional: populate Sources from /Data/sources.csv (if present)
+    vegaEmbed('#map_vis', 'Visualisations/global_tsunamis_interactive.vl.json', { actions: false }).catch(console.error);
     fetch('Data/sources.csv').then(r => r.ok ? r.text() : '')
       .then(text => {
         if (!text) return;
