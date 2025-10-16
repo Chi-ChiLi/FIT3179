@@ -1,0 +1,122 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Global Tsunamis",
+    "subtitle": "Interactive map of global tsunami events (1900–2025)",
+    "font": "Ubuntu",
+    "fontSize": 22,
+    "fontWeight": "bold",
+    "color": "#f9fafb",
+    "subtitleColor": "#cbd5e1",
+    "subtitleFontSize": 14,
+    "subtitleFontStyle": "italic",
+    "anchor": "middle"
+  },
+  "width": 1000,
+  "height": 520,
+  "background": "#0d1117",
+  "projection": {"type": "equalEarth"},
+
+  "params": [
+    {
+      "name": "yearSel",
+      "value": 1900,
+      "bind": {"input": "range", "min": 1900, "max": 2025, "step": 1, "name": "Year: "}
+    },
+    {
+      "name": "mode",
+      "value": "Cumulative",
+      "bind": {"input": "select", "options": ["Exact year", "Cumulative"], "name": "Display mode: "}
+    },
+    {
+      "name": "causeSel",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All","Earthquake","Volcano","Landslide","Meteorological","Unknown"],
+        "name": "Cause: "
+      }
+    },
+    {
+      "name": "sizeMetric",
+      "value": "TS_INTENSITY",
+      "bind": {
+        "input": "select",
+        "options": ["TS_INTENSITY","EQ_MAGNITUDE"],
+        "labels": ["Tsunami intensity","EQ magnitude"],
+        "name": "Size by: "
+      }
+    }
+  ],
+
+  "layer": [
+    {
+      "data": {"sphere": true},
+      "mark": {"type": "geoshape", "filled": true, "fill": "#1e293b"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/map_addons/ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "#334155", "stroke": "#475569", "strokeWidth": 0.5}
+    },
+    {
+      "data": {"graticule": {"step": [20, 20]}},
+      "mark": {"type": "geoshape", "filled": false, "stroke": "#475569", "strokeWidth": 0.3, "opacity": 0.5}
+    },
+    {
+      "data": {"url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Data/tsunami_points.csv"},
+      "transform": [
+        {"filter": "isValid(datum.LATITUDE) && isValid(datum.LONGITUDE)"},
+        {"calculate": "toNumber(datum.YEAR)", "as": "YearNum"},
+        {"filter": "mode==='Cumulative' ? datum.YearNum <= yearSel : datum.YearNum == yearSel"},
+        {"calculate": "trim(datum.CAUSE || '')==='' ? 'Unknown' : datum.CAUSE", "as": "CauseClean"},
+        {"filter": "causeSel==='All' ? true : lower(datum.CauseClean)===lower(causeSel)"},
+        {"calculate": "sizeMetric==='TS_INTENSITY' ? toNumber(datum.TS_INTENSITY) : toNumber(datum.EQ_MAGNITUDE)", "as": "SizeMetric"}
+      ],
+      "mark": {"type": "point", "shape": "diamond", "opacity": 0.9, "filled": true, "stroke": "#e2e8f0", "strokeWidth": 0.3},
+      "encoding": {
+        "longitude": {"field": "LONGITUDE", "type": "quantitative"},
+        "latitude": {"field": "LATITUDE", "type": "quantitative"},
+        "size": {
+          "field": "SizeMetric",
+          "type": "quantitative",
+          "title": {"expr": "sizeMetric==='TS_INTENSITY' ? 'Tsunami intensity' : 'EQ magnitude'"},
+          "scale": {"type": "sqrt", "domain": [0, 10], "range": [40, 420]},
+          "legend": {"orient": "bottom", "labelColor": "#f9fafb", "titleColor": "#f9fafb"}
+        },
+        "color": {
+          "field": "EQ_MAGNITUDE",
+          "type": "quantitative",
+          "title": "Earthquake Magnitude",
+          "scale": {"scheme": "turbo", "domain": [0, 9]},
+          "legend": {"orient": "bottom", "labelColor": "#f9fafb", "titleColor": "#f9fafb"}
+        },
+        "tooltip": [
+          {"field": "LOCATION_NAME", "title": "Location"},
+          {"field": "COUNTRY", "title": "Country"},
+          {"field": "YEAR", "title": "Year"},
+          {"field": "CAUSE", "title": "Cause"},
+          {"field": "TS_INTENSITY", "title": "Intensity"},
+          {"field": "EQ_MAGNITUDE", "title": "EQ Magnitude"}
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "view": {"stroke": null},
+    "legend": {
+      "orient": "bottom",
+      "direction": "horizontal",
+      "labelFont": "Ubuntu",
+      "titleFont": "Ubuntu",
+      "labelColor": "#e2e8f0",
+      "titleColor": "#f1f5f9",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "axis": {"labelFontSize": 11, "titleFontSize": 12, "labelColor": "#e2e8f0", "titleColor": "#f1f5f9"}
+  }
+}
