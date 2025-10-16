@@ -1,0 +1,111 @@
+ {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Global Tsunamis (since 1900)",
+  "vconcat": [
+    {
+      "width": 900,
+      "height": 480,
+      "projection": {"type": "equalEarth"},
+      "layer": [
+        {
+          "data": {"sphere": true},
+          "mark": {"type": "geoshape", "filled": true, "fill": "#cce5ff", "stroke": null}
+        },
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/ne_110m.json",
+            "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+          },
+          "mark": {"type": "geoshape", "fill": "#b7e1cd", "stroke": "white", "strokeWidth": 0.5}
+        },
+        {
+          "data": {"graticule": {"step": [20, 20]}},
+          "mark": {"type": "geoshape", "filled": false, "stroke": "#cbd5e1", "strokeWidth": 0.6}
+        },
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/tsunami_points_1900plus.csv"
+          },
+          "transform": [
+            {"filter": "isValid(datum.LATITUDE) && isValid(datum.LONGITUDE)"},
+            {"calculate": "toNumber(datum.YEAR)", "as": "YearNum"},
+            {"filter": {"param": "yrBrush"}},
+            {"calculate": "floor(YearNum/10)*10", "as": "Decade"},
+            {
+              "calculate": "sizeMetric=='TS_INTENSITY' ? toNumber(datum.TS_INTENSITY) : toNumber(datum.EQ_MAGNITUDE)",
+              "as": "SizeMetric"
+            }
+          ],
+          "mark": {"type": "point", "shape": "triangle-up", "opacity": 0.8, "tooltip": true},
+          "encoding": {
+            "longitude": {"field": "LONGITUDE", "type": "quantitative"},
+            "latitude": {"field": "LATITUDE", "type": "quantitative"},
+            "size": {
+              "field": "SizeMetric",
+              "type": "quantitative",
+              "title": {"expr": "sizeMetric=='TS_INTENSITY' ? 'Tsunami intensity' : 'EQ Magnitude'"},
+              "scale": {"type": "sqrt", "range": [20, 360], "clamp": true}
+            },
+            "color": {
+              "field": "Decade",
+              "type": "ordinal",
+              "title": "Decade",
+              "scale": {"scheme": "tealblues"}
+            },
+            "tooltip": [
+              {"field": "LOCATION_NAME", "title": "Location"},
+              {"field": "COUNTRY", "title": "Country"},
+              {"field": "YEAR", "title": "Year"},
+              {"field": "CAUSE", "title": "Cause"},
+              {"field": "TS_INTENSITY", "title": "Intensity"},
+              {"field": "EQ_MAGNITUDE", "title": "EQ Magnitude"}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 160,
+      "data": {"url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/tsunami_points_1900plus.csv"},
+      "transform": [
+        {"calculate": "toNumber(datum.YEAR)", "as": "YearNum"},
+        {"filter": "isValid(datum.YearNum)"}
+      ],
+      "params": [
+        {
+          "name": "yrBrush",
+          "select": {"type": "interval", "encodings": ["x"]}
+        },
+        {
+          "name": "sizeMetric",
+          "value": "TS_INTENSITY",
+          "bind": {
+            "input": "select",
+            "options": ["TS_INTENSITY", "EQ_MAGNITUDE"],
+            "labels": ["Tsunami intensity", "EQ magnitude"],
+            "name": "Size by: "
+          }
+        }
+      ],
+      "mark": {"type": "area", "orient": "vertical", "opacity": 0.7},
+      "encoding": {
+        "x": {
+          "field": "YearNum",
+          "type": "quantitative",
+          "title": "Year",
+          "axis": {"tickCount": 10}
+        },
+        "y": {
+          "aggregate": "count",
+          "title": "Tsunami events"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "legend": {"orient": "bottom"},
+    "axis": {"labelFontSize": 11, "titleFontSize": 12}
+  }
+}
