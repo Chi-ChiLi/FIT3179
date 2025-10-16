@@ -5,28 +5,23 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Vega libs (pinned like example) -->
+  <!-- Vega libs -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-  <!-- Your own CSS (optional) -->
+  <!-- Optional CSS + utilities -->
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-  <!-- Pure CSS (grid helpers, like the example) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
     integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
-
-  <!-- Tailwind (utility classes, like the example) -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
   <style>
-    /* Minimal structure to match the example’s vibe if css/styles.css is missing */
-    :root { --bg:#04121b; --overlay:rgba(0,0,0,.35); --panel:rgba(255,255,255,.08); --text:#e6f2ff; }
+    :root { --bg:#04121b; --panel:rgba(255,255,255,.08); --text:#e6f2ff; }
     html,body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:"Ubuntu", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif; }
     #bg { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(1) opacity(.35); z-index: -2; }
     .slideshow { max-width: 1200px; margin: 0 auto; padding-bottom: 5rem; }
@@ -45,12 +40,10 @@
 </head>
 
 <body>
-  <!-- Background image (replace with your own or remove) -->
   <img id="bg" src="images/ocean_depths2.png" alt="ocean background">
 
   <div class="slideshow">
 
-    <!-- Title Slide -->
     <div id="title" class="center slide mt-12">
       <div class="text-center">
         <p class="text-6xl md:text-8xl font-semibold" style="font-family:'Yeseva One', serif;">Global Tsunamis</p>
@@ -59,29 +52,24 @@
       </div>
     </div>
 
-    <!-- Map Slide Heading -->
     <div class="heading">
       <p>Global Distribution</p>
     </div>
 
-    <!-- Map Slide -->
     <div id="map_slide" class="slide">
       <div class="pure-g">
-        <!-- Left: text -->
         <div class="pure-u-1 pure-u-md-1-2">
           <div class="pr-0 md:pr-16">
             <p class="subheading">Where do tsunamis occur?</p>
             <p class="text columns-2" style="margin-bottom: 1.2em;">
               Most recorded tsunamis are concentrated along subduction zones—the Pacific “Ring of Fire”—where great
-              earthquakes displace the seafloor. Each triangle on the map represents an event since 1900. Size encodes
-              tsunami intensity; colour encodes earthquake magnitude. Hover for details, and use any built-in controls
-              to filter by time or cause.
+              earthquakes displace the seafloor. Each marker on the map represents an event since 1900. Size encodes
+              tsunami intensity; colour encodes earthquake magnitude. Use the controls to filter by year, mode and cause.
             </p>
             <p class="caption">Notes: Early-century records may be incomplete. Visual encodings emphasise pattern, not precise risk.</p>
           </div>
         </div>
 
-        <!-- Right: map -->
         <div class="pure-u-1 pure-u-md-1-2">
           <div class="card p-3">
             <div id="map_embed" class="center">
@@ -91,77 +79,46 @@
           <div class="center mt-2">
             <div class="flex items-center gap-2 caption">
               <img src="images/magnifying_glass.png" alt="" style="width: 18px; height: 18px;">
-              <span>Interact: hover points • filter inside the chart (if enabled)</span>
+              <span>Interact: hover points • filter inside the chart</span>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Trends Slide Heading -->
-    <div class="heading">
-      <p>Trends Over Time</p>
-    </div>
-
-    <!-- Trends Slide (optional: wire a timeline .vg.json later) -->
+    <div class="heading"><p>Trends Over Time</p></div>
     <div id="trends_slide" class="slide">
       <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2">
-          <div class="card p-4">
-            <div id="timeline_vis"></div>
-          </div>
-        </div>
+        <div class="pure-u-1 pure-u-md-1-2"><div class="card p-4"><div id="timeline_vis"></div></div></div>
         <div class="pure-u-1 pure-u-md-1-2">
           <div class="pr-0 md:pr-16">
             <p class="subheading">How has frequency changed?</p>
-            <p class="text">
-              Drag across the timeline (if enabled) to focus the map on specific eras. Reporting improved over the
-              20th century, so apparent increases may reflect detection rather than true frequency changes. Pair this
-              view with impact metrics for a more complete picture.
-            </p>
+            <p class="text">Reporting improved over the 20th century, so apparent increases may reflect detection rather than true frequency changes.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Impact Slide Heading -->
-    <div class="heading">
-      <p>Severity & Impact</p>
-    </div>
-
-    <!-- Impact Slide (optional: magnitude vs fatalities chart) -->
+    <div class="heading"><p>Severity & Impact</p></div>
     <div id="impact_slide" class="slide">
       <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-2-3">
-          <div class="card p-4">
-            <div id="impact_vis"></div>
-          </div>
-        </div>
+        <div class="pure-u-1 pure-u-md-2-3"><div class="card p-4"><div id="impact_vis"></div></div></div>
         <div class="pure-u-1 pure-u-md-1-3">
           <div class="pl-0 md:pl-10">
             <p class="subheading">Magnitude isn’t everything</p>
-            <p class="text">
-              The human toll depends on many factors: distance to shore, bathymetry, coastal defences, warning time,
-              and population exposure. Large magnitudes do not always correspond to the deadliest outcomes.
-            </p>
+            <p class="text">The human toll depends on distance to shore, bathymetry, coastal defences, warning time, and exposure.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Sources Slide -->
-    <div class="heading">
-      <p>Sources & Credits</p>
-    </div>
-
+    <div class="heading"><p>Sources & Credits</p></div>
     <div id="sources_slide" class="slide">
       <div class="pure-g">
         <div class="pure-u-1">
           <div class="card p-5">
             <p class="subheading">Data</p>
-            <ul id="sources_list" class="text list-disc pl-6">
-              <!-- Populated from sources.csv if present -->
-            </ul>
+            <ul id="sources_list" class="text list-disc pl-6"></ul>
             <p class="caption mt-3">
               This work is licensed under a
               <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">CC BY 4.0</a>.
@@ -171,24 +128,23 @@
       </div>
     </div>
 
-  </div> <!-- /slideshow -->
+  </div>
 
-  <!-- --------------------- -->
-  <!-- Vega Embeds -->
-  <!-- --------------------- -->
+  <!-- Embeds -->
   <script>
-    // stamp
+    // Last updated stamp
     document.getElementById('updated').textContent = new Date().toISOString().slice(0,10);
 
-    // Required: your existing map spec
-    vegaEmbed('#map_vis', 'map.vl.json', {"actions": false}).catch(console.error);
+    // 👉 Load YOUR spec from /Visualisations/
+    vegaEmbed('#map_vis', 'Visualisations/global_tsunamis_interactive.vl.json', { actions: false })
+      .catch(console.error);
 
-    // Optional: if/when you add these files, they’ll auto-render.
-    // vegaEmbed('#timeline_vis', 'timeline.vl.json', {"actions": false}).catch(()=>{});
-    // vegaEmbed('#impact_vis', 'impact.vl.json', {"actions": false}).catch(()=>{});
+    // Optional future charts:
+    // vegaEmbed('#timeline_vis', 'Visualisations/timeline.vl.json', { actions:false }).catch(()=>{});
+    // vegaEmbed('#impact_vis', 'Visualisations/impact.vl.json', { actions:false }).catch(()=>{});
 
-    // Optional: load sources.csv into the list (simple CSV with header row)
-    fetch('sources.csv').then(r => r.ok ? r.text() : '')
+    // Optional: populate Sources from /Data/sources.csv (if present)
+    fetch('Data/sources.csv').then(r => r.ok ? r.text() : '')
       .then(text => {
         if (!text) return;
         const [header, ...rows] = text.trim().split(/\r?\n/);
