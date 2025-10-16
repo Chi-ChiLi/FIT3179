@@ -1,0 +1,1234 @@
+ID,YEAR,MONTH,DAY,LATITUDE,LONGITUDE,COUNTRY,REGION,CAUSE,EQ_MAGNITUDE,EQ_DEPTH,TS_INTENSITY,DEATHS_TOTAL_DESCRIPTION,DAMAGE_TOTAL_DESCRIPTION,LOCATION_NAME
+1400,1911,11.0,3.0,10.5,-61.2,TRINIDAD AND TOBAGO,Caribbean Sea,Landslide,0.0,,0.0,,,TRINIDAD
+1476,1919,5.0,22.0,38.789,15.213,ITALY,Mediterranean Sea,Volcano,0.0,,4.0,Few (~1 to 50 people),Limited (<$1 million),STROMBOLI ISLAND
+1323,1905,7.0,4.0,60.0,-139.58,USA,Alaska (including Aleutian Islands),Landslide,0.0,,2.5,,,"DISENCHANTMENT BAY, AK"
+1395,1911,5.0,11.0,6.1,1.2,TOGO,West Coast of Africa,Unknown,6.6,,0.0,,Limited (<$1 million),GOLD COAST
+1468,1919,2.0,13.0,-9.0,124.85,INDONESIA,Indian Ocean (including west coast of Australia),Unknown,0.0,,1.5,,Limited (<$1 million),TIMOR SEA
+1360,1907,7.0,25.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,,MATAVANU VOLCANO
+1421,1914,12.0,3.0,-3.7,128.2,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Unknown,0.0,,0.0,,,AMBON ISLAND
+1454,1918,7.0,18.0,3.138,125.491,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Volcano,0.0,,0.0,,,SULAWESI
+1291,1902,8.0,30.0,14.82,-61.17,MARTINIQUE (FRENCH TERRITORY),Caribbean Sea,Volcano,0.0,,0.0,Many (~101 to 1000 people),,MOUNT PELEE
+1337,1906,8.0,7.0,33.9,-117.0,USA,West Coast of North and Central America,Unknown,0.0,,0.0,,,S. CALIFORNIA
+1288,1902,5.0,8.0,14.82,-61.17,MARTINIQUE (FRENCH TERRITORY),Caribbean Sea,Volcano,0.0,,0.0,Very Many (~1001 or more people),,MOUNT PELEE
+1437,1917,1.0,,-0.25,104.5,INDONESIA,Indian Ocean (including west coast of Australia),Unknown,0.0,,1.5,,,LINGA ARCHIPELAGO
+1443,1917,3.0,16.0,-3.7,116.6,INDONESIA,Indian Ocean (including west coast of Australia),Unknown,0.0,,1.0,,Moderate (~$1 to $5 million),JAVA SEA
+1346,1906,11.0,28.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,,MATAVANU VOLCANO
+1358,1907,6.0,27.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,,MATAVANU VOLCANO
+1363,1907,10.0,6.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,Severe (~>$5 to $24 million),MATAVANU VOLCANO
+1309,1904,2.0,2.0,1.5,120.8,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Unknown,0.0,,0.5,,,CELEBES SEA
+1359,1907,7.0,9.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,,MATAVANU VOLCANO
+1449,1917,8.0,23.0,-3.6,128.7,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Unknown,0.0,,0.5,,,BANDA SEA
+1326,1905,8.0,4.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.5,,Severe (~>$5 to $24 million),MATAVANU VOLCANO
+1438,1917,1.0,9.0,1.57,122.72,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Unknown,0.0,,2.0,,,CELEBES SEA
+1478,1919,10.0,2.0,19.23,-155.9,USA,"Hawaii, Johnston Atoll, Midway I",Volcano and Landslide,0.0,,2.0,,Limited (<$1 million),"ALIKA, HAWAII"
+1315,1904,7.0,5.0,-3.6,128.7,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,0.0,,1.0,,Limited (<$1 million),BANDA SEA
+1356,1907,6.0,8.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,,MATAVANU VOLCANO
+1357,1907,6.0,19.0,-13.612,-172.525,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,,MATAVANU VOLCANO
+1399,1911,9.0,22.0,60.5,-149.0,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,6.9,60.0,0.5,,Limited (<$1 million),"PRINCE WILLIAM SOUND, AK"
+1365,1907,7.0,,-21.38,-175.65,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.5,,,TONGA ISLANDS
+1479,1919,11.0,21.0,-2.55,140.75,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,0.0,,0.0,,Limited (<$1 million),NW. IRIAN JAYA
+1362,1907,9.0,24.0,59.5,-135.5,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,5.5,33.0,0.0,,Limited (<$1 million),"SKAGWAY, AK"
+1387,1910,2.0,25.0,-4.25,152.25,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.0,,0.0,,,MATUPI HARBOR
+1495,1922,1.0,19.0,-7.111000000000001,143.53,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.9,33.0,0.0,,Limited (<$1 million),BISMARCK SEA
+1277,1901,3.0,3.0,36.0,-120.5,USA,West Coast of North and Central America,Earthquake and Landslide,6.7,,0.0,,,"MONTEREY BAY, N. CALIFORNIA"
+1332,1906,2.0,7.0,1.0,-81.0,ECUADOR,West Coast of South America,Earthquake,0.0,,0.5,,,COLOMBIA-ECUADOR
+1334,1906,5.0,7.0,-18.5,-70.3,CHILE,West Coast of South America,Earthquake,0.0,33.0,0.0,,,NORTHERN CHILE
+1494,1922,1.0,6.0,-16.5,-73.0,PERU,West Coast of South America,Earthquake,7.2,33.0,0.0,,,S. PERU
+1480,1920,1.0,29.0,0.87,122.92,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,0.0,,1.0,,,N. MOLUCCAS ISLANDS
+1465,1919,1.0,1.0,8.0,126.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.4,33.0,0.0,,,"MINDANAO ISLAND, PHILIPPINES"
+1427,1915,8.0,7.0,38.5,20.7,GREECE,Mediterranean Sea,Earthquake,6.7,14.0,3.0,,Severe (~>$5 to $24 million),IONIAN SEA
+1413,1914,2.0,26.0,-17.0,-72.0,PERU,West Coast of South America,Earthquake,7.2,130.0,0.0,,,S. PERU
+1390,1910,12.0,18.0,4.0,127.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.7,,-1.0,,Limited (<$1 million),SULAWESI
+1278,1901,6.0,15.0,39.0,143.0,JAPAN,Japan,Earthquake,6.0,33.0,0.0,,,"IWATE, JAPAN"
+1430,1915,11.0,6.0,-1.0,136.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.0,,0.0,,,NW. IRIAN JAYA
+1391,1910,12.0,30.0,9.0,125.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.2,60.0,1.0,,Limited (<$1 million),SULU SEA
+1299,1903,9.0,26.0,-20.2,-70.15,CHILE,West Coast of South America,Earthquake,0.0,,0.0,,,NORTHERN CHILE
+1431,1915,11.0,18.0,18.0,119.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.4,33.0,0.5,,Limited (<$1 million),W. LUZON ISLAND
+1500,1922,4.0,10.0,-1.0,100.35,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,0.0,,0.0,,,SW. SUMATRA
+1496,1922,2.0,22.0,-3.3,128.9,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,0.0,,0.5,,,BANDA SEA
+1485,1920,8.0,20.0,-38.0,-73.5,CHILE,West Coast of South America,Earthquake,7.0,15.0,1.0,,Moderate (~$1 to $5 million),CENTRAL CHILE
+1459,1918,10.0,25.0,18.5,-67.5,USA TERRITORY,Caribbean Sea,Earthquake,0.0,,0.0,,,PUERTO RICO
+1445,1917,5.0,6.0,23.2,121.6,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,5.8,33.0,-0.5,,,TAIWAN
+1440,1917,1.0,25.0,24.47,118.08,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.5,,1.0,,Limited (<$1 million),SOUTH CHINA SEA
+1423,1915,5.0,23.0,-3.644,133.695,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,0.0,,0.0,,,KAIMANA
+1411,1914,1.0,12.0,-12.0,-76.6,PERU,West Coast of South America,Earthquake,0.0,33.0,1.5,,,CENTRAL PERU
+1410,1913,10.0,11.0,-7.0,148.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,33.0,0.0,,,SOLOMON SEA
+1408,1913,7.0,28.0,-16.6,-73.3,PERU,West Coast of South America,Earthquake,7.0,30.0,0.0,,,S. PERU
+1405,1913,2.0,22.0,-41.8,171.5,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.8,33.0,0.5,,Limited (<$1 million),TASMAN SEA
+1403,1912,10.0,31.0,7.0,138.0,"MICRONESIA, FED. STATES OF","E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.9,33.0,0.0,,,CAROLINE ISLANDS
+1401,1912,6.0,8.0,40.5,142.0,JAPAN,Japan,Earthquake,6.6,100.0,0.0,,Limited (<$1 million),SANRIKU
+1398,1911,9.0,15.0,-20.0,-72.0,CHILE,West Coast of South America,Earthquake,7.3,,0.0,,,NORTHERN CHILE
+1393,1911,5.0,8.0,-4.25,152.25,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,,"BLANCHE BAY, BISMARCK SEA"
+1374,1909,3.0,12.0,34.5,141.5,JAPAN,Japan,Earthquake,6.7,,0.0,,Limited (<$1 million),OFF BOSO PENINSULA
+1371,1908,9.0,21.0,19.0,-155.0,USA,"Hawaii, Johnston Atoll, Midway I",Earthquake,6.8,33.0,0.0,,,HAWAII
+1368,1908,2.0,14.0,61.0,-146.2,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,6.0,,0.0,,Limited (<$1 million),"PRINCE WILLIAM SOUND, AK"
+1367,1908,2.0,6.0,-2.0,100.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.5,130.0,1.0,,,SW. SUMATRA
+1364,1907,12.0,15.0,-3.1,142.5,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.4,33.0,0.0,,Moderate (~$1 to $5 million),BISMARCK SEA
+1351,1907,3.0,29.0,3.0,122.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.3,500.0,2.0,,,"KARAKELONG, TALAUD ISLANDS"
+1328,1905,12.0,8.0,11.0,123.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.5,,0.0,,Limited (<$1 million),W. LUZON ISLAND
+1318,1904,9.0,7.0,-7.7,109.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,0.0,,0.0,,,S. JAVA
+1307,1903,12.0,7.0,-28.5,-71.0,CHILE,West Coast of South America,Earthquake,6.5,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTHERN CHILE
+1296,1903,7.0,16.0,16.7,-99.2,MEXICO,West Coast of North and Central America,Earthquake,0.0,,0.0,,,S. MEXICO
+1294,1903,3.0,30.0,-3.0,127.5,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.5,33.0,0.0,,,BANDA SEA
+1274,1900,9.0,17.0,-5.0,148.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,,1.5,,,RABAUL HARBOR
+1272,1900,9.0,10.0,-4.0,152.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.8,,0.0,,Limited (<$1 million),BISMARCK SEA
+1499,1922,3.0,1.0,9.0,123.25,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.0,33.0,0.5,,Moderate (~$1 to $5 million),SULU SEA
+1498,1922,2.0,27.0,10.2,124.1,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.3,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),CEBU ISLAND
+1491,1921,11.0,11.0,8.0,127.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.5,,1.0,,Limited (<$1 million),PHILIPPINE TRENCH
+1490,1921,9.0,11.0,-11.0,111.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.5,,-2.0,,,JAVA
+1489,1921,5.0,14.0,0.7,117.9,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.2,,0.5,,Moderate (~$1 to $5 million),MAKASSAR STRAIT
+1486,1920,9.0,20.0,-19.919,168.53,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.8,35.0,0.0,,Limited (<$1 million),VANUATU ISLANDS
+1482,1920,2.0,2.0,-6.5,150.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.7,,0.0,,Limited (<$1 million),SOLOMON SEA
+1474,1919,5.0,6.0,-4.806,153.859,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,8.2,35.0,1.0,,Limited (<$1 million),SOLOMON SEA
+1472,1919,4.0,30.0,-18.352,-172.515,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.1,25.0,1.5,,,TONGA ISLANDS
+1464,1919,1.0,1.0,-19.6,-176.6,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.3,180.0,0.0,,,TONGA ISLANDS
+1461,1918,12.0,4.0,-26.0,-71.0,CHILE,West Coast of South America,Earthquake,7.8,33.0,2.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),NORTHERN CHILE
+1460,1918,11.0,8.0,44.5,151.5,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.8,33.0,2.0,,,S. KURIL ISLANDS
+1453,1918,5.0,20.0,-28.5,-71.5,CHILE,West Coast of South America,Earthquake,7.9,80.0,0.0,,,NORTHERN CHILE
+1451,1918,2.0,13.0,23.5,117.2,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake and Landslide,7.5,33.0,-1.0,Very Many (~1001 or more people),Extreme (~$25 million or more),GUANGDONG PROVINCE
+1450,1917,11.0,16.0,-29.0,-177.5,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.5,60.0,1.0,,,KERMADEC ISLANDS
+1448,1917,7.0,29.0,-3.705,141.72899999999998,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,,1.0,,,BISMARCK SEA
+1444,1917,5.0,1.0,-29.2,-177.0,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.0,60.0,3.0,,,KERMADEC ISLANDS
+1442,1917,1.0,31.0,6.0,125.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.4,33.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),CELEBES SEA
+1441,1917,1.0,30.0,56.5,163.0,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.8,40.0,0.0,,,KAMCHATKA
+1439,1917,1.0,20.0,-7.0,116.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.6,33.0,0.0,Very Many (~1001 or more people),Moderate (~$1 to $5 million),BALI SEA
+1434,1916,4.0,26.0,9.6,-82.0,PANAMA,Caribbean Sea,Earthquake,7.0,25.0,0.0,,Limited (<$1 million),BOCAS DEL TORO
+1432,1916,1.0,1.0,-4.739,152.548,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,35.0,2.0,,Limited (<$1 million),BISMARCK SEA
+1429,1915,11.0,1.0,38.3,142.9,JAPAN,Japan,Earthquake,7.8,60.0,0.5,,Limited (<$1 million),SANRIKU
+1428,1915,9.0,7.0,14.0,-89.0,EL SALVADOR,West Coast of North and Central America,Earthquake,7.9,80.0,0.5,,,EL SALVADOR
+1420,1914,11.0,27.0,38.8,20.6,GREECE,Mediterranean Sea,Earthquake and Landslide,6.3,30.0,4.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),IONIAN SEA
+1418,1914,6.0,25.0,-3.924,101.82,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.6,35.0,0.0,Few (~1 to 50 people),Limited (<$1 million),INDONESIA
+1412,1914,1.0,12.0,31.58,130.67,JAPAN,Japan,Volcano and Earthquake,7.1,33.0,-1.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),SEIKAIDO
+1409,1913,8.0,6.0,-17.0,-74.0,PERU,West Coast of South America,Earthquake,7.9,33.0,0.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),S. PERU
+1397,1911,7.0,12.0,9.0,126.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.8,50.0,0.0,,Severe (~>$5 to $24 million),PHILIPPINE TRENCH
+1396,1911,6.0,15.0,28.0,130.0,JAPAN,Japan,Earthquake,8.0,160.0,1.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),RYUKYU ISLANDS
+1386,1909,12.0,9.0,12.5,145.0,USA TERRITORY,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.0,100.0,0.0,,Moderate (~$1 to $5 million),"GUAM, MARIANA ISLANDS"
+1384,1909,8.0,14.0,35.4,136.3,JAPAN,Japan,Earthquake,6.9,33.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),"ANEGAWA, JAPAN"
+1382,1909,7.0,30.0,16.8,-99.8,MEXICO,West Coast of North and Central America,Earthquake,7.4,,0.0,,,S. MEXICO
+1379,1909,6.0,8.0,-26.5,-70.5,CHILE,West Coast of South America,Earthquake,7.6,,0.0,,,NORTHERN CHILE
+1376,1909,6.0,3.0,-2.0,101.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.6,40.0,1.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),SUMATRA
+1375,1909,3.0,13.0,34.5,141.5,JAPAN,Japan,Earthquake,7.5,80.0,0.0,,Limited (<$1 million),OFF BOSO PENINSULA
+1372,1908,12.0,12.0,-14.0,-78.0,PERU,West Coast of South America,Questionable Earthquake,0.0,,0.0,,,S. PERU
+1353,1907,4.0,14.0,17.0,-100.0,MEXICO,West Coast of North and Central America,Earthquake,8.1,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. MEXICO
+1350,1907,1.0,14.0,18.0,-76.8,JAMAICA,Caribbean Sea,Earthquake,6.5,,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),JAMAICA
+1347,1906,12.0,26.0,-18.0,-71.0,PERU,West Coast of South America,Earthquake,7.9,33.0,0.0,,,S. PERU
+1344,1906,10.0,2.0,-4.0,149.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,,1.5,,Limited (<$1 million),BISMARCK SEA
+1340,1906,9.0,14.0,-7.0,149.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,8.0,33.0,1.5,Some (~51 to 100 people),Severe (~>$5 to $24 million),SOLOMON SEA
+1339,1906,8.0,17.0,-33.0,-72.0,CHILE,West Coast of South America,Earthquake,8.2,25.0,2.0,Very Many (~1001 or more people),Extreme (~$25 million or more),CENTRAL CHILE
+1333,1906,4.0,18.0,37.7,-122.5,USA,West Coast of North and Central America,Earthquake and Landslide,7.9,33.0,-4.0,,,N. CALIFORNIA
+1322,1905,4.0,4.0,33.0,76.0,INDIA,Indian Ocean (including west coast of Australia),Earthquake,7.8,25.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),"KANGRA, INDIA"
+1317,1904,8.0,8.0,-40.4,176.4,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.2,33.0,0.0,,,CAPE TURNAGAIN
+1313,1904,6.0,25.0,52.0,159.0,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.1,,0.0,,,"KAMCHATKA PENINSULA, RUSSIA"
+1312,1904,6.0,25.0,52.0,159.0,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.3,30.0,2.0,,,"KAMCHATKA PENINSULA, RUSSIA"
+1308,1904,1.0,20.0,7.0,-79.0,COLOMBIA,West Coast of South America,Earthquake,7.9,33.0,0.0,,,OFF THE COAST PANAMA-COLOMBIA
+1290,1902,8.0,21.0,7.5,123.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,,2.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),"ILLANA BAY, CELEBES SEA"
+1289,1902,7.0,5.0,40.75,23.25,GREECE,Mediterranean Sea,Earthquake,6.6,,2.0,,,AEGEAN SEA
+1286,1901,12.0,31.0,51.45,-171.02,USA,Alaska (including Aleutian Islands),Earthquake,7.1,25.0,0.0,,,"FOX ISLANDS, ALEUTIAN ISLANDS, AK"
+1284,1901,9.0,10.0,14.0,121.6,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.0,,0.0,,Moderate (~$1 to $5 million),E. LUZON ISLAND
+1283,1901,8.0,9.0,40.5,142.5,JAPAN,Japan,Earthquake,6.3,33.0,0.0,,,OFF NORTHEAST COAST HONSHU
+1282,1901,8.0,9.0,40.6,142.3,JAPAN,Japan,Earthquake,7.4,33.0,-1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),OFF NORTHEAST COAST HONSHU
+1281,1901,8.0,9.0,40.5,142.5,JAPAN,Japan,Earthquake,7.2,33.0,-0.5,,Moderate (~$1 to $5 million),OFF NORTHEAST COAST HONSHU
+1279,1901,6.0,24.0,28.0,130.3,JAPAN,Japan,Earthquake,7.5,33.0,-1.5,,Limited (<$1 million),RYUKYU ISLANDS
+1276,1900,10.0,29.0,11.0,-66.0,VENEZUELA,Caribbean Sea,Earthquake,8.4,25.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),MANCUTO
+1422,1915,2.0,11.0,-14.18,-169.66,USA TERRITORY,"E Coast Australia, New Zealand, South Pacific Is.",Meteorological,0.0,,0.0,Few (~1 to 50 people),,"MANUA ISLANDS, AMERICAN SAMOA"
+1392,1911,1.0,30.0,14.002,120.993,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Volcano,0.0,,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),"TAAL, LUZON ISLAND"
+1275,1900,10.0,7.0,-4.0,140.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.9,,1.5,Few (~1 to 50 people),Limited (<$1 million),BISMARCK SEA
+1457,1918,9.0,7.0,45.5,151.5,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.2,33.0,3.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. KURIL ISLANDS
+1456,1918,8.0,15.0,5.5,123.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,8.3,33.0,2.5,Some (~51 to 100 people),Severe (~>$5 to $24 million),CELEBES SEA
+1446,1917,6.0,26.0,-15.5,-173.0,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.3,25.0,3.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),SAMOA ISLANDS
+1416,1914,5.0,26.0,-1.829,136.94299999999998,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,8.1,15.0,2.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),NW. IRIAN JAYA
+1280,1901,8.0,9.0,-22.0,170.0,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),LOYALTY ISLANDS
+1324,1905,7.0,6.0,37.4,142.6,JAPAN,Japan,Earthquake,7.0,33.0,0.0,Some (~51 to 100 people),,JAPAN:  OFF FUKUSHIMA
+1287,1902,2.0,26.0,13.5,-89.5,EL SALVADOR,West Coast of North and Central America,Earthquake,7.0,,2.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),EL SALVADOR-GUATEMALA
+1488,1920,12.0,18.0,40.5,19.5,ALBANIA,Mediterranean Sea,Earthquake,5.6,,5.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),ALBANIAN COASTS
+1458,1918,10.0,11.0,18.7,-67.189,USA TERRITORY,Caribbean Sea,Earthquake and Landslide,7.1,15.0,0.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),PUERTO RICO: MONA PASSAGE
+1349,1907,1.0,4.0,2.0,94.5,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.6,50.0,2.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),NW. SUMATRA
+1331,1906,1.0,31.0,1.0,-81.5,ECUADOR,West Coast of South America,Earthquake,8.8,25.0,3.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),OFF COAST
+1373,1908,12.0,28.0,38.17,15.58,ITALY,Mediterranean Sea,Earthquake and Landslide,7.0,40.0,5.0,Very Many (~1001 or more people),Extreme (~$25 million or more),"MESSINA STRAIT, IONIAN SEA"
+1503,1922,9.0,1.0,24.5,122.0,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.6,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),TAIWAN
+1620,1929,8.0,9.0,-23.7,-70.4,CHILE,West Coast of South America,Meteorological,0.0,,2.5,,,NORTHERN CHILE
+1825,1952,9.0,23.0,32.1,139.85,JAPAN,Japan,Volcano,0.0,,-1.0,,,MYOJINSHO SUBMARINE VOLCANO
+1838,1953,6.0,27.0,-2.4,147.4,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,1.0,,Limited (<$1 million),BISMARCK SEA
+1824,1952,9.0,16.0,32.1,139.85,JAPAN,Japan,Volcano,0.0,,-1.0,,,MYOJINSHO SUBMARINE VOLCANO
+1593,1928,3.0,26.0,-6.102,105.423,INDONESIA,Indian Ocean (including west coast of Australia),Volcano,0.0,,0.0,,,KRAKATAU
+1509,1923,2.0,17.0,-35.33,-72.42,CHILE,West Coast of South America,Unknown,0.0,,1.5,,,CENTRAL CHILE
+1687,1935,11.0,21.0,19.5,-155.5,USA,"Hawaii, Johnston Atoll, Midway I",Meteorological,0.0,8.0,2.0,,Limited (<$1 million),HAWAII
+1590,1928,,,48.967,-58.0,CANADA,"East Coast USA and Canada, St Pierre and Miquelon",Unknown,0.0,,0.0,,,"CURLING, NEWFOUNDLAND"
+1983,1966,11.0,28.0,-10.28,166.23,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Unknown,0.0,,-0.5,,,"MOHAWK BAY, SANTA CRUZ ISLANDS"
+1942,1963,3.0,30.0,-8.342,115.508,INDONESIA,Indian Ocean (including west coast of Australia),Volcano,0.0,,2.0,Very Many (~1001 or more people),,LESSER SUNDA: BALI: AGUNG VOLCANO
+1515,1923,3.0,4.0,-26.3,-80.1,CHILE,West Coast of South America,Unknown,0.0,,4.0,,,SAN FELIX ISLAND
+1888,1959,2.0,23.0,40.63,22.97,GREECE,Mediterranean Sea,Unknown,0.0,,3.0,,,"GRECIAN ARCHIPELAGO, CRETE"
+1657,1933,1.0,8.0,49.12,154.50799999999998,RUSSIA,Kamchatka and Kuril Islands,Volcano,6.0,33.0,2.0,Few (~1 to 50 people),,"KHARIMKOTAN, N. KURIL ISLANDS"
+1816,1951,12.0,22.0,-9.02,157.95,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,0.0,,,KAVACHI
+1624,1930,3.0,17.0,-6.102,105.423,INDONESIA,Indian Ocean (including west coast of Australia),Volcano,0.0,,0.0,,,KRAKATAU
+1827,1952,9.0,26.0,32.1,139.85,JAPAN,Japan,Volcano,0.0,,-1.0,,,MYOJINSHO SUBMARINE VOLCANO
+1846,1954,10.0,,67.47,-32.283,GREENLAND,Northwest Atlantic Ocean,Unknown,0.0,,0.0,,,"APUTITEQ POINT, GREENLAND"
+1856,1956,3.0,30.0,55.978,160.58700000000002,RUSSIA,Kamchatka and Kuril Islands,Volcano,0.0,,0.0,,,KAMCHATKA
+1643,1931,8.0,31.0,38.4,-27.1,PORTUGAL,Northeast Atlantic Ocean,Unknown,0.0,,0.0,,Limited (<$1 million),AZORES
+1694,1936,10.0,27.0,58.6,-137.1,USA,Alaska (including Aleutian Islands),Landslide,0.0,,4.0,,,"LITUYA BAY, AK"
+1702,1937,9.0,22.0,58.0,165.0,RUSSIA,Kamchatka and Kuril Islands,Unknown,5.8,,0.0,,,KAMCHATKA
+1595,1928,3.0,31.0,-23.7,-70.4,CHILE,West Coast of South America,Unknown,0.0,,2.0,,,NORTHERN CHILE
+1826,1952,9.0,24.0,32.1,139.85,JAPAN,Japan,Volcano,0.0,,0.0,Few (~1 to 50 people),Limited (<$1 million),MYOJINSHO SUBMARINE VOLCANO
+1769,1946,11.0,13.0,48.092,153.2,RUSSIA,Kamchatka and Kuril Islands,Volcano,0.0,,0.0,,,N. KURIL ISLANDS
+1675,1934,8.0,21.0,33.7,-118.2,USA,West Coast of North and Central America,Meteorological,0.0,,3.0,,Limited (<$1 million),S. CALIFORNIA
+1915,1961,3.0,18.0,-9.43,159.95,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,Limited (<$1 million),"HONIARA, GUADALCANAL"
+1992,1967,12.0,4.0,-63.0,-60.5,ANTARCTICA,West Coast of South America,Volcano,0.0,,0.0,,,"TELEPHONE BAY, DECEPCION ISLAND"
+1882,1958,10.0,7.0,-16.829,168.53599999999997,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,0.0,,,KUWAE VOLCANO
+1569,1926,7.0,30.0,49.21,-2.131,UK,Northeast Atlantic Ocean,Earthquake,0.0,,0.0,,,ENGLISH CHANNEL
+1544,1924,7.0,19.0,-43.95,-176.567,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Unknown,0.0,,1.0,,Limited (<$1 million),CHATHAM I.
+1833,1953,3.0,11.0,32.1,139.85,JAPAN,Japan,Volcano,0.0,,-1.0,,,MYOJINSHO SUBMARINE VOLCANO
+1563,1926,1.0,25.0,-10.061,159.215,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,15.0,0.0,,Limited (<$1 million),SOLOMON SEA
+1823,1952,7.0,13.0,-18.5,169.25,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.8,260.0,0.0,,,OFF EAST COAST OF VANUATU
+1797,1949,9.0,5.0,17.0,121.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.4,80.0,-4.0,,,NORTHERN LUZON ISLAND
+1677,1934,12.0,12.0,-4.2,152.2,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,,BISMARCK SEA
+1719,1938,11.0,6.0,37.0,141.7,JAPAN,Japan,Earthquake,7.1,20.0,-0.5,,,OFF FUKUSHIMA PREFECTURE
+1854,1956,1.0,8.0,-19.0,-70.0,CHILE,West Coast of South America,Earthquake,7.1,55.0,0.0,Few (~1 to 50 people),Limited (<$1 million),NORTHERN CHILE
+1598,1928,4.0,25.0,38.0,23.0,GREECE,Mediterranean Sea,Earthquake,5.2,,0.0,,,"GRECIAN ARCHIPELAGO, CRETE"
+1835,1953,3.0,17.0,50.0,156.5,RUSSIA,Kamchatka and Kuril Islands,Earthquake,5.8,,0.0,,,N. KURIL ISLANDS
+1570,1926,8.0,31.0,37.973,-28.59,PORTUGAL,Northeast Atlantic Ocean,Earthquake,5.8,10.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),AZORES
+1917,1961,5.0,23.0,36.7,28.5,TURKEY,Mediterranean Sea,Earthquake,6.5,,0.0,,,ASIA MINOR
+1641,1931,8.0,7.0,-3.417,142.077,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,35.0,0.0,,,BISMARCK SEA
+1584,1927,10.0,24.0,57.69,-136.07,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,7.1,25.0,0.0,,,"SE. ALASKA, AK"
+1545,1924,8.0,28.0,64.15,-21.95,ICELAND,Northeast Atlantic Ocean,Earthquake,0.0,,0.0,,,ICELAND: REYKJAVIK
+1760,1945,2.0,10.0,40.9,142.1,JAPAN,Japan,Earthquake,7.3,20.0,-1.5,Few (~1 to 50 people),,SANRIKU
+1705,1938,2.0,13.0,-3.0,132.3,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.0,,-0.5,,Limited (<$1 million),BANDA SEA
+1524,1923,8.0,12.0,-18.5,-70.3,CHILE,West Coast of South America,Earthquake,0.0,33.0,0.0,,,NORTHERN CHILE
+1994,1967,12.0,21.0,-21.7,-69.5,CHILE,West Coast of South America,Earthquake,7.5,33.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTHERN CHILE
+1783,1948,6.0,1.0,6.0,95.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.3,,0.0,,,OFF NORTHWEST COAST
+1602,1928,5.0,27.0,40.0,143.2,JAPAN,Japan,Earthquake,7.0,40.0,-2.0,,,SANRIKU
+1986,1967,3.0,19.0,45.53,151.11,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.0,38.0,0.0,,,S. KURIL ISLANDS
+1974,1965,8.0,13.0,-15.9,166.8,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,33.0,1.0,,Limited (<$1 million),VANUATU ISLANDS
+1960,1964,7.0,24.0,47.159,153.876,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.8,15.0,-2.0,,,S. KURIL ISLANDS
+1930,1962,4.0,23.0,42.2,143.9,JAPAN,Japan,Earthquake,7.0,60.0,-3.5,,,SE. HOKKAIDO ISLAND
+1905,1960,7.0,29.0,40.3,142.5,JAPAN,Japan,Earthquake,6.7,30.0,-3.0,,,SANRIKU
+1893,1959,10.0,26.0,37.5,143.2,JAPAN,Japan,Earthquake,6.7,10.0,-4.0,,,SANRIKU
+1831,1953,2.0,15.0,-12.0,-77.5,PERU,West Coast of South America,Earthquake,5.5,,0.0,,,CENTRAL PERU
+1803,1950,1.0,30.0,-53.5,-71.5,CHILE,West Coast of South America,Earthquake,7.0,33.0,0.0,Few (~1 to 50 people),,SOUTHERN CHILE
+1753,1943,6.0,13.0,41.2,143.3,JAPAN,Japan,Earthquake,7.1,20.0,-0.5,,,SE. HOKKAIDO ISLAND
+1711,1938,5.0,23.0,36.7,141.4,JAPAN,Japan,Earthquake,7.1,,0.0,,,JAPAN TRENCH
+1579,1927,8.0,18.0,34.2,142.0,JAPAN,Japan,Earthquake,6.4,20.0,0.0,,,"KASHIMA, JAPAN"
+1554,1925,5.0,5.0,9.3,122.7,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.8,33.0,0.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),W. LUZON ISLAND
+1703,1937,11.0,6.0,-3.0,132.3,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.0,33.0,0.0,,,BANDA SEA
+1957,1964,5.0,7.0,40.3,139.0,JAPAN,Japan,Earthquake,6.9,30.0,0.0,,Moderate (~$1 to $5 million),NW. HONSHU ISLAND
+1871,1957,7.0,29.0,-23.5,-71.5,CHILE,West Coast of South America,Earthquake,7.0,33.0,0.0,,,NORTHERN CHILE
+1555,1925,5.0,15.0,-26.0,-71.5,CHILE,West Coast of South America,Earthquake,7.1,50.0,0.0,,,NORTHERN CHILE
+1996,1968,1.0,29.0,43.586000000000006,146.701,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.3,40.0,-1.0,,,S. KURIL ISLANDS
+1991,1967,11.0,15.0,-28.78,-71.19,CHILE,West Coast of South America,Earthquake,5.9,35.0,0.0,,,NORTHERN CHILE
+1990,1967,9.0,3.0,-10.6,-79.8,PERU,West Coast of South America,Earthquake,7.0,40.0,-1.5,,,CENTRAL PERU
+1979,1965,10.0,3.0,-42.9,-75.13,CHILE,West Coast of South America,Earthquake,6.5,28.0,0.0,,,SOUTHERN CHILE
+1973,1965,8.0,11.0,-15.8,167.2,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,13.0,2.5,,Moderate (~$1 to $5 million),VANUATU ISLANDS
+1971,1965,7.0,2.0,53.03,-167.55,USA,Alaska (including Aleutian Islands),Earthquake,6.5,40.0,-2.0,,Limited (<$1 million),"FOX ISLANDS, ALEUTIAN ISLANDS, AK"
+1970,1965,6.0,11.0,44.7,148.7,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.2,,-3.0,,,S. KURIL ISLANDS
+1966,1965,3.0,22.0,-31.81,-71.26,CHILE,West Coast of South America,Earthquake,6.0,58.0,0.0,,,CENTRAL CHILE
+1965,1965,2.0,23.0,-25.67,-70.63,CHILE,West Coast of South America,Earthquake,7.0,36.0,0.0,,,NORTHERN CHILE
+1962,1964,12.0,10.0,40.4,138.9,JAPAN,Japan,Earthquake,6.3,40.0,-3.0,,,NW. HONSHU ISLAND
+1949,1963,12.0,16.0,-6.4,105.4,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.6,64.0,0.0,,Limited (<$1 million),JAVA
+1946,1963,10.0,12.0,44.426,149.27200000000002,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.1,48.0,-2.0,,,S. KURIL ISLANDS
+1933,1962,5.0,21.0,41.8,142.4,JAPAN,Japan,Earthquake,5.7,60.0,-2.0,,,OFF COAST OF HONSHU ISLAND
+1929,1962,4.0,12.0,38.073,142.741,JAPAN,Japan,Earthquake,7.2,25.0,-2.0,,,SANRIKU
+1928,1962,3.0,12.0,8.008,-82.757,PANAMA,West Coast of North and Central America,Earthquake,6.8,35.0,0.0,,Limited (<$1 million),COSTA RICA-PANAMA
+1926,1961,10.0,18.0,-36.7,-73.0,CHILE,West Coast of South America,Earthquake,6.5,15.0,0.0,Few (~1 to 50 people),Limited (<$1 million),CENTRAL CHILE
+1924,1961,8.0,11.0,42.9,145.6,JAPAN,Japan,Earthquake,7.0,80.0,-4.0,,,SE. HOKKAIDO ISLAND
+1923,1961,8.0,1.0,-9.849,160.614,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.4,25.0,0.0,,,SOLOMON SEA
+1921,1961,7.0,23.0,-18.421,168.41099999999997,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,45.0,-0.5,,Limited (<$1 million),VANUATU ISLANDS
+1920,1961,7.0,18.0,29.6,131.8,JAPAN,Japan,Earthquake,6.6,60.0,-3.0,,,RYUKYU ISLANDS
+1913,1961,2.0,12.0,43.2,147.9,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.6,80.0,-0.5,,,S. KURIL ISLANDS
+1912,1961,1.0,16.0,36.2,141.9,JAPAN,Japan,Earthquake,6.5,20.0,-2.0,,,"KASHIMA, JAPAN"
+1911,1961,1.0,16.0,36.0,141.9,JAPAN,Japan,Earthquake,6.4,20.0,-2.0,,,"KASHIMA, JAPAN"
+1910,1961,1.0,16.0,36.0,142.3,JAPAN,Japan,Earthquake,6.8,40.0,-2.0,,,"KASHIMA, JAPAN"
+1906,1960,11.0,1.0,-38.5,-75.1,CHILE,West Coast of South America,Earthquake,7.4,55.0,0.0,,,SOUTHERN CHILE
+1904,1960,6.0,11.0,-9.4,152.3,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.6,33.0,0.0,,,SOLOMON SEA
+1899,1960,3.0,23.0,39.4,143.7,JAPAN,Japan,Earthquake,6.7,20.0,-2.5,,,SANRIKU
+1898,1960,3.0,20.0,39.8,143.4,JAPAN,Japan,Earthquake,7.5,20.0,-2.0,,Limited (<$1 million),SANRIKU
+1889,1959,4.0,9.0,44.3,149.0,RUSSIA,Kamchatka and Kuril Islands,Earthquake,5.0,40.0,-2.0,,,S. KURIL ISLANDS
+1887,1959,2.0,7.0,-4.0,-81.5,PERU,West Coast of South America,Earthquake,7.4,19.0,-2.0,,Limited (<$1 million),N. PERU
+1886,1959,1.0,22.0,37.5,142.2,JAPAN,Japan,Earthquake,6.8,40.0,-2.0,,,SANRIKU
+1885,1958,11.0,12.0,44.2,148.8,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.0,29.0,-1.0,,,S. KURIL ISLANDS
+1883,1958,11.0,4.0,-50.0,-115.0,PACIFIC OCEAN,West Coast of South America,Earthquake,6.1,,0.0,,,EAST PACIFIC RISE
+1881,1958,9.0,17.0,48.6,156.1,RUSSIA,Kamchatka and Kuril Islands,Earthquake,5.0,40.0,-1.0,,,N. KURIL ISLANDS
+1875,1957,11.0,,-8.57,160.72,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Unknown,0.0,,0.0,,,"MALAITA ISLAND, SOLOMON ISLANDS"
+1873,1957,10.0,26.0,-2.0,116.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.0,,0.0,,,MAKASSAR STRAIT
+1872,1957,9.0,26.0,-8.2,107.3,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,5.5,,0.0,,,SOUTH OF JAVA
+1865,1956,12.0,18.0,-25.5,-71.0,CHILE,West Coast of South America,Earthquake,7.0,33.0,0.0,,,NORTHERN CHILE
+1855,1956,3.0,5.0,44.3,144.1,JAPAN,Japan,Earthquake,6.3,20.0,-2.0,,,NE. HOKKAIDO ISLAND
+1853,1955,10.0,10.0,-5.1,152.924,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,35.0,0.0,,,BISMARCK SEA
+1852,1955,9.0,8.0,-6.9,155.7,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.5,33.0,0.0,,,SOLOMON SEA
+1850,1955,5.0,17.0,6.5,94.0,INDIA,Indian Ocean (including west coast of Australia),Earthquake,7.3,,0.0,,,LITTLE NICOBAR ISLAND
+1848,1955,1.0,18.0,11.46,-69.57,VENEZUELA,Caribbean Sea,Earthquake,5.5,,0.0,,Limited (<$1 million),OFF THE COAST NEAR LA VELA
+1847,1954,11.0,18.0,38.9,142.2,JAPAN,Japan,Earthquake,6.1,30.0,-1.0,,,"MIYAGI, JAPAN"
+1837,1953,5.0,31.0,19.8,-70.7,DOMINICAN REPUBLIC,Caribbean Sea,Earthquake,7.2,33.0,0.0,,,PUERTO PLATA
+1822,1952,5.0,13.0,10.3,-85.3,COSTA RICA,West Coast of North and Central America,Earthquake,6.9,64.0,-3.0,,,COSTA RICA-PANAMA
+1819,1952,3.0,17.0,19.1,-155.0,USA,"Hawaii, Johnston Atoll, Midway I",Earthquake,4.5,33.0,0.0,,,HAWAII
+1811,1950,11.0,8.0,-10.0,159.5,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,33.0,0.0,,,SOLOMON SEA
+1810,1950,10.0,23.0,14.31,-91.917,GUATEMALA,West Coast of North and Central America,Earthquake,7.5,65.0,-1.0,,Severe (~>$5 to $24 million),GUATEMALA
+1804,1950,3.0,14.0,-37.8,177.2,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,5.8,,0.0,,,N. NEW ZEALAND
+1799,1949,10.0,19.0,-5.5,154.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,60.0,-1.0,,,SOLOMON SEA
+1793,1949,5.0,9.0,5.0,95.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.7,,0.0,,,BANDA ACEH
+1788,1949,1.0,27.0,54.6,163.5,RUSSIA,Kamchatka and Kuril Islands,Earthquake,5.9,150.0,0.0,,,KAMCHATKA
+1786,1948,12.0,26.0,-22.5,-69.0,CHILE,West Coast of South America,Earthquake,7.0,100.0,0.0,,,NORTHERN CHILE
+1781,1948,4.0,17.0,33.1,135.6,JAPAN,Japan,Earthquake,7.2,40.0,-1.0,,,TOKAIDO
+1776,1947,11.0,4.0,43.8,141.0,JAPAN,Japan,Earthquake,7.0,33.0,1.0,,Limited (<$1 million),W. HOKKAIDO ISLAND
+1774,1947,5.0,17.0,-38.42,178.88,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.9,12.0,0.0,,,OFF COAST OF NORTH ISLAND
+1772,1947,3.0,25.0,-38.85,178.87,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,7.1,12.0,3.0,,Limited (<$1 million),OFF COAST OF NORTH ISLAND
+1768,1946,11.0,1.0,51.5,-174.5,USA,Alaska (including Aleutian Islands),Earthquake,7.0,40.0,0.0,,,"ANDREANOF ISLANDS, AK"
+1767,1946,9.0,30.0,-14.0,-76.25,PERU,West Coast of South America,Earthquake,7.0,70.0,0.0,,Moderate (~$1 to $5 million),S. PERU
+1763,1946,6.0,23.0,49.87,-124.92,CANADA,West Coast of North and Central America,Earthquake and Landslide,7.3,,2.0,,Limited (<$1 million),BRITISH COLUMBIA
+1749,1941,12.0,6.0,8.5,-84.0,COSTA RICA,West Coast of North and Central America,Earthquake,6.9,,-4.0,,,COSTA RICA-PANAMA
+1745,1941,2.0,9.0,40.5,-125.25,USA,West Coast of North and Central America,Earthquake,6.6,,0.0,,Limited (<$1 million),NORTHERN CALIFORNIA
+1744,1941,1.0,13.0,-4.175,152.071,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.4,15.0,-2.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),BISMARCK SEA
+1743,1940,10.0,11.0,-41.5,-74.5,CHILE,West Coast of South America,Earthquake,7.0,33.0,0.0,,,SOUTHERN CHILE
+1737,1939,8.0,15.0,22.2,-79.1,CUBA,Caribbean Sea,Earthquake,5.6,,0.0,,,SANTA CLARA
+1735,1939,5.0,6.0,13.5,121.25,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.5,110.0,0.5,,,"TAYABAS BAY, SULU SEA"
+1732,1939,4.0,18.0,-27.0,-70.5,CHILE,West Coast of South America,Earthquake,7.4,100.0,0.0,,,NORTHERN CHILE
+1731,1939,3.0,20.0,32.3,132.0,JAPAN,Japan,Earthquake,6.6,20.0,0.0,Few (~1 to 50 people),Limited (<$1 million),SEIKAIDO
+1727,1938,11.0,22.0,36.7,142.1,JAPAN,Japan,Earthquake,6.9,10.0,-2.5,,,SANRIKU
+1725,1938,11.0,13.0,37.0,141.5,JAPAN,Japan,Earthquake,6.0,60.0,-1.5,,,SANRIKU
+1950,1963,12.0,18.0,-24.8,-176.6,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.2,46.0,0.5,,,TONGA TRENCH
+1937,1962,12.0,21.0,52.47,-168.54,USA,Alaska (including Aleutian Islands),Earthquake,6.5,33.0,0.0,,,"FOX ISLANDS, ALEUTIAN ISLANDS, AK"
+1927,1961,11.0,15.0,42.7,145.7,JAPAN,Japan,Earthquake,6.9,60.0,-3.5,,,SE. HOKKAIDO ISLAND
+1879,1958,4.0,21.0,-4.5,104.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.5,200.0,0.5,,,"BENGKULU, SUMATRA"
+1742,1940,10.0,4.0,-22.0,-71.0,CHILE,West Coast of South America,Earthquake,7.3,75.0,0.0,,,NORTHERN CHILE
+1728,1938,11.0,30.0,37.0,142.2,JAPAN,Japan,Earthquake,7.0,50.0,-3.0,,,SANRIKU
+1644,1931,9.0,25.0,-5.0,102.75,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.4,,0.0,,Limited (<$1 million),SW. SUMATRA
+1638,1931,2.0,19.0,-39.5,177.0,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,0.0,,0.0,,,N. NEW ZEALAND
+1573,1926,12.0,9.0,-28.0,-71.0,CHILE,West Coast of South America,Earthquake,6.0,33.0,0.5,,,NORTHERN CHILE
+1560,1925,11.0,16.0,18.5,-107.0,MEXICO,West Coast of North and Central America,Earthquake,7.0,80.0,3.0,,Moderate (~$1 to $5 million),S. MEXICO
+1504,1922,11.0,7.0,-28.0,-72.0,CHILE,West Coast of South America,Earthquake,7.0,33.0,0.0,,,NORTHERN CHILE
+1591,1928,2.0,9.0,49.0,-125.0,CANADA,West Coast of North and Central America,Earthquake,5.8,33.0,0.0,,,BRITISH COLUMBIA
+1589,1927,12.0,28.0,55.663,160.039,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.5,35.0,0.0,,,KAMCHATKA
+1586,1927,11.0,21.0,-44.6,-73.0,CHILE,West Coast of South America,Earthquake,7.1,33.0,2.0,,,SOUTHERN CHILE
+1578,1927,8.0,5.0,37.9,142.0,JAPAN,Japan,Earthquake,6.9,10.0,0.0,,Limited (<$1 million),SANRIKU
+1572,1926,9.0,16.0,-9.674,159.519,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.9,35.0,1.5,,Moderate (~$1 to $5 million),SOLOMON ISLANDS
+1565,1926,3.0,20.0,20.5,-155.5,USA,"Hawaii, Johnston Atoll, Midway I",Earthquake,0.0,,0.0,,,HAWAII
+1550,1925,2.0,23.0,60.0,-146.0,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,6.0,,1.0,,Limited (<$1 million),"GULF OF ALASKA, AK"
+1549,1925,1.0,8.0,-8.0,115.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,0.0,,0.0,,,BANDA SEA
+1538,1924,5.0,6.0,16.0,118.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake and Landslide,6.5,,1.5,,Limited (<$1 million),PHILIPPINES
+1536,1924,4.0,14.0,6.5,126.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake and Landslide,8.3,33.0,0.5,,Severe (~>$5 to $24 million),E. MINDANAO ISLAND
+1531,1924,3.0,15.0,49.179,142.436,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.8,15.0,0.0,,,TATAR STRAIT
+1529,1923,11.0,4.0,-4.539,153.107,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,149.0,0.0,,,NEW BRITAIN
+1528,1923,11.0,2.0,-4.6530000000000005,154.232,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,145.0,0.0,,,BISMARCK SEA
+1522,1923,7.0,18.0,9.3,125.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,5.5,,1.0,,,"BUTUAN, SULU SEA"
+1521,1923,6.0,1.0,35.4,141.8,JAPAN,Japan,Earthquake,7.3,40.0,-1.5,,,"KASHIMA, JAPAN"
+1512,1923,3.0,2.0,6.5,124.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.2,22.0,0.5,,,"MINDANAO ISLAND, PHILIPPINES"
+1507,1923,1.0,22.0,40.8,-124.5,USA,West Coast of North and Central America,Earthquake,7.2,,0.0,,Limited (<$1 million),N. CALIFORNIA
+1506,1922,12.0,25.0,-43.0,173.0,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.3,,0.0,,,SE. NEW ZEALAND
+1502,1922,7.0,8.0,5.5,95.2,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,0.0,,0.0,,,"LHOKNGA, ACEH"
+1706,1938,3.0,6.0,-5.1,153.1,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,,SOLOMON SEA
+1701,1937,9.0,21.0,56.0,162.5,RUSSIA,Kamchatka and Kuril Islands,Earthquake,5.7,33.0,1.0,,,KAMCHATKA
+1695,1936,11.0,2.0,38.2,142.2,JAPAN,Japan,Earthquake,7.7,40.0,0.0,,,SANRIKU
+1691,1936,7.0,13.0,-24.5,-70.0,CHILE,West Coast of South America,Earthquake,7.3,60.0,0.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTHERN CHILE
+1688,1935,11.0,25.0,5.5,94.0,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.5,,0.0,,,CELEBES SEA
+1685,1935,10.0,18.0,40.7,144.3,JAPAN,Japan,Earthquake,7.0,10.0,-2.0,,,SANRIKU
+1684,1935,10.0,12.0,39.9,143.7,JAPAN,Japan,Earthquake,7.2,10.0,-1.0,,,SANRIKU
+1678,1935,7.0,19.0,36.6,141.4,JAPAN,Japan,Earthquake,6.5,,0.0,,,JAPAN
+1674,1934,7.0,21.0,-11.139,165.503,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,35.0,0.0,,,SOLOMON ISLANDS
+1665,1933,10.0,2.0,-2.0,-81.0,ECUADOR,West Coast of South America,Earthquake,6.9,33.0,1.5,,,ECUADOR
+1664,1933,6.0,18.0,38.1,142.4,JAPAN,Japan,Earthquake,7.1,20.0,0.0,,,SANRIKU
+1656,1932,11.0,4.0,10.5,-64.2,VENEZUELA,Caribbean Sea,Earthquake,0.0,,0.0,,,CUMANA
+1654,1932,9.0,15.0,-39.0,177.5,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.8,,0.0,,,N. NEW ZEALAND
+1653,1932,9.0,9.0,-3.57,128.35,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.2,17.0,0.0,,Severe (~>$5 to $24 million),BANDA SEA
+1640,1931,3.0,18.0,-32.5,-72.0,CHILE,West Coast of South America,Earthquake,7.1,33.0,0.0,,,CENTRAL CHILE
+1637,1931,2.0,13.0,-39.5,177.0,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.1,,0.0,,,N. NEW ZEALAND
+1634,1930,12.0,29.0,-28.5,-71.0,CHILE,West Coast of South America,Earthquake,6.0,,0.5,,,NORTHERN CHILE
+1630,1930,9.0,30.0,-4.423,145.46,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.6,35.0,0.0,,,BISMARCK SEA
+1629,1930,9.0,11.0,1.2,124.57,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,0.0,,0.0,,,CELEBES SEA
+1626,1930,7.0,19.0,-9.3,114.3,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.5,100.0,0.0,,,SOUTH OF JAVA
+1625,1930,6.0,19.0,-5.6,105.3,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.0,33.0,0.0,,,SOUTH OF JAVA
+1616,1929,5.0,26.0,51.0,-131.0,CANADA,West Coast of North and Central America,Earthquake,7.0,33.0,0.0,,Limited (<$1 million),BRITISH COLUMBIA
+1614,1929,5.0,21.0,31.7,132.2,JAPAN,Japan,Earthquake,7.1,30.0,0.0,,,HIUGANADA
+1608,1928,11.0,20.0,-22.5,-70.5,CHILE,West Coast of South America,Earthquake,7.1,33.0,0.0,,,NORTHERN CHILE
+1606,1928,7.0,18.0,-5.5,-79.0,PERU,West Coast of South America,Earthquake,7.0,70.0,0.0,,,N. PERU
+1601,1928,5.0,18.0,-19.83,-174.36,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,0.0,,0.5,,,LIFUKA ISLAND
+1600,1928,5.0,3.0,40.8,26.8,TURKEY,Mediterranean Sea,Earthquake,4.3,,2.0,,,WESTERN TURKEY
+1599,1928,4.0,27.0,-13.0,-69.5,PERU,West Coast of South America,Earthquake,6.8,,0.0,,,S. PERU
+1676,1934,12.0,4.0,-19.5,-69.5,CHILE,West Coast of South America,Earthquake,6.9,130.0,0.0,,Moderate (~$1 to $5 million),NORTHERN CHILE
+1998,1968,4.0,1.0,32.3,132.5,JAPAN,Japan,Earthquake,7.5,30.0,1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),SEIKAIDO
+1997,1968,2.0,19.0,39.368,24.957,GREECE,Mediterranean Sea,Earthquake,7.2,15.0,3.0,Few (~1 to 50 people),Limited (<$1 million),"LEMNOS ISLAND, NORTH AEGEAN SEA"
+1989,1967,8.0,13.0,-4.4,152.5,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.4,30.0,0.0,,,BISMARCK SEA
+1988,1967,4.0,12.0,5.5,97.3,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.1,100.0,1.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),NORTHEAST SUMATRA
+1984,1966,12.0,28.0,-25.5,-70.7,CHILE,West Coast of South America,Earthquake,7.8,47.0,0.5,Few (~1 to 50 people),Limited (<$1 million),NORTHERN CHILE
+1982,1966,10.0,17.0,-10.748,-78.638,PERU,West Coast of South America,Earthquake,8.1,38.0,1.5,Many (~101 to 1000 people),Extreme (~$25 million or more),CENTRAL PERU
+1981,1966,6.0,15.0,-10.343,160.88299999999998,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,31.0,1.0,,,SOLOMON ISLANDS
+1980,1966,3.0,12.0,24.1,122.6,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.6,48.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),E. TAIWAN-RYUKYU ISLANDS
+1975,1965,8.0,23.0,16.3,-95.8,MEXICO,West Coast of North and Central America,Earthquake,7.8,,0.0,Few (~1 to 50 people),Limited (<$1 million),MEXICO
+1967,1965,3.0,30.0,50.32,177.93,USA,Alaska (including Aleutian Islands),Earthquake,7.6,20.0,-1.0,,,"RAT ISLANDS, ALEUTIAN ISLANDS, AK"
+1964,1965,2.0,4.0,51.29,178.55,USA,Alaska (including Aleutian Islands),Earthquake,8.7,36.0,2.5,,Limited (<$1 million),"RAT ISLANDS, ALEUTIAN ISLANDS, AK"
+1961,1964,11.0,17.0,-5.7,150.7,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.6,45.0,0.0,,Limited (<$1 million),NEW BRITAIN
+1956,1964,4.0,2.0,5.8,95.4,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake and Landslide,7.0,100.0,0.0,,Severe (~>$5 to $24 million),OFF NORTHWEST COAST OF INDONESIA
+1948,1963,10.0,20.0,44.772,150.563,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.9,28.0,3.0,,,S. KURIL ISLANDS
+1947,1963,10.0,13.0,44.772,149.798,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.5,13.0,2.5,,,S. KURIL ISLANDS
+1945,1963,9.0,24.0,-10.385,-78.02199999999999,PERU,West Coast of South America,Earthquake,7.0,75.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),CENTRAL PERU
+1940,1963,2.0,13.0,24.4,122.1,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,47.0,-2.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),E. TAIWAN-RYUKYU ISLANDS
+1932,1962,5.0,19.0,17.2,-99.5,MEXICO,West Coast of North and Central America,Earthquake,7.2,33.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. MEXICO
+1931,1962,5.0,11.0,17.2,-99.6,MEXICO,West Coast of North and Central America,Earthquake,7.0,40.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. MEXICO
+1914,1961,2.0,26.0,31.6,131.8,JAPAN,Japan,Earthquake,7.6,74.0,-0.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),SEIKAIDO
+1901,1960,5.0,21.0,-37.872,-73.243,CHILE,West Coast of South America,Earthquake,8.2,35.0,-1.0,Few (~1 to 50 people),Limited (<$1 million),CENTRAL CHILE
+1897,1960,2.0,29.0,30.5,-9.5,MOROCCO,West Coast of Africa,Earthquake,6.8,,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),MOROCCO
+1896,1960,1.0,13.0,-15.75,-72.75,PERU,West Coast of South America,Earthquake,7.8,160.0,3.0,,Limited (<$1 million),S. PERU
+1892,1959,8.0,17.0,-7.5,156.0,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,33.0,0.0,,Severe (~>$5 to $24 million),SOLOMON ISLANDS
+1890,1959,5.0,4.0,52.5,159.5,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.2,60.0,1.0,,,KAMCHATKA
+1884,1958,11.0,6.0,44.53,148.54,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.3,40.0,2.5,,Moderate (~$1 to $5 million),S. KURIL ISLANDS
+1870,1957,7.0,28.0,16.5,-99.1,MEXICO,West Coast of North and Central America,Earthquake,7.9,25.0,0.5,Some (~51 to 100 people),Extreme (~$25 million or more),S. MEXICO
+1869,1957,6.0,22.0,-1.5,137.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.3,33.0,0.0,,,NW. IRIAN JAYA
+1864,1956,11.0,2.0,39.5,23.0,GREECE,Mediterranean Sea,Earthquake,5.8,,2.0,,,NORTH AEGEAN
+1842,1953,12.0,12.0,-3.4,-80.6,PERU,West Coast of South America,Earthquake,7.4,30.0,0.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),N. PERU
+1841,1953,11.0,25.0,34.0,141.7,JAPAN,Japan,Earthquake,7.4,60.0,1.5,Few (~1 to 50 people),Limited (<$1 million),"KASHIMA, JAPAN"
+1836,1953,5.0,6.0,-36.5,-72.5,CHILE,West Coast of South America,Earthquake,7.6,60.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),CENTRAL CHILE
+1820,1952,3.0,19.0,9.5,127.25,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.8,25.0,0.0,,Limited (<$1 million),"E. OF MINDANO, PHILIPPINES"
+1818,1952,3.0,9.0,41.7,143.6,JAPAN,Japan,Earthquake,7.0,20.0,-2.0,,Moderate (~$1 to $5 million),SE. HOKKAIDO ISLAND
+1815,1951,8.0,21.0,19.5,-156.0,USA,"Hawaii, Johnston Atoll, Midway I",Earthquake,6.9,12.0,0.5,,Limited (<$1 million),HAWAII
+1813,1950,12.0,14.0,16.48,-98.22,MEXICO,West Coast of North and Central America,Earthquake,7.5,50.0,0.0,,Severe (~>$5 to $24 million),S. MEXICO
+1812,1950,12.0,10.0,-14.25,-77.75,PERU,West Coast of South America,Earthquake,7.0,80.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. PERU
+1808,1950,10.0,5.0,11.0,-85.0,COSTA RICA,West Coast of North and Central America,Earthquake,7.7,33.0,-2.0,,Limited (<$1 million),COSTA RICA-NICARAGUA
+1806,1950,8.0,15.0,28.5,96.5,INDIA,Indian Ocean (including west coast of Australia),Earthquake,8.6,33.0,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),INDIA-CHINA
+1805,1950,8.0,3.0,10.5,-68.0,VENEZUELA,Caribbean Sea,Earthquake,6.8,,0.0,,,EL TOCUYO
+1801,1949,12.0,17.0,-54.0,-71.0,CHILE,West Coast of South America,Earthquake,7.8,33.0,0.0,Few (~1 to 50 people),Limited (<$1 million),SOUTHERN CHILE
+1795,1949,8.0,22.0,53.6,-133.3,CANADA,West Coast of North and Central America,Earthquake and Landslide,8.1,25.0,0.0,,,BRITISH COLUMBIA
+1787,1949,7.0,23.0,38.718,26.482,GREECE,Mediterranean Sea,Earthquake,6.5,15.0,2.0,Few (~1 to 50 people),Extreme (~$25 million or more),"CHIOS ISLAND, AEGEAN ISLANDS"
+1792,1949,4.0,20.0,-38.0,-73.5,CHILE,West Coast of South America,Earthquake,7.3,70.0,0.0,,,CENTRAL CHILE
+1790,1949,4.0,13.0,47.167,-122.617,USA,West Coast of North and Central America,Earthquake and Landslide,7.0,70.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),"PUGET SOUND, WA"
+1785,1948,12.0,3.0,22.0,-106.0,MEXICO,West Coast of North and Central America,Earthquake,6.9,,1.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),MEXICO
+1784,1948,9.0,8.0,-21.0,-174.0,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,33.0,1.5,,,TONGA TRENCH
+1782,1948,4.0,22.0,38.532,20.427,GREECE,Mediterranean Sea,Earthquake,6.5,15.0,4.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),IONIAN SEA
+1779,1948,2.0,9.0,35.5,27.2,GREECE,Mediterranean Sea,Earthquake,7.1,40.0,4.0,,Limited (<$1 million),"DODECANESE, KARPATHOS IS."
+1775,1947,10.0,6.0,37.0,22.0,GREECE,Mediterranean Sea,Earthquake and Landslide,6.9,28.0,2.0,Few (~1 to 50 people),Extreme (~$25 million or more),"PELOPONNESUS, GREECE"
+1764,1946,8.0,2.0,-26.5,-70.5,CHILE,West Coast of South America,Earthquake,7.9,60.0,9.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),NORTHERN CHILE
+1759,1945,1.0,12.0,34.7,137.2,JAPAN,Japan,Earthquake,7.1,33.0,-0.5,Very Many (~1001 or more people),Extreme (~$25 million or more),TOKAIDO
+1752,1943,4.0,6.0,-30.75,-72.0,CHILE,West Coast of South America,Earthquake,8.2,35.0,0.0,Few (~1 to 50 people),Limited (<$1 million),CENTRAL CHILE
+1751,1942,8.0,24.0,-15.0,-76.0,PERU,West Coast of South America,Earthquake and Landslide,8.2,60.0,1.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),S. PERU
+1750,1942,5.0,22.0,4.6,-74.5,COLOMBIA,West Coast of South America,Earthquake,5.8,130.0,1.0,,Moderate (~$1 to $5 million),COLOMBIA
+1748,1941,12.0,5.0,8.7,-83.2,COSTA RICA,West Coast of North and Central America,Earthquake,7.6,,-3.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),COSTA RICA-PANAMA
+1746,1941,6.0,26.0,11.94,92.626,INDIA,Indian Ocean (including west coast of Australia),Earthquake,8.0,20.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),"ANDAMAN SEA, E. COAST INDIA"
+1739,1940,5.0,24.0,-10.5,-77.0,PERU,West Coast of South America,Earthquake,8.2,60.0,1.5,Many (~101 to 1000 people),Severe (~>$5 to $24 million),CENTRAL PERU
+1738,1939,12.0,21.0,0.0,123.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,8.0,150.0,0.0,,Moderate (~$1 to $5 million),N. MOLUCCAS ISLANDS
+1736,1939,6.0,22.0,5.18,-0.13,GHANA,West Coast of Africa,Earthquake,6.4,13.0,0.0,,,GOLD COAST
+1734,1939,5.0,1.0,40.1,139.5,JAPAN,Japan,Earthquake,7.0,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),NW. HONSHU ISLAND
+1730,1939,1.0,30.0,-7.08,155.386,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.7,35.0,1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),SOLOMON SEA
+1729,1939,1.0,25.0,-36.25,-72.25,CHILE,West Coast of South America,Earthquake,8.3,60.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),CENTRAL CHILE
+1722,1938,11.0,10.0,55.48,-158.37,USA,Alaska (including Aleutian Islands),Earthquake,8.2,25.0,0.0,,,"SHUMAGIN ISLANDS, AK"
+1718,1938,11.0,6.0,37.5,141.8,JAPAN,Japan,Earthquake,7.5,0.0,-0.5,,,OFF FUKUSHIMA PREFECTURE
+1717,1938,11.0,5.0,37.2,141.7,JAPAN,Japan,Earthquake,7.6,30.0,-0.5,,,SANRIKU
+1716,1938,11.0,5.0,37.1,141.7,JAPAN,Japan,Earthquake,7.7,30.0,-0.5,Few (~1 to 50 people),Limited (<$1 million),SANRIKU
+1715,1938,6.0,10.0,25.321,125.115,JAPAN,Japan,Earthquake,7.6,35.0,0.0,,Limited (<$1 million),RYUKYU ISLANDS
+1708,1938,5.0,12.0,-6.0,147.8,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,,0.0,,Limited (<$1 million),SOLOMON SEA
+1704,1938,2.0,1.0,-5.25,130.5,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,8.5,,1.5,,Moderate (~$1 to $5 million),BANDA SEA
+1699,1937,8.0,20.0,14.5,121.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.5,60.0,1.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),W. LUZON ISLAND
+1696,1936,11.0,13.0,55.2,164.0,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.3,,2.0,,,KAMCHATKA
+1692,1936,8.0,23.0,6.1,94.7,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.3,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),OFF NORTHWEST COAST
+1690,1936,4.0,1.0,4.5,126.5,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.7,60.0,2.0,,Moderate (~$1 to $5 million),SULAWESI
+1689,1935,12.0,28.0,0.001,98.25,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.9,33.0,0.0,,Moderate (~$1 to $5 million),SW. SUMATRA
+1683,1935,9.0,20.0,-3.824,141.416,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.8,30.0,0.0,,,BISMARCK SEA
+1679,1935,5.0,30.0,29.5,66.8,PAKISTAN,Indian Ocean (including west coast of Australia),Earthquake,7.5,,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),QUETTA
+1673,1934,7.0,18.0,-11.907,166.731,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.8,35.0,0.0,,,SOLOMON ISLANDS
+1671,1934,7.0,18.0,8.0,-82.5,PANAMA,West Coast of North and Central America,Earthquake,7.7,60.0,1.5,,Limited (<$1 million),COSTA RICA-PANAMA
+1669,1934,2.0,14.0,17.5,119.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.9,55.0,0.5,,Limited (<$1 million),SOUTH CHINA SEA
+1668,1934,1.0,15.0,26.773000000000003,86.76,NEPAL,Indian Ocean (including west coast of Australia),Earthquake,8.0,35.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),"BIHAR-NEPAL, GANGES RIVER"
+1663,1933,4.0,23.0,36.759,27.299,GREECE,Mediterranean Sea,Earthquake,6.4,15.0,0.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),"COS, DODECANESE"
+1662,1933,3.0,11.0,33.616,-117.966,USA,West Coast of North and Central America,Meteorological,6.3,16.0,-3.0,Many (~101 to 1000 people),Extreme (~$25 million or more),S. CALIFORNIA
+1659,1933,2.0,23.0,-20.0,-71.0,CHILE,West Coast of South America,Earthquake,7.6,40.0,0.0,,,NORTHERN CHILE
+1655,1932,9.0,26.0,40.5,23.9,GREECE,Mediterranean Sea,Earthquake,6.9,35.0,3.0,Many (~101 to 1000 people),Extreme (~$25 million or more),NORTH AEGEAN
+1651,1932,6.0,18.0,19.081,-103.631,MEXICO,West Coast of North and Central America,Earthquake,7.8,15.0,0.5,,Moderate (~$1 to $5 million),CENTRAL MEXICO
+1648,1932,2.0,3.0,20.0,-75.8,CUBA,Caribbean Sea,Earthquake,6.7,,0.0,,,SANTIAGO DE CUBA
+1646,1931,11.0,2.0,32.2,132.1,JAPAN,Japan,Earthquake,7.1,40.0,0.0,Few (~1 to 50 people),,SEIKAIDO
+1639,1931,3.0,9.0,41.2,142.5,JAPAN,Japan,Earthquake,7.6,60.0,-1.0,,,SANRIKU
+1636,1931,2.0,2.0,-39.772,176.025,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,7.7,35.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),N. NEW ZEALAND
+1618,1929,6.0,16.0,-41.75,172.25,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,7.5,,1.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),TASMAN SEA
+1617,1929,6.0,13.0,8.5,127.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.2,,0.5,,Moderate (~$1 to $5 million),E. MINDANAO ISLAND
+1613,1929,3.0,7.0,50.88,-169.71,USA,Alaska (including Aleutian Islands),Earthquake,7.8,50.0,0.0,,Limited (<$1 million),"FOX ISLANDS, ALEUTIAN ISLANDS, AK"
+1612,1929,1.0,17.0,10.6,-65.6,VENEZUELA,Caribbean Sea,Earthquake,6.9,,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),CUMANA
+1609,1928,12.0,1.0,-35.0,-72.0,CHILE,West Coast of South America,Earthquake,7.6,25.0,0.5,Many (~101 to 1000 people),Severe (~>$5 to $24 million),CENTRAL CHILE
+1605,1928,6.0,17.0,16.028,-97.036,MEXICO,West Coast of North and Central America,Earthquake,7.7,35.0,1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. MEXICO
+1603,1928,6.0,15.0,12.4,120.9,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.0,33.0,0.5,,Moderate (~$1 to $5 million),SULU SEA
+1597,1928,4.0,22.0,38.0,23.0,GREECE,Mediterranean Sea,Earthquake,6.0,29.0,3.0,Few (~1 to 50 people),Extreme (~$25 million or more),CORINTHOS-PATRAS GULF
+1594,1928,3.0,31.0,38.1,27.4,GREECE,Mediterranean Sea,Earthquake,6.5,,2.0,Many (~101 to 1000 people),Extreme (~$25 million or more),EAST AEGEAN
+1592,1928,3.0,22.0,15.67,-96.1,MEXICO,West Coast of North and Central America,Earthquake,7.7,60.0,0.0,,,MEXICO
+1585,1927,11.0,4.0,34.813,-120.774,USA,West Coast of North and Central America,Earthquake,7.3,10.0,1.0,,Moderate (~$1 to $5 million),S. CALIFORNIA
+1576,1927,3.0,7.0,35.6,135.1,JAPAN,Japan,Earthquake and Landslide,7.6,10.0,0.5,Very Many (~1001 or more people),Extreme (~$25 million or more),SW. HONSHU ISLAND
+1567,1926,6.0,28.0,-0.7,100.6,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,5.8,,0.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),SW. SUMATRA
+1556,1925,5.0,25.0,12.2,122.1,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.3,,0.5,,,W. LUZON ISLAND
+1546,1924,8.0,30.0,8.5,126.5,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,33.0,0.5,,Moderate (~$1 to $5 million),E. MINDANAO ISLAND
+1543,1924,6.0,26.0,-56.0,157.5,AUSTRALIA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,,0.0,,,MACQUARIE ISLAND
+1527,1923,9.0,2.0,34.9,140.2,JAPAN,Japan,Earthquake,7.7,20.0,-1.5,,,RYUKYU ISLANDS
+1508,1923,2.0,3.0,54.0,161.0,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.3,19.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),KAMCHATKA
+1939,1963,2.0,7.0,38.31,22.02,GREECE,Mediterranean Sea,Landslide,0.0,,5.0,Few (~1 to 50 people),Limited (<$1 million),CORINTH GULF
+1666,1933,12.0,25.0,12.77,124.05,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Volcano,0.0,,1.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),E. SAMAR ISLAND
+1698,1937,5.0,29.0,-4.271,152.203,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,1.5,Many (~101 to 1000 people),Limited (<$1 million),RABAUL
+1840,1953,9.0,14.0,-18.3,178.2,FIJI,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,6.4,33.0,1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),FIJI ISLANDS
+1627,1930,8.0,31.0,34.03,-118.643,USA,West Coast of North and Central America,Earthquake and Landslide,5.2,15.0,-0.5,Few (~1 to 50 people),Limited (<$1 million),S. CALIFORNIA
+1972,1965,7.0,6.0,38.267,22.3,GREECE,Mediterranean Sea,Earthquake and Landslide,6.3,18.0,2.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTH CORINTH GULF
+1741,1940,8.0,1.0,44.2,139.5,JAPAN,Japan,Earthquake,7.5,10.0,1.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),W. HOKKAIDO ISLAND
+1714,1938,5.0,28.0,43.6,144.3,JAPAN,Japan,Earthquake,6.1,,0.0,Few (~1 to 50 people),Limited (<$1 million),E. HOKKAIDO ISLAND
+1632,1930,12.0,23.0,-1.3,144.3,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.5,33.0,1.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),BISMARCK SEA
+1987,1967,4.0,11.0,-3.7,119.3,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,5.5,33.0,1.0,Some (~51 to 100 people),Moderate (~$1 to $5 million),MAKASSAR STRAIT
+1959,1964,6.0,16.0,38.65,139.2,JAPAN,Japan,Earthquake,7.5,40.0,2.0,Few (~1 to 50 people),Extreme (~$25 million or more),NW. HONSHU ISLAND
+1880,1958,7.0,10.0,58.37,-136.665,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,7.8,35.0,5.0,Few (~1 to 50 people),Limited (<$1 million),"SE. ALASKA, AK"
+1877,1958,1.0,19.0,1.5,-79.5,ECUADOR,West Coast of South America,Earthquake,7.6,60.0,2.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),COLOMBIA-ECUADOR
+1867,1957,3.0,9.0,51.292,-175.62900000000002,USA,Alaska (including Aleutian Islands),Earthquake,8.6,33.0,3.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),"ANDREANOF ISLANDS, AK"
+1859,1956,7.0,9.0,36.9,26.0,GREECE,Mediterranean Sea,Earthquake,7.8,20.0,5.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),CYCLADES
+1849,1955,4.0,19.0,-30.0,-72.0,CHILE,West Coast of South America,Earthquake,7.1,30.0,1.0,Few (~1 to 50 people),Limited (<$1 million),CENTRAL CHILE
+1817,1952,3.0,4.0,42.15,143.85,JAPAN,Japan,Earthquake,8.1,45.0,2.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),SE. HOKKAIDO ISLAND
+1809,1950,10.0,8.0,-3.8,128.3,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.6,,2.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),BANDA SEA
+1802,1949,12.0,29.0,17.0,121.63,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.2,33.0,1.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),E. LUZON ISLAND
+1777,1948,1.0,24.0,10.5,122.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,8.3,33.0,1.5,Some (~51 to 100 people),Moderate (~$1 to $5 million),SULU SEA
+1747,1941,11.0,18.0,32.0,132.1,JAPAN,Japan,Earthquake,7.4,10.0,0.0,Few (~1 to 50 people),Limited (<$1 million),SEIKAIDO
+1733,1939,4.0,30.0,-9.295,159.234,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,35.0,1.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),SOLOMON ISLANDS
+1710,1938,5.0,19.0,-1.0,120.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.6,,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),MAKASSAR STRAIT
+1649,1932,6.0,3.0,19.623,-103.919,MEXICO,West Coast of North and Central America,Earthquake,8.1,35.0,2.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),CENTRAL MEXICO
+1645,1931,10.0,3.0,-10.932,161.016,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.8,35.0,2.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),SAN CRISTOBAL ISLAND
+1622,1929,11.0,18.0,44.69,-56.0,CANADA,"East Coast USA and Canada, St Pierre and Miquelon",Earthquake and Landslide,7.3,20.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),"GRAND BANKS, NEWFOUNDLAND"
+1611,1928,12.0,19.0,7.0,124.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,,1.0,Some (~51 to 100 people),Moderate (~$1 to $5 million),CELEBES SEA
+1596,1928,4.0,9.0,-13.0,-69.6,PERU,West Coast of South America,Earthquake,6.9,30.0,1.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),S. PERU
+1587,1927,12.0,1.0,-0.7,119.7,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.3,,3.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),SULAWESI
+1575,1927,1.0,1.0,32.5,-115.5,USA,West Coast of North and Central America,Meteorological,5.7,,1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. CALIFORNIA
+1517,1923,4.0,13.0,56.5,162.5,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.2,20.0,3.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),KAMCHATKA
+1559,1925,11.0,13.0,13.0,125.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,22.0,0.5,Some (~51 to 100 people),Moderate (~$1 to $5 million),PHILIPPINE SEA
+2000,1968,5.0,16.0,40.8,143.2,JAPAN,Japan,Earthquake,8.2,7.0,2.0,Some (~51 to 100 people),Extreme (~$25 million or more),OFF EAST COAST OF HONSHU ISLAND
+1963,1965,1.0,24.0,-2.4,126.1,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.6,6.0,2.0,Some (~51 to 100 people),Moderate (~$1 to $5 million),SANANA ISLAND
+1907,1960,11.0,20.0,-6.8,-80.7,PERU,West Coast of South America,Earthquake,6.8,93.0,4.0,Some (~51 to 100 people),Limited (<$1 million),N. PERU
+1766,1946,8.0,8.0,19.5,-69.5,DOMINICAN REPUBLIC,Caribbean Sea,Earthquake,7.5,15.0,0.0,Some (~51 to 100 people),,NORTHEASTERN COAST
+1652,1932,6.0,22.0,19.242,-104.383,MEXICO,West Coast of North and Central America,Earthquake,7.7,25.0,1.5,Some (~51 to 100 people),Severe (~>$5 to $24 million),CENTRAL MEXICO
+1505,1922,11.0,11.0,-28.553,-70.755,CHILE,West Coast of South America,Earthquake,8.7,35.0,2.5,Many (~101 to 1000 people),Severe (~>$5 to $24 million),NORTHERN CHILE
+1977,1965,9.0,28.0,14.002,120.993,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Volcano,0.0,,0.0,Many (~101 to 1000 people),Limited (<$1 million),"TAAL, LUZON ISLAND"
+1568,1926,7.0,,35.0,128.0,SOUTH KOREA,"China, North and South Korea, Philippines, Taiwan",Unknown,0.0,,1.5,Many (~101 to 1000 people),,S. OF KOREA
+1607,1928,8.0,4.0,-8.32,121.708,INDONESIA,Indian Ocean (including west coast of Australia),Volcano and Landslide,0.0,1.0,3.0,Many (~101 to 1000 people),,FLORES SEA
+1562,1925,12.0,22.0,10.0,138.0,"MICRONESIA, FED. STATES OF","E Coast Australia, New Zealand, South Pacific Is.",Meteorological,0.0,,1.5,Many (~101 to 1000 people),Severe (~>$5 to $24 million),CAROLINE ISLANDS
+1954,1964,3.0,28.0,61.017,-147.648,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,9.2,33.0,3.5,Many (~101 to 1000 people),Extreme (~$25 million or more),"PRINCE WILLIAM SOUND, AK"
+1762,1946,4.0,1.0,53.492,-162.832,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,8.6,15.0,4.0,Many (~101 to 1000 people),Extreme (~$25 million or more),"UNIMAK ISLAND, AK"
+1526,1923,9.0,1.0,35.1,139.5,JAPAN,Japan,Earthquake,7.9,33.0,3.0,Very Many (~1001 or more people),Extreme (~$25 million or more),SAGAMI BAY
+1661,1933,3.0,2.0,39.224,144.622,JAPAN,Japan,Earthquake,8.4,35.0,3.5,Very Many (~1001 or more people),Extreme (~$25 million or more),SANRIKU
+1756,1944,12.0,7.0,34.0,137.1,JAPAN,Japan,Earthquake,8.1,30.0,2.5,Very Many (~1001 or more people),Severe (~>$5 to $24 million),OFF SOUTHEAST COAST KII PENINSULA
+1761,1945,11.0,27.0,24.5,63.0,PAKISTAN,Indian Ocean (including west coast of Australia),Earthquake and Landslide,8.0,,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),MAKRAN COAST
+1765,1946,8.0,4.0,19.25,-69.0,DOMINICAN REPUBLIC,Caribbean Sea,Earthquake,7.9,15.0,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),NORTHEASTERN COAST
+1770,1946,12.0,20.0,33.0,135.6,JAPAN,Japan,Earthquake,8.1,20.0,2.5,Very Many (~1001 or more people),Extreme (~$25 million or more),HONSHU: S COAST
+1829,1952,11.0,4.0,52.755,160.05700000000002,RUSSIA,Kamchatka and Kuril Islands,Earthquake,9.0,22.0,4.0,Very Many (~1001 or more people),Moderate (~$1 to $5 million),KAMCHATKA
+1902,1960,5.0,22.0,-38.143,-73.407,CHILE,West Coast of South America,Earthquake,9.5,33.0,4.0,Very Many (~1001 or more people),Extreme (~$25 million or more),SOUTHERN CHILE
+2459,1944,9.0,14.0,38.933,-74.9,USA,"East Coast USA and Canada, St Pierre and Miquelon",Meteorological,0.0,,0.0,,,NEW JERSEY COAST
+2203,1991,5.0,7.0,37.133,26.833,GREECE,Mediterranean Sea,Meteorological,0.0,,0.0,,,EAST AEGEAN SEA
+2195,1990,5.0,,7.0,126.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Unknown,0.0,,0.0,,,"CANIGUIN IS.,PHILIPPINES"
+2258,1996,1.0,1.0,38.367,22.083,GREECE,Mediterranean Sea,Landslide,0.0,,2.0,,Limited (<$1 million),W. CORINTH GULF
+2368,1964,5.0,19.0,40.8,-73.1,USA,"East Coast USA and Canada, St Pierre and Miquelon",Landslide,0.0,0.0,0.0,,,"LONG ISLAND, NY"
+2069,1974,10.0,17.0,-5.52,148.121,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,70.0,0.0,,,"RITTER ISLAND, PAPUA NEW GUINEA"
+2454,1913,6.0,9.0,39.314,-74.525,USA,"East Coast USA and Canada, St Pierre and Miquelon",Landslide,0.0,,0.0,,Limited (<$1 million),"LONGPORT, NJ"
+2279,1997,12.0,26.0,16.72,-62.18,MONTSERRAT,Caribbean Sea,Volcano and Landslide,0.0,,0.0,,,WHITE RIVER VALLEY
+2043,1971,9.0,6.0,-10.38,165.8,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,0.0,,,"TINAKULA, SANTA CRUZ ISLANDS"
+2052,1972,8.0,26.0,-6.7,147.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Landslide,0.0,,0.0,,Limited (<$1 million),SOLOMON SEA
+2392,1996,1.0,2.0,54.05,159.43,RUSSIA,Kamchatka and Kuril Islands,Volcano,0.0,,0.0,,Limited (<$1 million),"KARYMSKOYE, KAMCHATKA, RUSSIA"
+2382,1931,12.0,1.0,22.8,-80.4,CUBA,Caribbean Sea,Earthquake,0.0,0.0,0.0,,,NORTHERN COAST (LAS VILLAS)
+2464,1926,1.0,9.0,44.233,-68.35,USA,"East Coast USA and Canada, St Pierre and Miquelon",Landslide,0.0,,0.0,,,"BERNARD, ME"
+2458,1944,,,40.3,-74.0,USA,"East Coast USA and Canada, St Pierre and Miquelon",Unknown,0.0,,0.0,,,"CONEY ISLAND, NY"
+2353,2000,11.0,4.0,34.5,-120.65,USA,West Coast of North and Central America,Landslide,0.0,0.0,0.0,,Limited (<$1 million),"POINT ARGUELLO, S. CALIFORNIA"
+2229,1994,9.0,19.0,-4.238,152.214,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,0.0,,Extreme (~$25 million or more),PAPUA NEW GUINEA
+2460,1952,5.0,6.0,43.1,-82.4,USA,"East Coast USA and Canada, St Pierre and Miquelon",Meteorological,0.0,,0.0,,,"LAKE HURON, MI"
+2361,1912,4.0,13.0,42.0,-81.0,USA,"East Coast USA and Canada, St Pierre and Miquelon",Landslide,0.0,,0.0,,Limited (<$1 million),"SOUTHERN SHORE, LAKE ERIE (OHIO)"
+2433,1902,5.0,20.0,14.82,-61.17,MARTINIQUE (FRENCH TERRITORY),Caribbean Sea,Volcano,0.0,,0.0,,,MOUNT PELEE
+2463,1938,9.0,21.0,39.95,-74.12,USA,"East Coast USA and Canada, St Pierre and Miquelon",Meteorological,0.0,,0.0,,,NEW JERSEY COAST
+2278,1997,12.0,14.0,54.841,162.035,RUSSIA,Kamchatka and Kuril Islands,Landslide,0.0,,2.0,,Limited (<$1 million),KAMCHATKA
+2457,1924,8.0,8.0,40.567,-73.983,USA,"East Coast USA and Canada, St Pierre and Miquelon",Unknown,0.0,,0.0,,,"CONEY ISLAND, NY"
+2129,1981,5.0,11.0,-35.616,20.267,SOUTH AFRICA,West Coast of Africa,Landslide,0.0,,0.0,,,AGULHAS BANK
+2054,1972,10.0,9.0,-5.52,148.121,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,0.0,,,"RITTER ISLAND, PAPUA NEW GUINEA"
+2390,1979,9.0,3.0,11.517,-69.5,VENEZUELA,Caribbean Sea,Landslide,5.0,0.0,0.0,,Limited (<$1 million),PUERTO CUMAREBO
+2379,1906,,,10.6,-66.95,VENEZUELA,Caribbean Sea,Questionable Earthquake,0.0,,0.0,,,MAIQUETIA
+2198,1990,12.0,13.0,23.722,121.627,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.3,10.0,0.0,,Limited (<$1 million),TAIWAN
+2041,1971,9.0,27.0,46.4,141.1,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.0,21.0,-4.0,,,TATAR STRAIT
+2385,1961,6.0,16.0,8.9,-73.4,COLOMBIA,Caribbean Sea,Questionable Earthquake,6.5,120.0,0.0,,,NORTHEASTERN
+2395,2002,3.0,26.0,23.346,124.09,JAPAN,Japan,Earthquake,6.4,33.0,0.0,,,JAPAN
+2275,1997,10.0,14.0,-22.1,-176.77,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.7,167.0,0.0,,,TONGA ISLANDS
+2173,1987,7.0,6.0,-14.074000000000002,167.828,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.7,48.0,0.0,,,VANUATU ISLANDS
+2172,1987,6.0,18.0,-10.717,162.33,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.3,75.0,0.0,,,SOLOMON ISLANDS
+2152,1984,2.0,11.0,38.396,22.094,GREECE,Mediterranean Sea,Earthquake,5.4,29.0,3.0,,,"CORINTHOS GULF, GREECE"
+2089,1977,4.0,20.0,-9.828,163.32299999999998,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.8,33.0,-1.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),SOLOMON ISLANDS
+2154,1984,6.0,13.0,31.448,140.036,JAPAN,Japan,Earthquake,5.5,41.0,0.0,,,"TORI SHIMA, OKINAWA"
+2167,1987,2.0,6.0,36.988,141.689,JAPAN,Japan,Earthquake,6.7,48.0,0.0,,,E. HONSHU ISLAND
+2369,1989,11.0,1.0,18.986,-68.833,USA TERRITORY,Caribbean Sea,Earthquake,4.4,26.0,0.0,,,PUERTO RICO
+2404,2001,12.0,18.0,23.954,122.734,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.8,14.0,0.0,,,TAIWAN
+2434,2004,1.0,28.0,-3.12,127.4,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.7,17.0,0.0,,,SERAM ISLAND
+2428,2003,10.0,31.0,37.812,142.619,JAPAN,Japan,Earthquake,7.0,10.0,0.0,,,E. HONSHU ISLAND
+2268,1996,10.0,19.0,31.885,131.468,JAPAN,Japan,Earthquake,6.7,22.0,0.5,,Limited (<$1 million),KYUSHU ISLAND
+2255,1995,11.0,1.0,-28.906,-71.417,CHILE,West Coast of South America,Earthquake,6.7,20.0,-3.0,,,NORTHERN CHILE
+2232,1994,10.0,9.0,43.905,147.916,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.3,33.0,-3.0,,,S. KURIL ISLANDS
+2226,1994,4.0,8.0,40.608,143.683,JAPAN,Japan,Earthquake,6.4,13.0,-1.5,,,HOKKAIDO ISLAND
+2196,1990,9.0,23.0,33.267,138.643,JAPAN,Japan,Earthquake,6.5,10.0,0.0,,,"W. OF BONIN ISLANDS, IZU IS., JAPAN"
+2136,1982,7.0,23.0,36.194,141.702,JAPAN,Japan,Earthquake,7.2,37.0,-1.0,,,"IBARAKI, JAPAN"
+2110,1979,2.0,20.0,40.232,143.703,JAPAN,Japan,Earthquake,6.4,10.0,0.0,,,"IWATE, JAPAN"
+2097,1978,3.0,22.0,44.026,149.002,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.7,33.0,-2.5,,,S. KURIL ISLANDS
+2064,1974,2.0,1.0,-7.4,155.6,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,40.0,2.0,,Moderate (~$1 to $5 million),SOLOMON ISLANDS
+2014,1969,8.0,2.0,-6.6,146.9,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake and Landslide,5.4,17.0,-1.0,,,BISMARCK SEA
+2303,1970,12.0,4.0,43.84,39.34,RUSSIA,Black Sea and Caspian Sea,Earthquake,5.1,7.0,2.0,,,BLACK SEA
+2147,1983,8.0,17.0,55.867,161.287,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.1,63.0,0.0,,,"KAMCHATKA BAY, RUSSIA"
+2039,1971,9.0,8.0,46.3,140.9,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.2,16.0,-3.0,,,TATAR STRAIT
+2380,1916,11.0,12.0,10.46,-67.77,VENEZUELA,Caribbean Sea,Earthquake,0.0,0.0,0.0,,,OCUMARE DE LA COSTA DE ORO
+2365,1929,8.0,12.0,42.9,-78.3,USA,"East Coast USA and Canada, St Pierre and Miquelon",Earthquake,0.0,,0.0,,,"ATTICA, NEW YORK"
+2343,1982,3.0,11.0,-9.265,118.479,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.6,33.0,0.0,,,SUMBAWA ISLAND
+2301,1939,12.0,26.0,39.77,39.533,TURKEY,Black Sea and Caspian Sea,Earthquake,7.7,35.0,4.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),SOUTH BLACK SEA
+2298,1927,6.0,26.0,44.4,34.4,UKRAINE,Black Sea and Caspian Sea,Earthquake,6.0,27.0,2.0,,Moderate (~$1 to $5 million),"CRIMEA, BLACK SEA"
+2296,1905,10.0,4.0,44.5,37.5,RUSSIA,Black Sea and Caspian Sea,Earthquake,5.1,,2.0,,,BLACK SEA
+2280,1998,5.0,3.0,22.306,125.308,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.5,33.0,0.0,,,TAIWAN:  SOUTHEAST OF
+2270,1996,12.0,2.0,31.789,131.314,JAPAN,Japan,Earthquake,6.7,49.0,-2.0,,,SEA OF JAPAN
+2266,1996,9.0,5.0,-22.118,-113.436,CHILE,West Coast of South America,Earthquake,6.9,10.0,-2.5,,,EASTER ISLAND REGION
+2265,1996,9.0,4.0,31.555,139.931,JAPAN,Japan,Earthquake,5.7,33.0,-2.0,,,HONSHU ISLAND
+2264,1996,6.0,10.0,51.478,-176.847,USA,Alaska (including Aleutian Islands),Earthquake,7.3,24.0,-1.5,,,"ANDREANOF ISLANDS, AK"
+2262,1996,2.0,25.0,15.978,-98.07,MEXICO,West Coast of North and Central America,Earthquake,7.1,21.0,-3.0,,,MEXICO
+2254,1995,10.0,19.0,28.094,130.148,JAPAN,Japan,Earthquake and Landslide,6.8,20.0,0.5,,,RYUKYU ISLANDS
+2253,1995,10.0,18.0,27.929,130.175,JAPAN,Japan,Earthquake,7.1,28.0,1.5,,Limited (<$1 million),RYUKYU ISLANDS
+2242,1995,4.0,21.0,12.047,125.92,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.8,23.0,-2.0,,,SAMAR ISLAND
+2241,1995,4.0,21.0,12.059,125.58,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.2,21.0,-2.0,,,SAMAR ISLAND
+2228,1994,9.0,1.0,40.402,-125.68,USA,West Coast of North and Central America,Earthquake,7.0,10.0,-3.0,,Limited (<$1 million),N. CALIFORNIA
+2222,1993,11.0,13.0,51.934,158.64700000000002,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.0,34.0,-3.0,,,KAMCHATKA
+2220,1993,8.0,7.0,41.985,139.839,JAPAN,Japan,Earthquake,6.3,13.0,0.0,,,JAPAN
+2211,1992,7.0,18.0,39.419,143.33,JAPAN,Japan,Earthquake,7.0,29.0,-0.5,,,HONSHU ISLAND
+2207,1992,1.0,5.0,18.0,108.0,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,3.7,,0.0,,Limited (<$1 million),SOUTH CHINA SEA
+2206,1991,12.0,22.0,45.533,151.02100000000002,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.6,24.0,0.5,,,S. KURIL ISLANDS
+2205,1991,10.0,14.0,-9.094,158.442,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,23.0,-2.5,,,SOLOMON ISLANDS
+2201,1991,2.0,21.0,58.427,-175.45,USA,Alaska (including Aleutian Islands),Earthquake,6.7,20.0,0.0,,,"BERING SEA, AK"
+2200,1991,2.0,16.0,48.268,154.328,RUSSIA,Kamchatka and Kuril Islands,Earthquake,5.7,39.0,0.0,,,N. KURIL ISLANDS
+2199,1991,2.0,9.0,-9.929,159.139,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.9,10.0,0.0,,Limited (<$1 million),SOLOMON ISLANDS
+2191,1990,2.0,20.0,34.706,139.252,JAPAN,Japan,Earthquake,6.4,14.0,0.0,,,JAPAN
+2189,1989,10.0,29.0,39.571,143.333,JAPAN,Japan,Earthquake,6.5,10.0,0.0,,,N. HONSHU ISLAND
+2187,1989,9.0,4.0,55.543,-156.835,USA,Alaska (including Aleutian Islands),Earthquake,7.1,11.0,0.0,,,"SEMIDI ISLANDS, AK"
+2182,1988,6.0,24.0,18.606,121.013,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,5.4,53.0,0.0,,,NORTH OF LUZON ISLAND
+2180,1988,2.0,5.0,-24.753,-70.433,CHILE,West Coast of South America,Earthquake,7.2,37.0,0.0,,,NORTHERN CHILE
+2177,1987,11.0,17.0,58.586000000000006,-143.27,USA,Alaska (including Aleutian Islands),Earthquake,7.2,10.0,0.0,,,"GULF OF ALASKA, AK"
+2175,1987,10.0,12.0,-7.287999999999999,154.371,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,25.0,0.0,,,SOLOMON SEA
+2174,1987,10.0,6.0,-17.94,-172.225,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.3,16.0,0.0,,,TONGA ISLANDS
+2171,1987,3.0,24.0,37.447,137.865,JAPAN,Japan,Earthquake,5.1,23.0,0.0,,,HONSHU ISLAND
+2165,1986,5.0,17.0,52.327,-174.50400000000002,USA,Alaska (including Aleutian Islands),Earthquake,6.4,15.0,0.0,,,"ANDREANOF ISLANDS, AK"
+2156,1984,9.0,18.0,34.006,141.5,JAPAN,Japan,Earthquake,6.9,48.0,0.0,,,HONSHU ISLAND
+2153,1984,3.0,24.0,44.117,148.192,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.2,44.0,-2.0,,,S. KURIL ISLANDS
+2145,1983,6.0,21.0,41.346,139.099,JAPAN,Japan,Earthquake,6.9,10.0,0.0,,Limited (<$1 million),N. HONSHU ISLAND
+2144,1983,6.0,9.0,40.249,138.94799999999998,JAPAN,Japan,Earthquake,5.9,26.0,0.0,,,"NOSHIRO, JAPAN"
+2140,1983,3.0,12.0,-4.056,127.924,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.9,17.0,1.5,,,BANDA SEA
+2139,1982,12.0,28.0,33.826,139.434,JAPAN,Japan,Earthquake,6.4,22.0,-1.0,,,S. OF HONSHU ISLAND
+2134,1982,2.0,24.0,4.374,97.755,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,5.4,52.0,0.0,,,JAVA TRENCH
+2126,1981,1.0,18.0,38.64,142.75,JAPAN,Japan,Earthquake,6.9,,0.0,,,E. HONSHU ISLAND
+2123,1980,2.0,23.0,43.53,146.753,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.0,44.0,-2.0,,,S. KURIL ISLANDS
+2111,1979,2.0,28.0,60.691,-141.671,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,7.5,15.0,0.0,,Limited (<$1 million),"SE. ALASKA, AK"
+2108,1978,7.0,23.0,22.282,121.512,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.4,17.0,-1.0,,,TAIWAN
+2106,1978,6.0,14.0,8.249,122.403,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.9,24.0,0.0,,,"MINDANAO ISLAND, PHILIPPINES"
+2095,1977,10.0,10.0,-25.856,-175.40599999999998,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.2,33.0,-3.0,,,TONGA TRENCH
+2094,1977,8.0,28.0,-1.081,146.23,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,5.5,33.0,-0.5,,,ADMIRALTY ISLANDS
+2084,1976,1.0,21.0,44.915,149.123,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.0,41.0,-2.5,,,S. KURIL ISLANDS
+2075,1975,6.0,10.0,43.024,147.734,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.0,15.0,2.0,,Moderate (~$1 to $5 million),S. KURIL ISLANDS
+2074,1975,3.0,13.0,-29.9,-71.3,CHILE,West Coast of South America,Earthquake,6.9,4.0,0.0,Few (~1 to 50 people),Limited (<$1 million),CENTRAL CHILE
+2067,1974,9.0,27.0,43.2,146.7,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.7,43.0,-1.0,,,S. KURIL ISLANDS
+2066,1974,8.0,18.0,-38.5,-73.4,CHILE,West Coast of South America,Earthquake,7.1,36.0,0.0,,,SOUTHERN CHILE
+2063,1974,1.0,31.0,-7.5,155.9,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,34.0,1.0,,,SOLOMON ISLANDS
+2057,1972,12.0,29.0,-30.6,-71.0,CHILE,West Coast of South America,Earthquake,5.4,60.0,0.0,,,CENTRAL CHILE
+2051,1972,8.0,17.0,-6.0,152.9,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,10.0,0.0,,,SOLOMON SEA
+2048,1972,6.0,8.0,-30.5,-71.8,CHILE,West Coast of South America,Earthquake,6.6,39.0,0.0,,,CENTRAL CHILE
+2042,1971,11.0,6.0,51.5,179.1,USA,Alaska (including Aleutian Islands),Earthquake,5.7,21.0,0.0,,,"RAT ISLANDS, ALEUTIAN ISLANDS, AK"
+2040,1971,9.0,25.0,-6.5,146.6,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake and Landslide,7.0,115.0,0.5,,Limited (<$1 million),BISMARCK SEA
+2038,1971,9.0,8.0,46.4,141.1,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.6,6.0,-3.0,,,TATAR STRAIT
+2430,1971,9.0,6.0,46.7,141.4,RUSSIA,Kamchatka and Kuril Islands,Earthquake,5.5,29.0,0.0,,,TATAR STRAIT
+2036,1971,8.0,2.0,41.4,143.5,JAPAN,Japan,Earthquake,7.3,51.0,-0.5,,Limited (<$1 million),JAPAN TRENCH
+2031,1971,5.0,2.0,51.228,-177.173,USA,Alaska (including Aleutian Islands),Earthquake,7.1,30.0,-3.0,,,"ANDREANOF ISLANDS, AK"
+2030,1970,11.0,28.0,-20.94,-69.81,CHILE,West Coast of South America,Earthquake,6.0,33.0,0.0,,,NORTHERN CHILE
+2025,1970,7.0,25.0,32.2,131.7,JAPAN,Japan,Earthquake,7.0,34.0,0.0,,Limited (<$1 million),SEIKAIDO
+2023,1970,6.0,19.0,-22.28,-70.55,CHILE,West Coast of South America,Earthquake,6.4,44.0,0.0,,,NORTHERN CHILE
+2022,1970,6.0,14.0,-52.0,-73.8,CHILE,West Coast of South America,Earthquake,6.0,10.0,0.0,,,SOUTHERN CHILE
+2013,1969,4.0,21.0,32.2,132.1,JAPAN,Japan,Earthquake,6.5,41.0,-3.0,,,RYUKYU ISLANDS
+2004,1968,8.0,5.0,33.3,132.2,JAPAN,Japan,Earthquake,6.5,10.0,0.0,,,SEIKAIDO-NANKAIDO
+2267,1996,10.0,18.0,30.568,131.093,JAPAN,Japan,Earthquake,6.6,10.0,-2.5,,,KYUSHU ISLAND
+2210,1992,5.0,27.0,-11.122,165.239,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,19.0,0.0,,,SANTA CRUZ ISLANDS
+2157,1984,12.0,28.0,56.194,163.46,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.8,33.0,0.0,,,KAMCHATKA
+2026,1970,9.0,28.0,-44.64,173.62,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,5.1,,0.0,,,NEW ZEALAND
+2437,2004,9.0,5.0,33.184,137.071,JAPAN,Japan,Earthquake,7.4,10.0,0.0,,Limited (<$1 million),SOUTH COAST HONSHU ISLAND
+2436,2004,9.0,5.0,33.07,136.618,JAPAN,Japan,Earthquake,7.2,14.0,0.0,,Limited (<$1 million),SOUTH COAST HONSHU ISLAND
+2429,2003,11.0,17.0,51.146,178.65,USA,Alaska (including Aleutian Islands),Earthquake,7.8,33.0,0.0,,Limited (<$1 million),"RAT ISLANDS, ALEUTIAN ISLANDS, AK"
+2403,2003,5.0,21.0,36.964,3.634,ALGERIA,Mediterranean Sea,Earthquake,6.8,12.0,1.5,Very Many (~1001 or more people),Extreme (~$25 million or more),N. ALGERIA
+2402,2003,1.0,22.0,18.77,-104.104,MEXICO,West Coast of North and Central America,Earthquake,7.5,24.0,0.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),S. MEXICO
+2401,2003,1.0,20.0,-10.491,160.77,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,33.0,0.0,,,SOLOMON ISLANDS
+2400,2002,10.0,10.0,-1.757,134.297,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.6,10.0,2.82,Few (~1 to 50 people),Severe (~>$5 to $24 million),IRIAN JAYA
+2399,2002,9.0,13.0,13.036,93.068,INDIA,Indian Ocean (including west coast of Australia),Earthquake,6.5,21.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),"ANDAMAN ISLANDS, INDIA"
+2398,2002,9.0,8.0,-3.26,142.94,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.6,13.0,1.08,Few (~1 to 50 people),Severe (~>$5 to $24 million),BISMARCK SEA
+2396,2002,3.0,31.0,24.279,122.179,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.1,33.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),TAIWAN
+2394,2002,3.0,5.0,6.033,124.249,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.5,31.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),"MINDANAO ISLAND, PHILIPPINES"
+2397,2002,1.0,2.0,-17.6,167.856,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,21.0,-4.14,,Limited (<$1 million),VANUATU ISLANDS
+2352,2000,11.0,16.0,-4.001,152.327,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,8.0,17.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),BISMARCK SEA
+2340,2000,7.0,1.0,34.221,139.131,JAPAN,Japan,Earthquake,6.1,10.0,0.0,Few (~1 to 50 people),Limited (<$1 million),"KOZU-SHIMA ISLAND, HONSHU"
+2341,2000,6.0,18.0,-13.802,97.453,AUSTRALIA,Indian Ocean (including west coast of Australia),Earthquake,7.9,10.0,0.0,,,SOUTH INDIAN OCEAN
+2338,2000,5.0,4.0,-1.105,123.573,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.6,26.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),SULAWESI
+2277,1997,12.0,5.0,54.841,162.035,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.8,33.0,0.5,,,KAMCHATKA
+2274,1997,7.0,9.0,10.598,-63.486,VENEZUELA,Caribbean Sea,Earthquake,7.0,20.0,0.0,Some (~51 to 100 people),Extreme (~$25 million or more),CARIACO-CUMANA
+2273,1997,4.0,21.0,-12.584,166.676,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.7,33.0,-2.0,,Limited (<$1 million),SANTA CRUZ IS. VANUATU
+2269,1996,11.0,12.0,-14.993,-75.675,PERU,West Coast of South America,Earthquake,7.7,33.0,-1.0,Few (~1 to 50 people),Extreme (~$25 million or more),S. PERU
+2263,1996,6.0,10.0,51.56399999999999,-177.632,USA,Alaska (including Aleutian Islands),Earthquake,7.9,33.0,0.5,,,"ANDREANOF ISLANDS, AK"
+2257,1995,12.0,3.0,44.663,149.3,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.9,33.0,0.5,,,S. KURIL ISLANDS
+2256,1995,11.0,22.0,28.826,34.799,EGYPT,Red Sea and Persian Gulf,Earthquake,7.2,10.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),GULF OF ELAT-AQABA
+2251,1995,9.0,14.0,16.779,-98.597,MEXICO,West Coast of North and Central America,Earthquake,7.4,23.0,-1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. MEXICO
+2250,1995,8.0,16.0,-5.799,154.178,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.7,30.0,-1.5,,Limited (<$1 million),SOLOMON SEA
+2249,1995,7.0,30.0,-23.34,-70.294,CHILE,West Coast of South America,Earthquake,8.0,46.0,1.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTHERN CHILE
+2248,1995,6.0,15.0,38.401,22.283,GREECE,Mediterranean Sea,Earthquake and Landslide,6.5,14.0,3.0,Few (~1 to 50 people),Extreme (~$25 million or more),GULF OF CORINTH: AIYION
+2247,1995,5.0,27.0,52.629,142.827,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.1,11.0,-2.0,Very Many (~1001 or more people),Extreme (~$25 million or more),SAKHALIN ISLAND
+2246,1995,5.0,16.0,-23.008000000000003,169.9,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.7,20.0,-2.0,,,LOYALTY ISLANDS
+2240,1995,4.0,7.0,-15.199000000000002,-173.52900000000002,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.4,21.0,-1.5,,,SAMOA ISLANDS
+2236,1995,1.0,16.0,34.583,135.018,JAPAN,Japan,Earthquake,6.9,22.0,-2.0,Very Many (~1001 or more people),Extreme (~$25 million or more),"KOBE, JAPAN"
+2235,1994,12.0,28.0,40.525,143.41899999999998,JAPAN,Japan,Earthquake,7.8,27.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),"TOHUKU, JAPAN"
+2230,1994,10.0,4.0,43.773,147.321,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.3,14.0,2.6,Few (~1 to 50 people),Severe (~>$5 to $24 million),S. KURIL ISLANDS
+2224,1994,1.0,21.0,1.015,127.733,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.0,20.0,1.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),HALMAHERA
+2223,1994,1.0,17.0,34.213,-118.537,USA,West Coast of North and Central America,Earthquake,6.7,18.0,-3.0,Some (~51 to 100 people),Extreme (~$25 million or more),"WEST COAST, USA"
+2221,1993,8.0,8.0,12.982,144.80100000000002,USA TERRITORY,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,59.0,0.0,,Extreme (~$25 million or more),"GUAM, MARIANA ISLANDS"
+2218,1993,6.0,8.0,51.218,157.829,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.5,71.0,-0.5,,,KAMCHATKA
+2215,1993,2.0,7.0,37.634,137.245,JAPAN,Japan,Earthquake,6.3,11.0,-0.5,,,HONSHU ISLAND
+2209,1992,5.0,17.0,7.191,126.762,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,33.0,0.0,,Limited (<$1 million),PHILIPPINES
+2208,1992,4.0,25.0,40.368,-124.316,USA,West Coast of North and Central America,Earthquake,7.2,15.0,0.5,,Extreme (~$25 million or more),"CAPE MENDOCINO, N. CALIFORNIA"
+2197,1990,12.0,13.0,37.3,15.438,ITALY,Mediterranean Sea,Earthquake,5.3,11.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),EASTERN SICILY
+2194,1990,4.0,5.0,15.125,147.596,USA TERRITORY,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.5,11.0,0.0,,,"MARIANA TRENCH, N. MARIANA ISLANDS"
+2192,1990,3.0,25.0,9.919,-84.80799999999999,COSTA RICA,West Coast of North and Central America,Earthquake,7.0,22.0,0.0,,Moderate (~$1 to $5 million),COSTA RICA
+2190,1989,11.0,1.0,39.837,142.76,JAPAN,Japan,Earthquake,7.4,29.0,0.0,,,JAPAN
+2188,1989,10.0,18.0,37.036,-121.883,USA,West Coast of North and Central America,Earthquake,6.9,19.0,0.0,Some (~51 to 100 people),Extreme (~$25 million or more),N. CALIFORNIA
+2186,1989,6.0,26.0,19.362,-155.083,USA,"Hawaii, Johnston Atoll, Midway I",Earthquake and Landslide,6.5,9.0,0.0,,,HAWAII
+2185,1989,5.0,23.0,-52.341,160.56799999999998,AUSTRALIA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.1,10.0,0.0,,,MACQUARIE ISLAND
+2183,1988,7.0,5.0,-5.964,148.78,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.8,53.0,0.0,,,PAPUA NEW GUINEA
+2181,1988,3.0,6.0,57.262,-142.747,USA,Alaska (including Aleutian Islands),Earthquake,7.8,15.0,0.0,,Limited (<$1 million),"GULF OF ALASKA, AK"
+2179,1987,11.0,30.0,58.679,-142.786,USA,Alaska (including Aleutian Islands),Earthquake,7.9,10.0,0.0,,Limited (<$1 million),"GULF OF ALASKA, AK"
+2176,1987,10.0,16.0,-6.266,149.06,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.4,48.0,0.0,,Moderate (~$1 to $5 million),SOLOMON SEA
+2170,1987,3.0,18.0,32.034,131.83700000000002,JAPAN,Japan,Earthquake,6.7,54.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),KYUSHU ISLAND
+2169,1987,3.0,5.0,-24.388,-70.161,CHILE,West Coast of South America,Earthquake,7.6,62.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTHERN CHILE
+2168,1987,2.0,8.0,-6.087999999999999,147.689,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.4,55.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),SOLOMON SEA
+2166,1986,10.0,20.0,-28.117,-176.36700000000002,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,29.0,0.0,,,KERMADEC ISLANDS
+2164,1986,5.0,7.0,51.52,-174.77599999999998,USA,Alaska (including Aleutian Islands),Earthquake,8.0,31.0,0.0,,Moderate (~$1 to $5 million),"ANDREANOF ISLANDS, AK"
+2163,1985,9.0,21.0,17.802,-101.647,MEXICO,West Coast of North and Central America,Earthquake,7.6,31.0,0.0,,,MEXICO
+2162,1985,9.0,19.0,18.19,-102.533,MEXICO,West Coast of North and Central America,Earthquake,8.0,28.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),MEXICO
+2161,1985,7.0,3.0,-4.439,152.828,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake and Landslide,7.3,46.0,0.0,,Moderate (~$1 to $5 million),NEW IRELAND
+2160,1985,4.0,13.0,-9.245,114.185,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.2,99.0,0.0,,,BALI ISLAND
+2159,1985,3.0,16.0,17.012999999999998,-62.448,GUADELOUPE (FRENCH TERRITORY),Caribbean Sea,Earthquake,6.4,13.0,0.0,,Moderate (~$1 to $5 million),GUADELOUPE
+2158,1985,3.0,3.0,-33.132,-71.708,CHILE,West Coast of South America,Earthquake,8.0,33.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),CENTRAL CHILE
+2155,1984,8.0,6.0,32.386,131.945,JAPAN,Japan,Earthquake,7.0,46.0,0.0,,,"KYUSHU, JAPAN"
+2151,1984,1.0,8.0,-2.823,118.806,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.8,33.0,0.0,Few (~1 to 50 people),Limited (<$1 million),SULAWESI
+2150,1983,11.0,30.0,-6.852,72.11,UK TERRITORY,Indian Ocean (including west coast of Australia),Earthquake,7.7,10.0,0.0,,Limited (<$1 million),CHAGOS ARCHIPELAGO REGION
+2149,1983,10.0,4.0,-26.535,-70.563,CHILE,West Coast of South America,Earthquake,7.7,15.0,0.2,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTHERN CHILE
+2148,1983,8.0,17.0,18.231,120.86,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.6,29.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),LUZON ISLAND
+2146,1983,8.0,6.0,40.142,24.766,GREECE,Mediterranean Sea,Earthquake,7.0,2.0,2.0,,Limited (<$1 million),NORTH AEGEAN SEA
+2141,1983,3.0,18.0,-4.883,153.58100000000002,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,89.0,0.0,,Moderate (~$1 to $5 million),NEW BRITAIN
+2137,1982,12.0,19.0,-24.133000000000003,-175.864,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.5,33.0,0.0,,,KERMADEC ISLANDS
+2135,1982,3.0,21.0,42.158,142.361,JAPAN,Japan,Earthquake,6.9,44.0,0.0,,,HOKKAIDO ISLAND
+2132,1981,10.0,25.0,18.084,-102.084,MEXICO,West Coast of North and Central America,Earthquake,7.3,28.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),MEXICO
+2130,1981,5.0,25.0,-48.786,164.357,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.6,33.0,0.0,,,NEW ZEALAND
+2128,1981,2.0,24.0,38.222,22.934,GREECE,Mediterranean Sea,Earthquake,6.7,33.0,3.0,Few (~1 to 50 people),Extreme (~$25 million or more),ATHENS-EASTERN GULF OF CORINTH
+2125,1980,7.0,17.0,-12.525,165.916,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,33.0,0.0,,,SOLOMON ISLANDS
+2124,1980,6.0,29.0,34.808,139.181,JAPAN,Japan,Earthquake,6.2,15.0,0.0,,Moderate (~$1 to $5 million),HONSHU ISLAND
+2121,1979,11.0,16.0,-16.76,179.984,FIJI,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.9,33.0,0.0,,Moderate (~$1 to $5 million),FIJI ISLANDS
+2113,1979,4.0,15.0,42.096,19.209,MONTENEGRO,Mediterranean Sea,Earthquake,6.9,10.0,1.0,Many (~101 to 1000 people),Extreme (~$25 million or more),MONTENEGRO
+2112,1979,3.0,14.0,17.813,-101.276,MEXICO,West Coast of North and Central America,Earthquake,7.6,49.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),S. MEXICO
+2109,1978,11.0,29.0,16.01,-96.591,MEXICO,West Coast of North and Central America,Earthquake,7.8,18.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),MEXICO
+2107,1978,6.0,20.0,40.739,23.229,GREECE,Mediterranean Sea,Earthquake,6.4,3.0,2.0,Few (~1 to 50 people),Extreme (~$25 million or more),"THESSALONIKI (SALONICA), GREECE"
+2105,1978,6.0,12.0,38.19,142.03,JAPAN,Japan,Earthquake,7.7,44.0,0.5,Few (~1 to 50 people),Extreme (~$25 million or more),SANRIKU
+2103,1978,3.0,24.0,44.244,148.862,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.6,33.0,0.0,,,S. KURIL ISLANDS
+2101,1978,3.0,23.0,44.932,148.439,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.5,33.0,0.0,,,S. KURIL ISLANDS
+2099,1978,3.0,23.0,44.209,148.971,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.8,46.0,-1.5,,,S. KURIL ISLANDS
+2096,1978,1.0,14.0,34.809,139.259,JAPAN,Japan,Earthquake,6.6,,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),TOKAIDO
+2091,1977,6.0,22.0,-22.878,-175.9,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.2,65.0,0.0,,,TONGA TRENCH
+2090,1977,4.0,21.0,-9.965,160.731,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,8.1,33.0,-1.5,Few (~1 to 50 people),Severe (~>$5 to $24 million),SOLOMON ISLANDS
+2088,1977,4.0,2.0,-16.695999999999998,-172.095,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.6,33.0,-2.0,,Limited (<$1 million),SAMOA ISLANDS
+2085,1976,2.0,4.0,15.324000000000002,-89.101,GUATEMALA,Caribbean Sea,Earthquake,7.5,5.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),GUATEMALA
+2083,1976,1.0,14.0,-28.427,-177.657,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.0,33.0,0.0,,,KERMADEC ISLANDS
+2081,1975,12.0,26.0,-16.265,-172.467,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,33.0,0.0,,,SAMOA ISLANDS
+2076,1975,7.0,20.0,-6.59,155.054,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,49.0,1.0,,Severe (~>$5 to $24 million),SOLOMON SEA
+2072,1975,1.0,15.0,-5.0,130.0,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,5.9,33.0,0.0,,Limited (<$1 million),BANDA SEA
+2071,1974,12.0,28.0,35.1,72.9,PAKISTAN,Indian Ocean (including west coast of Australia),Earthquake,6.2,22.0,0.0,Very Many (~1001 or more people),Moderate (~$1 to $5 million),PAKISTAN
+2068,1974,10.0,3.0,-12.27,-77.79,PERU,West Coast of South America,Earthquake,8.1,13.0,1.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),CENTRAL PERU
+2065,1974,5.0,8.0,34.6,138.7,JAPAN,Japan,Earthquake,6.7,2.0,-2.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),TOKAIDO
+2062,1973,10.0,5.0,-32.5,-71.5,CHILE,West Coast of South America,Earthquake,6.7,14.0,-1.0,,,CENTRAL CHILE
+2061,1973,6.0,24.0,43.3,146.4,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.1,50.0,0.0,,Limited (<$1 million),S. KURIL ISLANDS
+2060,1973,6.0,17.0,43.2,145.8,JAPAN,Japan,Earthquake,7.7,48.0,1.0,,Moderate (~$1 to $5 million),HOKKAIDO ISLAND
+2059,1973,2.0,28.0,50.5,156.6,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.2,27.0,0.5,,,N. KURIL ISLANDS
+2058,1973,1.0,30.0,18.48,-103.0,MEXICO,West Coast of North and Central America,Earthquake,7.5,43.0,0.0,Some (~51 to 100 people),Moderate (~$1 to $5 million),S. MEXICO
+2056,1972,12.0,4.0,33.3,140.7,JAPAN,Japan,Earthquake,7.4,66.0,-1.0,,Limited (<$1 million),CHICHI JIMA
+2055,1972,12.0,2.0,6.5,126.6,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.4,33.0,0.0,,Limited (<$1 million),"MINDANAO ISLAND, PHILIPPINES"
+2049,1972,7.0,30.0,56.82,-135.685,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,7.6,25.0,-2.0,,Limited (<$1 million),"SE. ALASKA, AK"
+2046,1972,2.0,29.0,33.3,140.8,JAPAN,Japan,Earthquake,7.4,56.0,0.5,,,EAST OFF HACHIJO ISLAND
+2045,1972,1.0,25.0,22.5,122.3,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.5,33.0,-2.0,Few (~1 to 50 people),Limited (<$1 million),E. TAIWAN
+2044,1971,12.0,15.0,56.0,163.3,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.8,33.0,0.0,,,KAMCHATKA
+2431,1971,9.0,5.0,46.5,141.2,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.1,9.0,1.0,,Limited (<$1 million),TATAR STRAIT
+2035,1971,7.0,26.0,-4.9,153.2,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,48.0,1.5,,Moderate (~$1 to $5 million),SOLOMON SEA
+2033,1971,7.0,9.0,-32.5,-71.2,CHILE,West Coast of South America,Earthquake,7.8,58.0,0.0,Some (~51 to 100 people),Extreme (~$25 million or more),CENTRAL CHILE
+2027,1970,9.0,30.0,20.6,122.0,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,5.3,33.0,0.5,,Moderate (~$1 to $5 million),PHILIPPINE TRENCH
+2021,1970,5.0,31.0,-9.2,-78.8,PERU,West Coast of South America,Earthquake,7.9,43.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),N. PERU
+2020,1970,4.0,7.0,15.78,121.71,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,40.0,1.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),PHILIPPINE SEA
+2019,1970,1.0,10.0,6.8,126.7,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.6,73.0,0.0,,,PHILIPPINE TRENCH
+2018,1969,12.0,25.0,15.8,-59.7,GUADELOUPE (FRENCH TERRITORY),Caribbean Sea,Earthquake,7.2,7.0,0.0,,,GRAND BOURG
+2016,1969,11.0,22.0,57.7,163.6,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.7,51.0,3.0,,Limited (<$1 million),KAMCHATKA
+2015,1969,8.0,11.0,43.6,147.9,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.2,30.0,2.0,,Limited (<$1 million),S. KURIL ISLANDS
+2012,1969,2.0,28.0,36.017,-10.95,PORTUGAL,Northeast Atlantic Ocean,Earthquake,7.8,22.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),PORTUGAL
+2010,1968,9.0,25.0,15.6,-92.6,MEXICO,West Coast of North and Central America,Earthquake,7.0,138.0,1.0,Few (~1 to 50 people),,S. MEXICO-GUATEMALA-NICARAGUA
+2009,1968,9.0,20.0,10.5,-62.6,VENEZUELA,Caribbean Sea,Earthquake,6.2,107.0,0.0,,,CARUPANO
+2006,1968,8.0,10.0,1.4,126.2,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.6,25.0,1.0,,Limited (<$1 million),N. MOLUCCAS ISLANDS
+2002,1968,7.0,25.0,-30.8,-178.4,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.3,60.0,0.0,,,KERMADEC ISLANDS
+2001,1968,6.0,12.0,39.4,143.1,JAPAN,Japan,Earthquake,7.2,44.0,0.0,,,SANRIKU
+2438,1968,5.0,16.0,41.5,142.7,JAPAN,Japan,Earthquake,7.5,33.0,-0.5,,,OFF COAST OF HONSHU ISLAND
+2425,1966,12.0,31.0,-11.893,166.445,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.8,83.0,1.0,,,SANTA CRUZ ISLANDS
+2302,1966,7.0,12.0,44.75,37.0,RUSSIA,Black Sea and Caspian Sea,Earthquake,5.5,,1.0,,,BLACK SEA
+2371,1959,8.0,18.0,44.712,-111.215,USA,West Coast of North and Central America,Earthquake and Landslide,7.5,5.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),"HEGBEN LAKE, MONTANA"
+2336,1953,4.0,23.0,-4.449,152.868,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.4,35.0,0.0,,Limited (<$1 million),"RABAUL, NEW BRITAIN"
+2299,1927,9.0,11.0,44.4,34.5,UKRAINE,Black Sea and Caspian Sea,Earthquake,6.8,17.0,2.0,Few (~1 to 50 people),Extreme (~$25 million or more),"CRIMEA, BLACK SEA"
+2325,1912,8.0,9.0,40.5,27.2,TURKEY,Mediterranean Sea,Earthquake,7.8,60.0,0.0,,,MARMARA SEA
+2465,1931,8.0,19.0,39.35,-74.417,USA,"East Coast USA and Canada, St Pierre and Miquelon",Meteorological,0.0,,0.0,Few (~1 to 50 people),,"ATLANTIC CITY, NJ"
+2120,1979,10.0,16.0,43.7,7.25,FRANCE,Mediterranean Sea,Landslide,0.0,,0.0,Few (~1 to 50 people),Limited (<$1 million),FRENCH RIVIERA (LIGURIAN SEA)
+2233,1994,11.0,4.0,59.5,-135.3,USA,Alaska (including Aleutian Islands),Landslide,0.0,,2.5,Few (~1 to 50 people),Extreme (~$25 million or more),"SKAGWAY, AK"
+2456,1923,8.0,6.0,40.6,-73.5,USA,"East Coast USA and Canada, St Pierre and Miquelon",Unknown,0.0,,0.0,Few (~1 to 50 people),,"ROCKAWAY BEACH, NY"
+2461,1954,6.0,26.0,41.7,-86.883,USA,"East Coast USA and Canada, St Pierre and Miquelon",Meteorological,0.0,,0.0,Few (~1 to 50 people),,"MICHIGAN CITY, IN (LAKE MICHIGAN)"
+2406,2003,9.0,25.0,41.815,143.91,JAPAN,Japan,Earthquake,8.3,27.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),HOKKAIDO ISLAND
+2373,2001,6.0,23.0,-16.265,-73.641,PERU,West Coast of South America,Earthquake,8.4,33.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),S. PERU
+2339,1999,11.0,26.0,-16.423,168.21400000000003,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,33.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),VANUATU ISLANDS
+2261,1996,2.0,21.0,-9.593,-79.587,PERU,West Coast of South America,Earthquake,7.5,10.0,1.9,Few (~1 to 50 people),Limited (<$1 million),N. PERU
+2259,1996,1.0,1.0,0.7290000000000001,119.931,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.9,24.0,1.8,Few (~1 to 50 people),Moderate (~$1 to $5 million),SULAWESI
+2252,1995,10.0,9.0,19.055,-104.205,MEXICO,West Coast of North and Central America,Earthquake,8.0,33.0,2.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),S. MEXICO
+2245,1995,5.0,14.0,-8.452,125.049,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake and Landslide,6.9,13.0,1.5,Few (~1 to 50 people),Limited (<$1 million),TIMOR SEA
+2231,1994,10.0,8.0,-1.258,127.98,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.8,17.0,1.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),HALMAHERA
+2202,1991,4.0,22.0,9.685,-83.073,COSTA RICA,Caribbean Sea,Earthquake,7.6,10.0,0.0,Some (~51 to 100 people),Extreme (~$25 million or more),"LIMON, PANDORA"
+2184,1988,8.0,10.0,-10.258,160.89600000000002,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.6,36.0,0.0,Few (~1 to 50 people),Limited (<$1 million),SOLOMON ISLANDS
+2372,1988,8.0,6.0,25.149,95.127,BANGLADESH,Indian Ocean (including west coast of Australia),Earthquake,7.2,91.0,0.0,Few (~1 to 50 people),,"JAMUNA RIVER, ARICHA, BANGLADESH"
+2131,1981,9.0,1.0,-14.96,-173.085,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.7,25.0,-2.0,Few (~1 to 50 people),Limited (<$1 million),SAMOA ISLANDS
+2080,1975,11.0,29.0,19.451,-155.033,USA,"Hawaii, Johnston Atoll, Midway I",Earthquake and Landslide,7.7,2.0,3.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),HAWAII
+2079,1975,10.0,31.0,12.54,125.993,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.6,50.0,-1.5,Few (~1 to 50 people),Limited (<$1 million),PHILIPPINE TRENCH
+2034,1971,7.0,14.0,-5.5,153.9,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,47.0,1.0,Few (~1 to 50 people),Limited (<$1 million),SOLOMON SEA
+2028,1970,10.0,31.0,-4.907,145.471,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake and Landslide,7.3,8.0,0.5,Few (~1 to 50 people),Moderate (~$1 to $5 million),PAPUA NEW GUINEA
+2003,1968,8.0,1.0,16.5,122.2,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,36.0,0.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),E. LUZON ISLAND
+2119,1979,9.0,12.0,-1.679,136.04,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.9,5.0,0.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),IRIAN JAYA
+2234,1994,11.0,14.0,13.525,121.067,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.1,32.0,2.1,Some (~51 to 100 people),Moderate (~$1 to $5 million),PHILIPPINE ISLANDS
+2142,1983,5.0,26.0,40.462,139.102,JAPAN,Japan,Earthquake,7.8,24.0,2.0,Many (~101 to 1000 people),Extreme (~$25 million or more),"NOSHIRO, JAPAN"
+2007,1968,8.0,14.0,0.2,119.8,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.8,23.0,2.5,Many (~101 to 1000 people),Severe (~>$5 to $24 million),BANDA SEA
+2326,1999,8.0,17.0,40.76,29.97,TURKEY,Mediterranean Sea,Earthquake,7.6,13.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),"KOCAELI, TURKEY"
+2260,1996,2.0,17.0,-0.8909999999999999,136.952,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,8.2,33.0,1.8,Many (~101 to 1000 people),Moderate (~$1 to $5 million),IRIAN JAYA
+2227,1994,6.0,2.0,-10.477,112.835,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.8,18.0,2.5,Many (~101 to 1000 people),Moderate (~$1 to $5 million),SOUTH OF JAVA
+2219,1993,7.0,12.0,42.851000000000006,139.197,JAPAN,Japan,Earthquake,7.7,17.0,3.1,Many (~101 to 1000 people),Extreme (~$25 million or more),SEA OF JAPAN
+2213,1992,9.0,2.0,11.727,-87.38600000000001,NICARAGUA,West Coast of North and Central America,Earthquake,7.7,40.0,2.8,Many (~101 to 1000 people),Extreme (~$25 million or more),NICARAGUA
+2122,1979,12.0,12.0,1.598,-79.358,COLOMBIA,West Coast of South America,Earthquake,7.7,24.0,2.5,Many (~101 to 1000 people),Severe (~>$5 to $24 million),"COLOMBIA: OFF SHORE, PACIFIC OCEAN"
+2092,1977,8.0,19.0,-11.085,118.464,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,8.0,33.0,3.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),SUNDA ISLANDS
+2011,1969,2.0,23.0,-3.1,118.9,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.9,13.0,2.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),MAKASSAR STRAIT
+2086,1976,8.0,16.0,6.292000000000001,124.09,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,8.0,33.0,2.5,Very Many (~1001 or more people),Extreme (~$25 million or more),MORO GULF
+2214,1992,12.0,12.0,-8.48,121.896,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.8,28.0,2.7,Very Many (~1001 or more people),Extreme (~$25 million or more),FLORES SEA
+2281,1998,7.0,17.0,-2.943,142.582,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake and Landslide,7.0,25.0,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),PAPUA NEW GUINEA
+2439,2004,12.0,26.0,3.3160000000000003,95.854,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,9.1,30.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),OFF W. COAST OF SUMATRA
+2115,1979,7.0,18.0,-8.6,123.5,INDONESIA,Indian Ocean (including west coast of Australia),Landslide,0.0,,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),LOMBLEN ISLAND [LEMBATA]
+2466,2005,1.0,19.0,34.064,141.491,JAPAN,Japan,Earthquake,6.6,28.0,0.0,,,E. HONSHU ISLAND
+2507,2005,4.0,10.0,-1.644,99.607,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.7,19.0,0.0,,,KEPULAUAN MENTAWAI
+2487,2005,3.0,28.0,2.085,97.108,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,8.6,30.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),INDONESIA
+2547,2005,6.0,15.0,41.301,-125.97,USA,West Coast of North and Central America,Earthquake,7.2,10.0,0.0,,,N. CALIFORNIA
+2548,2005,8.0,16.0,38.276,142.039,JAPAN,Japan,Earthquake,7.2,36.0,0.0,,Limited (<$1 million),E. COAST HONSHU ISLAND
+2568,1977,4.0,20.0,-9.89,160.34799999999998,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.6,19.0,0.0,,Limited (<$1 million),SOLOMON ISLANDS
+2567,1975,5.0,26.0,35.997,-17.649,ATLANTIC OCEAN,Northeast Atlantic Ocean,Earthquake,7.7,33.0,0.0,,Limited (<$1 million),AZORES GIBRALTAR FRACTURE ZONE
+2569,1978,3.0,22.0,44.14,149.029,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.6,33.0,-3.0,,,S. KURIL ISLANDS
+2591,1988,4.0,20.0,38.4,14.967,ITALY,Mediterranean Sea,Landslide,0.0,,0.0,,,"LA FOSSA VOLCANO, VULCANO IS."
+2587,1998,3.0,25.0,-62.877,149.52700000000002,ANTARCTICA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.1,10.0,0.0,,,BALLENY ISLANDS
+2588,1998,11.0,29.0,-2.071,124.891,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.7,33.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),"TALIABU ISLAND,"
+2589,1982,1.0,11.0,13.752,124.358,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.1,46.0,0.0,,,PHILIPPINES
+2590,2005,11.0,14.0,38.107,144.89600000000002,JAPAN,Japan,Earthquake,7.0,11.0,0.0,,,E. COAST HONSHU ISLAND
+2627,1906,1.0,31.0,10.5,-66.916,VENEZUELA,Caribbean Sea,Earthquake,0.0,,0.0,,,CARACAS
+2592,1994,6.0,3.0,-10.362,112.892,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.6,26.0,0.0,,,SOUTH OF JAVA
+2593,1994,6.0,5.0,-10.341,113.369,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.1,17.0,0.0,,,SOUTH OF JAVA
+2693,2004,11.0,21.0,15.679,-61.706,GUADELOUPE (FRENCH TERRITORY),Caribbean Sea,Earthquake,6.3,14.0,0.0,,,"BASSE-TERRE, LES SAINTES"
+2694,2003,7.0,12.0,16.722,-62.18,MONTSERRAT,Caribbean Sea,Volcano,0.0,,0.0,,Limited (<$1 million),SOUFRIERE HILLS VOLCANO
+2749,2006,5.0,3.0,-20.187,-174.123,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.0,55.0,0.0,,Limited (<$1 million),TONGA
+2771,1934,6.0,3.0,66.0,-18.25,ICELAND,Northeast Atlantic Ocean,Earthquake,0.0,,0.0,,,ICELAND
+2772,1903,2.0,10.0,14.0,143.3,USA TERRITORY,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,0.0,,2.0,,Limited (<$1 million),"GUAM, MARIANA ISLANDS"
+2812,1900,8.0,11.0,58.6,-137.5,USA,Alaska (including Aleutian Islands),Earthquake and Landslide,0.0,,0.0,Few (~1 to 50 people),Limited (<$1 million),"LITUYA BAY, AK"
+2792,1917,12.0,6.0,44.633,-63.583,CANADA,"East Coast USA and Canada, St Pierre and Miquelon",Explosion,0.0,,0.0,Very Many (~1001 or more people),,"HALIFAX, NOVA SCOTIA"
+2832,2006,7.0,17.0,-9.254,107.411,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.7,34.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),SOUTH OF JAVA
+2881,1902,5.0,5.0,14.82,-61.17,MARTINIQUE (FRENCH TERRITORY),Caribbean Sea,Volcano and Landslide,0.0,,0.0,Few (~1 to 50 people),,MOUNT PELEE
+2873,1902,5.0,7.0,13.33,-61.18,SAINT VINCENT AND THE GRENADINES,Caribbean Sea,Volcano,0.0,,0.0,Very Many (~1001 or more people),,SOUFRIERE VOLCANO
+2920,1991,1.0,4.0,37.7,26.3,GREECE,Mediterranean Sea,Unknown,0.0,,0.0,,,EAST AEGEAN SEA
+2879,1975,4.0,27.0,53.98,-128.68,CANADA,West Coast of North and Central America,Landslide,0.0,,0.0,,Moderate (~$1 to $5 million),"KITIMAT INLET, BRITISH COLUMBIA"
+2878,1968,5.0,4.0,-27.15,-109.45,CHILE,West Coast of South America,Unknown,0.0,,0.0,,Limited (<$1 million),EASTER ISLAND REGION
+2923,2002,12.0,30.0,38.789,15.213,ITALY,Mediterranean Sea,Volcano and Landslide,0.0,,5.0,,Moderate (~$1 to $5 million),STROMBOLI ISLAND
+2880,1999,1.0,20.0,16.722,-62.18,MONTSERRAT,Caribbean Sea,Volcano,0.0,,0.0,,,SOUFRIERE HILLS VOLCANO
+2877,2006,5.0,20.0,16.722,-62.18,MONTSERRAT,Caribbean Sea,Volcano,0.0,,0.0,,Limited (<$1 million),SOUFRIERE HILLS VOLCANO
+2913,1978,6.0,21.0,42.0,16.0,ITALY,Mediterranean Sea,Unknown,0.0,,4.0,,Limited (<$1 million),"EASTERN ITALY, ADRIATIC SEA"
+3016,2006,11.0,15.0,46.592,153.266,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.3,10.0,0.0,,Moderate (~$1 to $5 million),S. KURIL ISLANDS
+3015,2003,12.0,27.0,-22.107,169.35,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.1,10.0,0.0,,,LOYALTY ISLANDS
+3012,2004,11.0,2.0,49.277,-128.77200000000002,CANADA,West Coast of North and Central America,Earthquake,6.6,10.0,0.0,,,VANCOUVER ISLAND
+2972,2006,9.0,28.0,-16.592,-172.033,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.9,28.0,0.0,,,SAMOA ISLANDS
+2922,2000,4.0,5.0,34.22,25.69,GREECE,Mediterranean Sea,Earthquake and Landslide,5.5,38.0,0.0,,,CRETE
+2917,1983,1.0,17.0,38.026,20.228,GREECE,Mediterranean Sea,Earthquake,7.2,,0.0,,,IONIAN SEA
+2915,1979,5.0,15.0,34.53,24.437,GREECE,Mediterranean Sea,Earthquake,5.6,33.0,1.0,,,CRETE
+2914,1979,4.0,9.0,41.956,19.023,MONTENEGRO,Mediterranean Sea,Earthquake,5.3,10.0,0.0,,,MONTENEGRO: BAR ULCINJ
+2892,1906,2.0,21.0,3.9,-77.033,COLOMBIA,West Coast of South America,Earthquake,0.0,,0.0,,,BUENAVENTURA
+3014,2004,12.0,23.0,-49.312,161.345,AUSTRALIA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.1,10.0,0.0,,,MACQUARIE ISLAND
+2921,2004,11.0,28.0,43.006,145.119,JAPAN,Japan,Earthquake,7.0,39.0,0.0,,Moderate (~$1 to $5 million),HOKKAIDO ISLAND
+3013,2004,11.0,11.0,-8.152000000000001,124.868,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.5,10.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),KEPULAUAN ALOR
+2953,2003,8.0,21.0,-45.104,167.144,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,7.2,28.0,0.0,,Limited (<$1 million),SOUTH ISLAND
+2919,1989,10.0,29.0,36.788,2.448,ALGERIA,Mediterranean Sea,Earthquake,5.9,,0.0,,,"ALGIERS, CHERCHELL, TIPAZA"
+2916,1980,10.0,10.0,36.195,1.354,ALGERIA,Mediterranean Sea,Earthquake and Landslide,7.7,10.0,2.0,Very Many (~1001 or more people),Extreme (~$25 million or more),EL ASNAM
+2875,2006,3.0,14.0,-3.595,127.214,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,6.7,30.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),SERAM ISLAND
+2872,1969,3.0,21.0,19.077,122.202,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Volcano,0.0,,0.0,Few (~1 to 50 people),,LUZON ISLAND
+3042,1965,3.0,9.0,39.4,24.0,GREECE,Mediterranean Sea,Earthquake,6.3,18.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),AEGEAN SEA
+3019,2007,1.0,13.0,46.243,154.524,RUSSIA,Kamchatka and Kuril Islands,Earthquake,8.1,10.0,0.0,,,S. KURIL ISLANDS
+3018,1980,5.0,18.0,46.2,-122.18,USA,West Coast of North and Central America,Volcano,0.0,,0.0,Some (~51 to 100 people),,WASHINGTON
+3038,2007,3.0,25.0,-20.617,169.357,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,34.0,0.0,,,VANUATU ISLANDS
+3035,2007,3.0,25.0,37.336,136.588,JAPAN,Japan,Earthquake,6.7,8.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),HONSHU: W COAST
+3034,1997,9.0,30.0,31.959,141.878,JAPAN,Japan,Earthquake,6.2,10.0,0.0,,,S. OF HONSHU ISLAND
+3033,1966,12.0,31.0,-12.334,166.68400000000003,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,23.0,0.0,,,SANTA CRUZ ISLANDS
+3017,2006,10.0,15.0,19.878,-155.935,USA,"Hawaii, Johnston Atoll, Midway I",Earthquake,6.7,39.0,0.0,,Moderate (~$1 to $5 million),HAWAII
+3037,2007,4.0,1.0,-8.46,157.04399999999998,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,8.1,10.0,0.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),SOLOMON ISLANDS
+3147,1916,7.0,3.0,38.817,15.233,ITALY,Mediterranean Sea,Earthquake,5.1,,4.0,,Limited (<$1 million),STROMBOLI ISLAND
+3156,2007,8.0,2.0,51.307,-179.97099999999998,USA,Alaska (including Aleutian Islands),Earthquake,6.7,21.0,0.0,,,"ALEUTIAN ISLANDS, AK"
+3155,2007,8.0,2.0,47.11600000000001,141.798,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.2,5.0,0.0,Few (~1 to 50 people),Limited (<$1 million),TATAR STRAIT
+3145,1951,2.0,22.0,-3.252,142.238,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.1,25.0,0.0,,Limited (<$1 million),BISMARCK SEA
+3104,2007,7.0,16.0,37.57,138.47799999999998,JAPAN,Japan,Earthquake,6.6,10.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),HONSHU: W COAST
+3073,1970,5.0,14.0,43.0,47.1,RUSSIA,Black Sea and Caspian Sea,Earthquake,6.5,44.0,0.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),CASPIAN SEA
+3052,1930,5.0,5.0,17.3,96.5,MYANMAR (BURMA),Indian Ocean (including west coast of Australia),Earthquake,7.3,,0.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),MYANMAR COAST
+3044,2007,4.0,21.0,-45.285,-72.60600000000001,CHILE,West Coast of South America,Earthquake and Landslide,6.2,,0.0,Few (~1 to 50 people),Limited (<$1 million),SOUTHERN CHILE
+3168,2007,8.0,15.0,-13.386,-76.60300000000001,PERU,West Coast of South America,Earthquake,8.0,39.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),S. PERU
+3308,1934,11.0,30.0,18.5,-105.5,MEXICO,West Coast of North and Central America,Earthquake,7.0,5.0,0.0,,,MEXICO
+3310,1951,10.0,22.0,23.8,121.7,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.3,21.0,0.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),TAIWAN
+3349,1967,7.0,29.0,10.6,-67.3,VENEZUELA,Caribbean Sea,Earthquake,6.5,10.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),CARACAS
+3297,1968,9.0,3.0,41.8,32.3,TURKEY,Black Sea and Caspian Sea,Earthquake,6.6,38.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),BLACK SEA
+3226,1973,3.0,17.0,13.4,122.8,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.5,33.0,0.0,Few (~1 to 50 people),Limited (<$1 million),QUEZON
+3228,2007,9.0,12.0,-4.438,101.367,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,8.4,34.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),SUMATRA
+3248,2007,9.0,30.0,-49.418,163.954,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.4,10.0,0.0,,,AUCKLAND ISLANDS
+3293,2007,11.0,14.0,-22.247,-69.89,CHILE,West Coast of South America,Earthquake,7.7,40.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),NORTHERN CHILE
+3309,1970,3.0,11.0,57.5,-153.9,USA,Alaska (including Aleutian Islands),Earthquake,6.0,29.0,0.0,,Limited (<$1 million),"ANDREANOF ISLANDS, AK"
+3229,1999,9.0,13.0,-10.52,-138.67,FRENCH POLYNESIA,"E Coast Australia, New Zealand, South Pacific Is.",Landslide,0.0,,0.0,,Limited (<$1 million),FATU HIVA
+3350,1969,4.0,12.0,59.4,13.5,SWEDEN,Northeast Atlantic Ocean,Landslide,0.0,,0.0,,,NORSALV RIVER
+3348,2007,12.0,4.0,49.475,-121.847,CANADA,West Coast of North and Central America,Landslide,0.0,,0.0,,Limited (<$1 million),"CHEHALIS LAKE, CHILLIWACK"
+3499,1905,1.0,20.0,39.66,22.83,GREECE,Mediterranean Sea,Earthquake,6.3,,0.0,,,AEGEAN SEA
+3501,1912,1.0,24.0,38.12,20.67,GREECE,Mediterranean Sea,Earthquake,6.8,,0.0,,,IONIAN SEA
+3503,1922,8.0,8.0,37.5,23.2,GREECE,Mediterranean Sea,Earthquake,5.6,,0.0,,,AEGEAN SEA
+3504,1926,8.0,30.0,36.5,23.3,GREECE,Mediterranean Sea,Earthquake,7.2,,0.0,,,ARGOLIKOS GULF
+3395,1954,2.0,,38.789,15.213,ITALY,Mediterranean Sea,Volcano,0.0,,4.0,,,STROMBOLI ISLAND
+3502,1915,1.0,27.0,38.4,20.6,GREECE,Mediterranean Sea,Earthquake,6.6,,0.0,,,IONIAN SEA
+3413,1906,4.0,4.0,40.821,14.425999999999998,ITALY,Mediterranean Sea,Volcano,0.0,,3.0,,,TYRRHENIAN SEA
+3412,1905,,,37.3,9.9,TUNISIA,Mediterranean Sea,Earthquake,0.0,,3.0,,,BALEARIC SEA
+3509,2000,7.0,30.0,33.901,139.376,JAPAN,Japan,Earthquake,6.5,10.0,0.0,,Limited (<$1 million),HONSHU: S COAST
+3506,1973,6.0,26.0,43.2,146.6,RUSSIA,Kamchatka and Kuril Islands,Earthquake,6.6,,0.0,,,S. KURIL ISLANDS
+3505,2008,4.0,9.0,-20.071,168.892,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,35.0,0.0,,,LOYALTY ISLANDS
+3416,1914,1.0,15.0,43.5,10.2,ITALY,Mediterranean Sea,Earthquake,0.0,,2.0,,,LIGURIAN SEA
+3410,1903,5.0,13.0,38.1,13.4,ITALY,Mediterranean Sea,Earthquake,0.0,,2.0,,,CALABRIAN ARC
+3405,1949,2.0,9.0,38.2,20.0,GREECE,Mediterranean Sea,Earthquake,0.0,15.0,0.0,,,WEST COAST OF GREECE
+3404,1939,1.0,27.0,38.5,14.7,ITALY,Mediterranean Sea,Earthquake,0.0,15.0,2.0,,,CALABRIAN ARC
+3402,1928,4.0,24.0,38.0,23.5,GREECE,Mediterranean Sea,Earthquake,5.0,,3.0,,,AEGEAN SEA
+3400,1940,1.0,15.0,38.067,13.467,ITALY,Mediterranean Sea,Earthquake,5.1,15.0,3.0,,,NORTHERN SICILY
+3399,1941,3.0,16.0,38.3,12.2,ITALY,Mediterranean Sea,Earthquake,0.0,,2.0,,,CALABRIAN ARC
+3392,1956,7.0,9.0,36.8,25.5,GREECE,Mediterranean Sea,Earthquake,6.8,,0.0,,,"AMORGOS ISLAND, AEGEAN ISLANDS"
+3391,1962,5.0,28.0,39.8,25.0,GREECE,Mediterranean Sea,Earthquake,4.5,,0.0,,,NORTH AEGEAN SEA
+3382,2008,2.0,25.0,-2.486,99.972,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.5,25.0,0.0,,Limited (<$1 million),SUMATRA
+3508,2000,7.0,15.0,34.319,139.26,JAPAN,Japan,Earthquake,6.1,10.0,0.0,,Limited (<$1 million),HONSHU: S COAST
+3507,1986,11.0,14.0,23.901,121.574,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.8,34.0,0.0,Few (~1 to 50 people),Limited (<$1 million),TAIWAN
+3393,1955,4.0,19.0,39.4,23.1,GREECE,Mediterranean Sea,Earthquake,6.2,,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),VOLOS GULF
+3394,1954,9.0,9.0,36.283,1.467,ALGERIA,Mediterranean Sea,Earthquake and Landslide,6.7,,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),SEA OF ALBORAN
+3396,1953,9.0,10.0,35.0,32.5,CYPRUS,Mediterranean Sea,Earthquake,6.5,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),LEVANTIAN SEA
+3398,1953,8.0,12.0,38.3,20.8,GREECE,Mediterranean Sea,Earthquake,7.2,,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),IONIAN SEA
+3383,1951,8.0,3.0,13.0,-87.5,NICARAGUA,West Coast of North and Central America,Earthquake and Landslide,6.0,100.0,0.0,,Severe (~>$5 to $24 million),COSIGUINA VOLCANO
+3419,1926,8.0,17.0,38.567,14.833,ITALY,Mediterranean Sea,Earthquake,5.3,100.0,3.0,,,AEOLIAN ISLANDS
+3500,1911,2.0,18.0,40.9,20.8,ALBANIA,Mediterranean Sea,Earthquake,6.7,,0.0,,,OCHRIDA LAKE
+3415,1907,10.0,23.0,38.133,16.017,ITALY,Mediterranean Sea,Earthquake,5.9,,3.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),IONIAN CALABRIA
+3411,1905,9.0,8.0,38.67,16.07,ITALY,Mediterranean Sea,Earthquake,7.1,15.0,4.0,Many (~101 to 1000 people),Extreme (~$25 million or more),TYRRHENIAN CALABRIA
+3535,2000,11.0,21.0,70.25,-52.75,GREENLAND,Northwest Atlantic Ocean,Landslide,0.0,,0.0,,Limited (<$1 million),"PAATUUT, GREENLAND"
+3511,1919,4.0,3.0,3.138,125.491,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Volcano,0.0,,0.0,,Limited (<$1 million),SULAWESI
+3531,1908,9.0,11.0,48.958,-62.133,CANADA,"East Coast USA and Canada, St Pierre and Miquelon",Unknown,0.0,,0.0,,,GULF OF SAINT LAWRENCE
+3532,1914,5.0,,48.958,-62.133,CANADA,"East Coast USA and Canada, St Pierre and Miquelon",Unknown,0.0,,0.0,,,GULF OF SAINT LAWRENCE
+3579,1918,8.0,14.0,26.9,103.0,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,5.5,,0.0,,Limited (<$1 million),YUNNAN PROVINCE
+3574,1958,2.0,7.0,31.5,105.0,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.2,,0.0,,,SICHUAN PROVINCE
+3573,1955,9.0,23.0,26.6,101.8,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.8,10.0,0.0,,,"JINSHA RIVER, YUNNAN PROVINCE"
+3571,1951,12.0,21.0,26.7,100.0,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.3,,0.0,,,CHINA: GANSU AND SHANXI PROVINCES
+3580,1935,12.0,18.0,28.7,103.6,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.0,,0.0,Some (~51 to 100 people),Moderate (~$1 to $5 million),SICHUAN PROVINCE
+3569,1930,1.0,3.0,32.2,119.4,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,5.5,,0.0,,Limited (<$1 million),JIANGSU PROVINCE
+3558,2008,7.0,19.0,37.552,142.214,JAPAN,Japan,Earthquake,6.9,22.0,0.0,,,OFF EAST COAST OF HONSHU ISLAND
+3537,1921,8.0,4.0,40.13,124.38,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,0.0,,0.0,,Limited (<$1 million),"XIAOSI, DANDONG, LIAONING"
+3541,1920,12.0,16.0,36.7,104.9,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.8,17.0,0.0,,,CHINA: GANSU AND SHANXI PROVINCES
+3559,1906,11.0,20.0,6.5,0.3,GHANA,West Coast of Africa,Earthquake,5.0,,0.0,,Moderate (~$1 to $5 million),GOLD COAST
+3544,1934,4.0,7.0,62.27,7.4,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,0.0,Few (~1 to 50 people),,TAFJORD
+3542,1905,1.0,16.0,61.86600000000001,6.85,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,0.0,Some (~51 to 100 people),Moderate (~$1 to $5 million),LOEN
+3543,1936,9.0,13.0,61.87,6.851,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,0.0,Some (~51 to 100 people),Limited (<$1 million),LOEN
+3588,2008,8.0,20.0,-28.5,13.2,SOUTH AFRICA,West Coast of Africa,Unknown,0.0,,0.0,,Limited (<$1 million),SOUTHERN ATLANTIC OCEAN
+3621,2008,10.0,28.0,43.8,-69.7,USA,"East Coast USA and Canada, St Pierre and Miquelon",Meteorological,0.0,,0.0,,Limited (<$1 million),MAINE
+3620,1930,11.0,5.0,-4.05,39.667,KENYA,Indian Ocean (including west coast of Australia),Earthquake,0.0,,0.0,,,MOMBASA
+3638,1938,1.0,28.0,-1.408,29.2,CONGO,Central Africa,Volcano,0.0,,0.0,,,NYAMURAGIRA
+3601,2008,4.0,28.0,-19.941,168.953,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.4,32.0,0.0,,,VANUATU ISLANDS
+3646,1969,3.0,31.0,27.7,34.0,EGYPT,Red Sea and Persian Gulf,Earthquake,7.0,,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),GULF OF SUEZ
+3618,2003,5.0,27.0,36.939,3.5780000000000003,ALGERIA,Mediterranean Sea,Earthquake,5.7,8.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),ALGIERS
+3622,2006,12.0,26.0,21.799,120.547,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.0,10.0,0.0,Few (~1 to 50 people),Limited (<$1 million),TAIWAN
+3619,1930,2.0,16.0,36.0,-3.0,SPAIN,Mediterranean Sea,Earthquake,0.0,,0.0,,,OFF SOUTHERN COAST
+3598,2007,9.0,2.0,-11.61,165.762,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,35.0,0.0,,,SANTA CRUZ ISLANDS
+3599,2007,12.0,9.0,-25.996,-177.514,KERMADEC ISLANDS,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,153.0,0.0,,,KERMADEC ISLANDS
+3589,2008,9.0,11.0,41.892,143.754,JAPAN,Japan,Earthquake,6.8,25.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),HOKKAIDO ISLAND
+3603,1933,5.0,19.0,6.9,0.6,TOGO,West Coast of Africa,Earthquake,0.0,,0.0,,,GOLD COAST
+3586,2008,5.0,12.0,31.002,103.322,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.9,19.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),SICHUAN PROVINCE
+3587,2008,8.0,8.0,52.18,-175.5,USA,Alaska (including Aleutian Islands),Volcano,0.0,,0.0,,,"KASATOCHI VOLCANO, ALEUTIAN IS, AK"
+3623,2008,11.0,16.0,1.271,122.091,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.3,30.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),SULAWESI
+3769,1928,5.0,2.0,39.6,29.1,GREECE,Mediterranean Sea,Earthquake,6.2,,0.0,,,NORTH AEGEAN
+3811,1916,8.0,16.0,43.967,12.667,ITALY,Mediterranean Sea,Earthquake,5.9,,2.0,,,CENTRAL ADRIATIC
+3727,1905,10.0,21.0,42.0,42.0,GEORGIA,Black Sea and Caspian Sea,Earthquake,7.5,60.0,0.0,,,CAUCASUS
+3724,1941,11.0,25.0,37.417,-18.983,ATLANTIC OCEAN,Northeast Atlantic Ocean,Earthquake,8.3,,2.0,,,AZORES GIBRALTAR FRACTURE ZONE
+3647,2009,1.0,3.0,-0.414,132.885,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.6,17.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),NEAR NORTH COAST
+3649,2009,1.0,3.0,-0.691,133.305,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.3,23.0,0.0,,,NEAR NORTH COAST
+3691,2009,1.0,15.0,46.857,155.154,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.4,36.0,0.0,,,KAMCHATKA
+3692,2009,2.0,11.0,3.884,126.397,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.2,22.0,0.0,,Moderate (~$1 to $5 million),CELEBES SEA
+3725,1901,3.0,31.0,43.4,28.5,BULGARIA,Black Sea and Caspian Sea,Earthquake,7.2,,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),BLACK SEA
+3798,1968,4.0,18.0,44.08,8.0,ITALY,Mediterranean Sea,Earthquake,4.6,7.0,2.0,,,LIGURIA-COTE D'AZUR
+4311,2007,5.0,7.0,43.0,29.0,BULGARIA,Black Sea and Caspian Sea,Landslide,0.0,,0.0,,Limited (<$1 million),BLACK SEA
+4247,1998,3.0,19.0,61.183,5.267,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,4.0,,Moderate (~$1 to $5 million),WESTERN NORWAY
+4255,1927,1.0,24.0,59.0,3.0,NORWAY,Northeast Atlantic Ocean,Earthquake,5.1,,0.0,,,WESTERN NORWAY
+4309,1908,5.0,31.0,44.0,34.0,UKRAINE,Black Sea and Caspian Sea,Earthquake,6.5,,0.0,,,CRIMEA
+4250,1959,5.0,7.0,69.817,20.917,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,4.0,Few (~1 to 50 people),Limited (<$1 million),NORTHERN NORWAY
+4227,1944,8.0,20.0,38.789,15.213,ITALY,Mediterranean Sea,Volcano,0.0,,4.0,,Limited (<$1 million),STROMBOLI ISLAND
+4244,1930,5.0,2.0,63.317,9.85,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,3.0,,Limited (<$1 million),MID-NORWAY
+4246,1979,10.0,6.0,65.117,12.333,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,3.0,,Limited (<$1 million),NORTHERN NORWAY
+4308,1919,12.0,26.0,44.0,33.0,UKRAINE,Black Sea and Caspian Sea,Earthquake,0.0,,0.0,,,CRIMEA
+4256,1950,10.0,8.0,63.433,10.383,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,0.0,,,MID-NORWAY
+4240,1940,8.0,31.0,65.883,13.167,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,2.0,,Moderate (~$1 to $5 million),NORTHERN NORWAY
+4248,1983,8.0,18.0,61.233,7.717,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,4.0,,Limited (<$1 million),WESTERN NORWAY
+4238,1938,3.0,,62.333,6.9670000000000005,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,2.0,,,WESTERN NORWAY
+4239,1952,1.0,9.0,64.883,12.417,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,2.0,,,MID-NORWAY
+4242,1966,5.0,8.0,59.6,10.633,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,3.0,,,EASTERN NORWAY
+4237,1987,2.0,21.0,62.2,6.65,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,2.0,,,WESTERN NORWAY
+4249,1994,4.0,28.0,61.267,6.582999999999999,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,4.0,,Limited (<$1 million),WESTERN NORWAY
+4300,1931,6.0,7.0,54.0,1.067,UK,Northeast Atlantic Ocean,Earthquake,6.0,70.0,0.0,,,"DOGGER BANK, ENGLAND"
+4223,1930,10.0,30.0,43.667,13.267,ITALY,Mediterranean Sea,Earthquake,5.9,,4.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),CENTRAL ADRIATIC
+4258,1939,5.0,8.0,37.053,-24.427,PORTUGAL,Northeast Atlantic Ocean,Earthquake,6.5,16.0,1.0,,,AZORES
+4259,1980,1.0,1.0,38.727,-27.75,PORTUGAL,Northeast Atlantic Ocean,Earthquake,6.9,13.0,1.0,Some (~51 to 100 people),Moderate (~$1 to $5 million),AZORES
+4312,2009,3.0,19.0,-23.046,-174.65900000000002,TONGA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.6,34.0,0.0,,,TONGA
+4277,1978,8.0,14.0,36.37,-6.98,SPAIN,Northeast Atlantic Ocean,Earthquake,4.4,30.0,1.0,,,CADIZ
+4290,1963,9.0,18.0,40.75,29.0,TURKEY,Mediterranean Sea,Earthquake,6.1,,3.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),MARMARA SEA
+4218,1930,9.0,11.0,38.789,15.213,ITALY,Mediterranean Sea,Volcano,0.0,,3.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),STROMBOLI ISLAND
+4442,2009,10.0,7.0,-13.005999999999998,166.51,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.6,45.0,0.0,,,VANUATU ISLANDS
+4356,2009,5.0,28.0,16.72,-86.236,HONDURAS,Caribbean Sea,Earthquake,7.3,10.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),OFF COAST OF HONDURAS
+4441,2009,9.0,30.0,-0.72,99.867,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.5,81.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),SUMATRA
+4482,2009,8.0,16.0,-1.479,99.49,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.7,20.0,0.0,,,SUMATRA
+4419,2009,8.0,10.0,14.099,92.888,INDIA,Indian Ocean (including west coast of Australia),Earthquake,7.5,5.0,0.0,,,ANDAMAN ISLANDS
+4418,2009,8.0,10.0,34.743,138.264,JAPAN,Japan,Earthquake,6.4,40.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),HONSHU: S COAST
+4416,1927,7.0,11.0,32.0,35.5,ISRAEL,Mediterranean Sea,Earthquake,6.3,,0.0,Many (~101 to 1000 people),Severe (~>$5 to $24 million),DEAD SEA
+4376,2009,7.0,15.0,-45.762,166.562,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,12.0,0.0,,Limited (<$1 million),OFF WEST COAST OF SOUTH ISLAND
+4417,1929,11.0,9.0,4.633,95.567,INDONESIA,Indian Ocean (including west coast of Australia),Unknown,0.0,,0.0,Few (~1 to 50 people),,"TJALANG, N.W. SUMATRA"
+4440,2009,9.0,29.0,-15.489,-172.095,SAMOA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.1,18.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),SAMOA ISLANDS
+4502,1909,3.0,7.0,-21.0,-159.0,COOK ISLANDS,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,0.0,,0.0,,Moderate (~$1 to $5 million),RAROTONGA
+4522,2010,1.0,3.0,-8.743,157.477,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.6,26.0,0.0,,,SOLOMON ISLANDS
+4523,2010,1.0,3.0,-8.799,157.346,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,25.0,0.0,,Limited (<$1 million),SOLOMON ISLANDS
+4562,2004,2.0,11.0,31.675,35.551,JORDAN,Mediterranean Sea,Earthquake,5.3,27.0,0.0,,Moderate (~$1 to $5 million),DEAD SEA
+4542,2010,1.0,5.0,-9.019,157.55100000000002,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.8,15.0,0.0,,,SOLOMON ISLANDS
+4622,2010,1.0,12.0,18.457,-72.533,HAITI,Caribbean Sea,Earthquake and Landslide,7.0,13.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),HAITI & DOMINICAN REPUBLIC
+4682,2010,2.0,27.0,-36.122,-72.898,CHILE,West Coast of South America,Earthquake,8.8,23.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),CENTRAL CHILE
+4763,2010,4.0,6.0,2.383,97.048,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.8,31.0,0.0,,,SUMATRA
+4702,1983,8.0,17.0,-8.54,123.59,INDONESIA,Indian Ocean (including west coast of Australia),Volcano,0.0,,0.0,,,LESSER SUNDA ISLANDS
+4722,2010,3.0,11.0,-34.29,-71.891,CHILE,West Coast of South America,Earthquake,6.9,11.0,0.0,,Limited (<$1 million),CENTRAL CHILE
+4782,2010,2.0,26.0,25.93,128.425,JAPAN,Japan,Earthquake,7.0,25.0,0.0,,,RYUKYU ISLANDS
+4762,2010,4.0,13.0,-9.282,-77.645,PERU,West Coast of South America,Landslide,0.0,,0.0,Few (~1 to 50 people),Limited (<$1 million),"513 LAKE, HUALCAN GLACIER"
+4843,1905,11.0,24.0,-17.7,168.3,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,,PORT VILA
+4822,2010,5.0,29.0,16.708,145.97,USA TERRITORY,"E Coast Australia, New Zealand, South Pacific Is.",Volcano,0.0,,0.0,,,"SOUTH OF SARIGAN IS, N. MARIANA IS"
+4842,1905,11.0,22.0,-17.7,168.3,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,,PORT VILA
+5102,1902,9.0,27.0,14.0,-91.0,GUATEMALA,West Coast of North and Central America,Questionable Earthquake,0.0,,0.0,,Limited (<$1 million),OCOS
+5082,1902,8.0,16.0,24.6,-107.9,MEXICO,West Coast of North and Central America,Earthquake,0.0,,0.0,,,MEXICO
+4802,2005,2.0,14.0,15.775,-61.744,GUADELOUPE (FRENCH TERRITORY),Caribbean Sea,Earthquake,5.8,12.0,0.0,,,DOMINICA PASSAGE
+4922,1910,11.0,10.0,-14.0,166.5,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,90.0,0.0,,Moderate (~$1 to $5 million),VANUATU ISLANDS
+5062,1902,1.0,18.0,14.71,-91.59,GUATEMALA,West Coast of North and Central America,Questionable Earthquake,6.3,,0.0,,Limited (<$1 million),OCOSA
+5063,1902,4.0,19.0,14.0,-91.0,GUATEMALA,West Coast of North and Central America,Earthquake,7.5,33.0,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),OCOS
+4902,2010,6.0,12.0,7.881,91.936,INDIA,Indian Ocean (including west coast of Australia),Earthquake,7.5,35.0,0.0,,,LITTLE NICOBAR ISLAND
+4942,1910,11.0,5.0,64.0,-165.0,USA,Alaska (including Aleutian Islands),Unknown,0.0,,0.0,,Moderate (~$1 to $5 million),"NOME, AK"
+4882,1933,12.0,12.0,-5.0,151.0,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,Limited (<$1 million),BISMARCK SEA
+5242,1996,4.0,24.0,46.73,7.97,SWITZERLAND,Mediterranean Sea,Unknown,0.0,,0.0,,,LAKE BRIENZ
+5162,1901,10.0,8.0,11.0,-86.5,NICARAGUA,West Coast of North and Central America,Earthquake,7.0,,0.0,,Limited (<$1 million),NICARAGUA
+5202,1949,12.0,17.0,-54.0,-71.0,CHILE,West Coast of South America,Earthquake,7.8,33.0,0.0,Few (~1 to 50 people),Limited (<$1 million),SOUTHERN CHILE
+5122,1909,7.0,8.0,-15.5,167.2,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,0.0,,0.0,,Moderate (~$1 to $5 million),VANUATU ISLANDS
+5222,2010,8.0,10.0,-17.541,168.06900000000002,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,25.0,0.0,,,VANUATU ISLANDS
+5362,1936,2.0,25.0,-0.5,166.9,NAURU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Unknown,0.0,,0.0,,,"NAURU, OCEAN ISLAND"
+5343,2010,8.0,13.0,12.484000000000002,141.476,USA TERRITORY,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.9,10.0,0.0,,,"GUAM, MARIANA ISLANDS"
+5342,2010,10.0,25.0,-3.487,100.082,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.8,20.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),SUMATRA
+5402,2010,12.0,21.0,26.901,143.69799999999998,JAPAN,Japan,Earthquake,7.4,14.0,0.0,,,BONIN ISLANDS
+5405,1994,1.0,4.0,44.4,-67.97,USA,"East Coast USA and Canada, St Pierre and Miquelon",Meteorological,0.0,,0.0,,,"COREA HARBOR, MAINE"
+5403,2010,12.0,25.0,-19.702,167.947,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.3,16.0,0.0,,Limited (<$1 million),VANUATU ISLANDS
+5407,2011,2.0,21.0,-43.583,172.68,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,6.1,6.0,0.0,,,SOUTH ISLAND
+5406,2011,2.0,11.0,-36.474,-73.125,CHILE,West Coast of South America,Earthquake,6.8,28.0,0.0,,,CENTRAL CHILE
+5412,2011,3.0,9.0,38.435,142.842,JAPAN,Japan,Earthquake,7.5,32.0,0.0,,,HONSHU ISLAND
+5413,2011,3.0,11.0,38.297,142.372,JAPAN,Japan,Earthquake,9.1,30.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),HONSHU ISLAND
+5417,1981,3.0,4.0,38.209,23.288,GREECE,Mediterranean Sea,Earthquake,6.4,29.0,0.0,,,GULF OF CORINTH
+5416,1997,4.0,10.0,13.1,-87.6,HONDURAS,West Coast of North and Central America,Unknown,0.0,,0.0,,Limited (<$1 million),GULF OF FONSECA
+5419,2011,1.0,9.0,-19.157,168.31099999999998,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.5,24.0,0.0,,,VANUATU ISLANDS
+5422,1964,5.0,7.0,40.4,139.0,JAPAN,Japan,Earthquake,6.6,,-3.0,,,NW. HONSHU ISLAND
+5431,2011,7.0,10.0,38.034,143.264,JAPAN,Japan,Earthquake,7.0,23.0,0.0,,,OFF EAST COAST OF HONSHU ISLAND
+5432,2011,6.0,24.0,52.05,-171.83599999999998,USA,Alaska (including Aleutian Islands),Earthquake,7.3,52.0,0.0,,,"ATKA, ALEUTIAN ISLANDS, AK"
+5427,1992,8.0,11.0,32.536,141.641,JAPAN,Japan,Earthquake,6.3,16.0,0.0,,,
+5428,1994,5.0,24.0,23.959,122.448,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.5,16.0,0.0,,,TAIWAN
+5430,2011,7.0,6.0,-29.539,-176.34,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.6,17.0,0.0,,,KERMADEC ISLANDS
+5433,2011,6.0,27.0,50.5,-3.0,UK,Northeast Atlantic Ocean,Meteorological,0.0,,0.0,,,"PLYMOUTH, ENGLAND"
+5434,2011,8.0,6.0,59.05,6.64,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,0.0,,,"LYSEFJOREN, WESTERN NORWAY"
+5429,2011,4.0,7.0,38.276,141.588,JAPAN,Japan,Earthquake,7.1,42.0,0.0,Few (~1 to 50 people),Limited (<$1 million),E. COAST HONSHU ISLAND
+5435,2011,7.0,30.0,59.05,6.64,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,0.0,,Limited (<$1 million),"LYSEFJOREN, WESTERN NORWAY"
+5436,2011,8.0,20.0,-18.311,168.218,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,28.0,0.0,,,VANUATU ISLANDS
+5437,2011,8.0,20.0,-18.365,168.143,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,32.0,0.0,,,VANUATU ISLANDS
+5438,2011,9.0,2.0,52.17100000000001,-171.708,USA,Alaska (including Aleutian Islands),Earthquake,6.8,32.0,0.0,,,"FOX ISLANDS, ALEUTIAN ISLANDS, AK"
+5441,2007,11.0,29.0,14.944,-61.274,MARTINIQUE (FRENCH TERRITORY),Caribbean Sea,Earthquake,7.4,156.0,0.0,,,MARTINIQUE
+5440,1990,2.0,8.0,9.755,124.694,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.6,26.0,0.0,Some (~51 to 100 people),Limited (<$1 million),PHILIPPINES
+5439,2011,10.0,21.0,-28.993,-176.238,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.4,33.0,0.0,,,KERMADEC ISLANDS
+5447,2012,3.0,20.0,16.493,-98.231,MEXICO,West Coast of North and Central America,Earthquake,7.4,20.0,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),S. MEXICO
+5446,2012,3.0,14.0,40.887,144.944,JAPAN,Japan,Earthquake,6.9,12.0,0.0,,,HOKKAIDO ISLAND
+5444,2001,1.0,13.0,13.049,-88.66,EL SALVADOR,West Coast of North and Central America,Earthquake,7.7,60.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),EL SALVADOR
+5449,2012,4.0,11.0,2.327,93.063,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,8.6,20.0,0.0,Few (~1 to 50 people),Limited (<$1 million),OFF W. COAST OF N SUMATRA
+5450,2012,4.0,11.0,0.802,92.463,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,8.2,25.0,0.0,,,OFF W. COAST OF N SUMATRA
+5451,2012,4.0,14.0,-18.972,168.741,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.3,11.0,0.0,,,VANUATU ISLANDS
+5443,2010,4.0,13.0,-21.955,-157.92,COOK ISLANDS,"E Coast Australia, New Zealand, South Pacific Is.",Unknown,0.0,,0.0,,,"MANGAIA ISLAND, COOK ISLANDS"
+5442,2012,2.0,2.0,-17.827,167.13299999999998,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,23.0,0.0,,,VANUATU ISLANDS
+5453,1963,3.0,28.0,54.0,-132.25,CANADA,West Coast of North and Central America,Unknown,0.0,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),"GRAHAM ISLAND, BRITISH COLUMBIA"
+5459,1900,1.0,10.0,1.82,127.85,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,0.0,,0.0,,,"GALELA, HALMAHERA ISLAND"
+5462,2012,8.0,27.0,12.139,-88.59,EL SALVADOR,West Coast of North and Central America,Earthquake,7.3,28.0,0.0,,Limited (<$1 million),EL SALVADOR-NICARAGUA
+5463,2012,8.0,31.0,10.811,126.638,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,7.6,28.0,0.0,Few (~1 to 50 people),Limited (<$1 million),PHILIPPINE ISLANDS
+5464,2012,9.0,5.0,10.085,-85.315,COSTA RICA,West Coast of North and Central America,Earthquake,7.6,35.0,0.0,Few (~1 to 50 people),Limited (<$1 million),COSTA RICA
+5466,1919,6.0,29.0,12.33,-88.291,NICARAGUA,West Coast of North and Central America,Earthquake,6.6,20.0,0.0,,,GULF OF FONSECA
+5460,2012,7.0,15.0,69.2,-51.3,GREENLAND,Northwest Atlantic Ocean,Landslide,0.0,,0.0,,,"ILULISSAT ICEFJORD, GREENLAND"
+5465,1906,5.0,25.0,13.25,-88.83,EL SALVADOR,West Coast of North and Central America,Unknown,0.0,,0.0,,,OFF COAST
+5468,2012,11.0,7.0,13.988,-91.895,GUATEMALA,West Coast of North and Central America,Earthquake,7.3,24.0,0.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),GUATEMALA
+5471,2012,12.0,28.0,31.256,110.733,CHINA,"China, North and South Korea, Philippines, Taiwan",Landslide,0.0,,0.0,,,"ZHAOJUN BRIDGE, HUBEI PROVINCE"
+5469,2012,12.0,7.0,37.89,143.94899999999998,JAPAN,Japan,Earthquake,7.2,31.0,0.0,,,OFF EAST COAST OF HONSHU ISLAND
+5467,2012,10.0,28.0,52.788,-132.101,CANADA,West Coast of North and Central America,Earthquake,7.7,14.0,0.0,Few (~1 to 50 people),,BRITISH COLUMBIA
+5470,1965,2.0,19.0,-41.755,-72.396,CHILE,West Coast of South America,Volcano and Landslide,0.0,,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),SOUTHERN CHILE
+5472,2013,1.0,5.0,55.393,-134.65200000000002,USA,Alaska (including Aleutian Islands),Earthquake,7.5,10.0,0.0,,Limited (<$1 million),"SE. ALASKA, AK"
+5478,1966,,,-10.38,165.8,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,0.0,,,"TINAKULA, SANTA CRUZ ISLANDS"
+5477,2013,2.0,8.0,-10.928,166.018,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,21.0,0.0,,,SANTA CRUZ ISLANDS
+5476,2013,2.0,6.0,-10.765999999999998,165.114,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,24.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),SANTA CRUZ ISLANDS
+5479,2013,4.0,19.0,46.221,150.78799999999998,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.2,110.0,0.0,,,S. KURIL ISLANDS
+5491,2013,7.0,21.0,-41.70399999999999,174.33700000000002,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.5,17.0,0.0,,Limited (<$1 million),COOK STRAIT
+5496,1905,1.0,,19.0,-113.0,MEXICO,West Coast of North and Central America,Earthquake,0.0,,0.0,,,REVILLAGIGEDO ISLANDS
+5497,1925,5.0,4.0,14.583,-106.1,MEXICO,West Coast of North and Central America,Unknown,0.0,,0.0,,,
+5498,1927,9.0,6.0,17.0,-104.0,MEXICO,West Coast of North and Central America,Meteorological,0.0,,0.0,,,MEXICO
+5517,2004,11.0,22.0,-46.676,164.72099999999998,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.1,10.0,0.0,,,PUYSEGUR TRENCH
+5519,2013,8.0,16.0,-41.731,174.02700000000002,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.5,10.0,0.0,,Limited (<$1 million),WELLINGTON
+5506,2013,9.0,24.0,25.18,62.26,PAKISTAN,Indian Ocean (including west coast of Australia),Earthquake and Landslide,0.0,47.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),OFF COAST GWADAR
+5515,1993,6.0,18.0,-28.886,-176.81900000000002,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.6,20.0,0.0,,,KERMADEC ISLANDS
+5533,2013,10.0,25.0,37.2,144.6,JAPAN,Japan,Earthquake,7.1,10.0,0.0,,,E. COAST HONSHU ISLAND
+5513,1978,10.0,10.0,-43.08,172.97,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Landslide,0.0,,0.0,,,OFF EAST COAST OF SOUTH ISLAND
+5531,1926,,,-38.37,178.31,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Unknown,0.0,,0.0,,,"TOLAGA BAY, NORTH ISLAND"
+5514,1987,5.0,20.0,-45.46,167.15,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Landslide,0.0,,0.0,,,DEEP COVE
+5532,2002,11.0,4.0,-44.7,169.2,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Landslide,0.0,,0.0,,,ALBERT TOWN
+5534,2013,11.0,17.0,-60.274,-46.401,ANTARCTICA,Southwest Atlantic Ocean,Earthquake,7.7,10.0,0.0,,,SCOTIA SEA
+5535,1971,3.0,19.0,-11.116,-76.5,PERU,West Coast of South America,Landslide,0.0,,0.0,Many (~101 to 1000 people),Moderate (~$1 to $5 million),CHUNGAR
+5542,1914,10.0,6.0,-37.8,178.2,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,0.0,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),"TOLAGA BAY, NORTH ISLAND"
+5540,1956,3.0,2.0,-38.9,175.8,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,5.3,,0.0,,,"LAKE TAUPO, NORTH ISLAND"
+5544,1904,8.0,25.0,-39.12,177.2,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Questionable Earthquake,0.0,,0.0,,,
+5555,2014,3.0,16.0,-19.965,-70.814,CHILE,West Coast of South America,Earthquake,6.7,21.0,0.0,,Limited (<$1 million),NORTHERN CHILE
+5564,2014,4.0,19.0,-6.755,155.024,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,43.0,0.0,,,SOLOMON SEA
+5560,2014,4.0,13.0,-11.463,162.05100000000002,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.4,39.0,0.0,,,SOLOMON ISLANDS
+5563,2014,4.0,18.0,17.397000000000002,-100.972,MEXICO,West Coast of North and Central America,Earthquake,7.2,24.0,0.0,,Limited (<$1 million),S. MEXICO
+5566,1953,3.0,25.0,32.1,139.85,JAPAN,Japan,Volcano,0.0,,-1.0,,,MYOJINSHO SUBMARINE VOLCANO
+5558,2014,4.0,3.0,-20.571,-70.493,CHILE,West Coast of South America,Earthquake,7.7,22.0,0.0,,,NORTHERN CHILE
+5559,2014,4.0,12.0,-11.27,162.148,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.6,23.0,0.0,,,SOLOMON ISLANDS
+5557,2014,4.0,1.0,-19.61,-70.76899999999999,CHILE,West Coast of South America,Earthquake,8.2,25.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),NORTHERN CHILE
+5571,2014,6.0,23.0,51.849,178.735,USA,Alaska (including Aleutian Islands),Earthquake,7.9,109.0,0.0,,,"ALEUTIAN ISLANDS, AK"
+5572,2014,6.0,23.0,-29.977,-177.725,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.9,20.0,0.0,,,"S OF RAOUL ISLAND, KERMADEC ISLANDS"
+5568,1974,10.0,17.0,54.0,-128.7,CANADA,West Coast of North and Central America,Landslide,0.0,,0.0,,,"KITIMAT INLET, BRITISH COLOMBIA"
+5569,1963,10.0,9.0,46.267,12.329,ITALY,Mediterranean Sea,Landslide,0.0,,0.0,Very Many (~1001 or more people),Severe (~>$5 to $24 million),"VAJONT DAM, VAJONT RIVER"
+5573,1904,12.0,20.0,9.2,-82.8,PANAMA,Caribbean Sea,Earthquake,7.2,,0.0,,,BOCAS DEL TORO
+5574,2014,7.0,11.0,37.005,142.453,JAPAN,Japan,Earthquake,6.5,20.0,0.0,,,SANRIKU
+5576,1994,6.0,4.0,-10.777,113.366,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.5,11.0,0.0,,,SOUTH OF JAVA
+5575,2014,7.0,25.0,58.306,-136.96,USA,Alaska (including Aleutian Islands),Earthquake,6.1,10.0,0.0,,,"PALMA BAY, AK"
+5577,2014,10.0,9.0,-32.108000000000004,-110.811,CHILE,West Coast of South America,Earthquake,7.0,16.0,0.0,,,EASTER ISLAND REGION
+5578,2014,11.0,15.0,1.893,126.522,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.1,45.0,0.0,,,N. MOLUCCAS ISLANDS
+5580,2015,2.0,16.0,39.856,142.881,JAPAN,Japan,Earthquake,6.7,23.0,0.0,,,HONSHU
+5581,2015,3.0,29.0,-4.729,152.562,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,41.0,0.0,,,BISMARCK SEA
+5579,1950,4.0,30.0,6.5,-83.0,PANAMA,West Coast of North and Central America,Earthquake,0.0,,0.0,,,OFF COAST
+5582,2015,2.0,19.0,-16.430999999999997,168.148,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.4,10.0,0.0,,Limited (<$1 million),VANUATU ISLANDS
+5584,2015,5.0,2.0,31.529,140.213,JAPAN,Japan,Earthquake,5.7,10.0,0.0,,,S. OF HONSHU ISLAND
+5583,2015,5.0,5.0,-5.462000000000001,151.875,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.5,55.0,0.0,,Limited (<$1 million),NEW BRITAIN
+5589,2015,7.0,10.0,-9.307,158.403,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.7,12.0,0.0,,,SOLOMON ISLANDS
+5588,2015,7.0,18.0,-10.401,165.141,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,11.0,0.0,,,SANTA CRUZ ISLANDS
+5587,1905,1.0,20.0,9.85,-84.68,COSTA RICA,West Coast of North and Central America,Earthquake,6.8,,0.0,,Limited (<$1 million),GULF OF NICOYA
+5591,2015,7.0,27.0,52.214,-169.399,USA,Alaska (including Aleutian Islands),Earthquake,6.9,23.0,0.0,,,"FOX ISLANDS, ALEUTIAN ISLANDS, AK"
+5590,2015,9.0,16.0,-31.573,-71.67399999999999,CHILE,West Coast of South America,Earthquake,8.3,22.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),CENTRAL CHILE
+5596,2015,10.0,18.0,60.08,-141.3,USA,Alaska (including Aleutian Islands),Landslide,0.0,,0.0,,,"ICY BAY, AK"
+5593,2015,11.0,13.0,31.001,128.873,JAPAN,Japan,Earthquake,6.7,12.0,0.0,,,JAPAN
+5594,2015,11.0,17.0,38.67,20.6,GREECE,Mediterranean Sea,Earthquake and Landslide,6.5,11.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),IONIAN SEA
+5592,2015,11.0,11.0,-29.46,-72.12,CHILE,West Coast of South America,Earthquake,6.9,33.0,0.0,,,CENTRAL CHILE
+5598,2016,3.0,2.0,-4.952,94.33,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.8,24.0,0.0,,,SW. SUMATRA
+5599,2016,4.0,16.0,0.35,-80.16,ECUADOR,West Coast of South America,Earthquake,7.8,17.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),OFF COAST
+5602,1993,3.0,12.0,-14.385,-178.252,WALLIS AND FUTUNA (FRENCH TERRITORY),"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.4,10.0,0.0,Few (~1 to 50 people),Limited (<$1 million),FUTUNA
+5600,2016,4.0,28.0,-16.043,167.37900000000002,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,24.0,0.0,,,VANUATU ISLANDS
+5605,2016,8.0,19.0,-55.285,-31.877,UK TERRITORY,Southwest Atlantic Ocean,Earthquake,7.4,10.0,0.0,,,SOUTHERN ATLANTIC OCEAN
+5604,2016,8.0,12.0,-22.477,173.11700000000002,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.2,16.0,0.0,,,LOYALTY ISLANDS
+5607,2014,10.0,14.0,12.526,-88.12299999999999,EL SALVADOR,West Coast of North and Central America,Earthquake,7.3,40.0,0.0,Few (~1 to 50 people),Limited (<$1 million),GULF OF FONSECA
+5609,2001,10.0,12.0,52.63,-132.2,CANADA,West Coast of North and Central America,Earthquake,6.1,20.0,0.0,,,QUEEN CHARLOTTE ISLANDS
+5613,2016,11.0,13.0,-42.737,173.054,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.8,15.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),OFF EAST COAST OF SOUTH ISLAND
+5606,2016,9.0,1.0,-37.359,179.146,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.0,19.0,0.0,,,GISBORNE
+5614,1917,8.0,16.0,58.20399999999999,-134.14700000000002,USA,Alaska (including Aleutian Islands),Landslide,0.0,,0.0,Few (~1 to 50 people),Limited (<$1 million),"TAKU INLET, JUNEAU, AK"
+5620,2016,11.0,24.0,11.96,-88.835,NICARAGUA,West Coast of North and Central America,Earthquake,6.9,33.0,0.0,,,NICARAGUA
+5636,2016,12.0,17.0,-4.505,153.52200000000002,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,95.0,0.0,,,SOLOMON SEA
+5630,2016,12.0,8.0,-10.681,161.327,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.8,40.0,0.0,Few (~1 to 50 people),Limited (<$1 million),SOLOMON ISLANDS
+5625,1919,8.0,19.0,10.6,-71.6,VENEZUELA,Caribbean Sea,Earthquake,0.0,,0.0,,Moderate (~$1 to $5 million),LAGO DE MARACAIBO
+5631,1962,1.0,11.0,43.3,17.1,CROATIA,Mediterranean Sea,Earthquake,6.1,33.0,0.0,,,DALMATIAN COASTS
+5632,2016,12.0,9.0,-10.749,161.132,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.9,20.0,0.0,,,SOLOMON ISLANDS
+5618,2016,11.0,21.0,37.393,141.387,JAPAN,Japan,Earthquake,6.9,9.0,0.0,,Limited (<$1 million),E. COAST HONSHU ISLAND
+5644,1967,10.0,,59.621,-151.106,USA,Alaska (including Aleutian Islands),Landslide,0.0,,0.0,,,"GREWINGK, AK"
+5641,1996,9.0,5.0,21.898000000000003,121.498,TAIWAN,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.8,20.0,0.0,,,TAIWAN REGION
+5642,2017,1.0,22.0,-6.246,155.172,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.9,135.0,0.0,Few (~1 to 50 people),Limited (<$1 million),BOUGAINVILLE ISLAND
+5637,2016,12.0,25.0,-43.517,-74.391,CHILE,West Coast of South America,Earthquake,7.6,30.0,0.0,,Limited (<$1 million),SOUTHERN CHILE
+5639,2017,1.0,3.0,-19.373,176.05200000000002,FIJI,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,6.9,12.0,0.0,,,FIJI ISLANDS
+5643,2017,3.0,19.0,27.835,51.94,IRAN,Red Sea and Persian Gulf,Meteorological,0.0,,0.0,Few (~1 to 50 people),Severe (~>$5 to $24 million),PERSIAN GULF
+5648,2017,4.0,28.0,5.504,125.066,PHILIPPINES,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.9,26.0,0.0,,Limited (<$1 million),"SOCCSKSARGEN, PHILIPPINES"
+5649,2017,5.0,1.0,59.852,-136.67700000000002,USA,Alaska (including Aleutian Islands),Earthquake,6.2,1.0,0.0,,,"SKAGWAY, AK"
+5647,2017,4.0,24.0,-33.038000000000004,-72.062,CHILE,West Coast of South America,Earthquake,6.9,28.0,0.0,,,CENTRAL CHILE
+5651,2017,6.0,17.0,71.813,-52.569,GREENLAND,Northwest Atlantic Ocean,Landslide,0.0,0.0,0.0,Few (~1 to 50 people),Limited (<$1 million),"KARRAT FJORD, GREENLAND"
+5653,1903,10.0,20.0,64.98,-66.2,CANADA,Northwest Atlantic Ocean,Unknown,0.0,,0.0,,,"BLACKLEAD ISLAND, CUMBERLAND SOUND"
+5654,2017,7.0,17.0,54.443000000000005,168.857,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.7,10.0,0.0,,,BERING ISLAND
+5655,2017,7.0,20.0,36.929,27.414,TURKEY,Mediterranean Sea,Earthquake,6.6,7.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),GULF OF GÖKOVA
+5656,2017,7.0,19.0,11.0,-74.3,COLOMBIA,Caribbean Sea,Landslide,0.0,,0.0,,Limited (<$1 million),OFF THE COAST NEAR SANTA MARTA
+5652,2017,6.0,12.0,38.93,26.365,GREECE,Mediterranean Sea,Earthquake,6.3,12.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),LESBOS
+5661,1975,12.0,16.0,-18.672,178.46400000000003,FIJI,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake and Landslide,4.9,33.0,0.0,,,FIJI ISLANDS
+5659,1948,5.0,23.0,37.2,121.8,CHINA,"China, North and South Korea, Philippines, Taiwan",Earthquake,6.0,,0.0,,Limited (<$1 million),SHANDONG PROVINCE
+5664,2017,11.0,1.0,-21.648000000000003,168.859,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.6,22.0,0.0,,,LOYALTY ISLANDS
+5660,1950,12.0,2.0,-18.25,167.5,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.8,60.0,0.0,,,VANUATU ISLANDS
+5663,2017,10.0,31.0,-21.697,169.149,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.7,24.0,0.0,,,LOYALTY ISLANDS
+5658,2017,9.0,8.0,14.761,-94.103,MEXICO,West Coast of North and Central America,Earthquake,8.2,46.0,0.0,Some (~51 to 100 people),Extreme (~$25 million or more),S. MEXICO
+5662,1908,4.0,6.0,45.77,-75.6,CANADA,"East Coast USA and Canada, St Pierre and Miquelon",Landslide,0.0,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),NOTRE DAME DE LA SALETTE
+5672,2018,1.0,10.0,17.474,-83.51899999999999,HONDURAS,Caribbean Sea,Earthquake,7.5,10.0,0.0,,Limited (<$1 million),OFF COAST OF HONDURAS
+5673,2018,1.0,23.0,56.04600000000001,-149.07299999999998,USA,Alaska (including Aleutian Islands),Earthquake,7.9,25.0,0.0,,Limited (<$1 million),"KODIAK ISLAND, AK"
+5670,2017,11.0,19.0,-21.325,168.672,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.0,10.0,0.0,,,LOYALTY ISLANDS
+5669,1976,7.0,11.0,7.4,-78.1,PANAMA,West Coast of North and Central America,Earthquake,6.7,22.0,0.0,Few (~1 to 50 people),Limited (<$1 million),PANAMA
+5671,2017,12.0,8.0,-30.0,-179.0,KERMADEC ISLANDS,"E Coast Australia, New Zealand, South Pacific Is.",Unknown,0.0,,0.0,,,KERMADEC ISLANDS
+5668,1913,10.0,2.0,7.1,-80.6,PANAMA,West Coast of North and Central America,Earthquake and Landslide,6.7,,0.0,Few (~1 to 50 people),Limited (<$1 million),OFF COAST
+5676,2018,2.0,9.0,-3.608,144.588,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Volcano,0.0,,0.0,,,"KADOVAR ISLAND, PAPUA NEW GUINEA"
+5674,2015,5.0,10.0,69.8,20.92,NORWAY,Northeast Atlantic Ocean,Landslide,0.0,,0.0,,Limited (<$1 million),NORTHERN NORWAY
+5675,2018,1.0,14.0,-15.776,-74.744,PERU,West Coast of South America,Earthquake,7.1,36.0,0.0,,,S. PERU
+5678,2018,5.0,4.0,19.37,-155.032,USA,"Hawaii, Johnston Atoll, Midway I",Volcano and Earthquake,6.9,5.0,0.0,,Extreme (~$25 million or more),HAWAII
+5685,2018,8.0,5.0,-8.287,116.452,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,6.9,31.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),BALI SEA
+5691,1994,,,45.22,36.72,RUSSIA,Black Sea and Caspian Sea,Landslide,0.0,,0.0,,,KERCH STRAIT
+5693,2014,6.0,27.0,46.32,30.67,UKRAINE,Black Sea and Caspian Sea,Landslide,0.0,,0.0,,,ODESSA
+5692,2000,,,45.12,36.7,RUSSIA,Black Sea and Caspian Sea,Landslide,0.0,,0.0,,,KERCH STRAIT
+5690,2018,10.0,25.0,37.506,20.563,GREECE,Mediterranean Sea,Earthquake,6.8,14.0,0.0,,Limited (<$1 million),IONIAN SEA
+5686,2018,8.0,19.0,-18.178,-178.111,FIJI,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,8.2,563.0,0.0,,,FIJI ISLANDS
+5687,2018,8.0,21.0,10.855,-62.883,VENEZUELA,Caribbean Sea,Earthquake,7.3,154.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),SUCRE
+5688,2018,8.0,29.0,-22.066,170.05,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.1,27.0,0.0,,,LOYALTY ISLANDS
+5689,2018,9.0,28.0,-0.178,119.84,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake and Landslide,7.5,10.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),SULAWESI
+5698,2018,12.0,5.0,-21.969,169.446,NEW CALEDONIA,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.5,10.0,0.0,,Limited (<$1 million),LOYALTY ISLANDS
+5694,1939,7.0,24.0,12.3,-61.63,GRENADA,Caribbean Sea,Volcano,0.0,,0.0,,,KICK 'EM JENNY VOLCANO
+5696,1902,6.0,6.0,14.602,-61.065,MARTINIQUE (FRENCH TERRITORY),Caribbean Sea,Unknown,0.0,,0.0,,,FORT-DE-FRANCE
+5695,1965,10.0,24.0,12.3,-61.63,GRENADA,Caribbean Sea,Volcano,0.0,,0.0,,,KICK 'EM JENNY VOLCANO
+5697,1902,7.0,8.0,14.553,-61.00899999999999,MARTINIQUE (FRENCH TERRITORY),Caribbean Sea,Unknown,0.0,,0.0,,,MARTINIQUE
+5699,2018,12.0,22.0,-6.102,105.423,INDONESIA,Indian Ocean (including west coast of Australia),Volcano and Landslide,0.0,,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),KRAKATAU
+5703,1990,6.0,20.0,36.957,49.409,IRAN,Black Sea and Caspian Sea,Earthquake and Landslide,7.3,19.0,0.0,Very Many (~1001 or more people),Extreme (~$25 million or more),CASPIAN SEA
+5701,2008,11.0,23.0,31.065,109.92,CHINA,"China, North and South Korea, Philippines, Taiwan",Landslide,0.0,,0.0,,Limited (<$1 million),"WU GORGE, WUSHAN COUNTY"
+5700,2015,6.0,24.0,31.077,109.896,CHINA,"China, North and South Korea, Philippines, Taiwan",Landslide,0.0,,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),"WUSHAN, CHONGQING"
+5706,2012,3.0,9.0,-19.125,169.613,VANUATU,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.7,16.0,0.0,,,OFF EAST COAST OF VANUATU
+5712,2019,6.0,18.0,38.646,139.472,JAPAN,Japan,Earthquake,6.4,12.0,0.0,,Moderate (~$1 to $5 million),NIIGATA
+5713,2009,7.0,1.0,34.164,25.471,GREECE,Mediterranean Sea,Earthquake,6.4,19.0,0.0,,,CRETE
+5705,2019,5.0,14.0,-4.051,152.597,PAPUA NEW GUINEA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,7.6,10.0,0.0,,Limited (<$1 million),"RABAUL, NEW BRITAIN"
+5707,1997,3.0,12.0,-21.7,168.0,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Unknown,0.0,,0.0,,,NEW CALEDONIA
+5708,1936,,,-20.5,165.0,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Unknown,0.0,,0.0,,Limited (<$1 million),NEW CALEDONIA
+5709,1942,5.0,,-20.6,165.0,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Unknown,0.0,,0.0,,,NEW CALEDONIA
+5710,2019,6.0,14.0,-30.056,-72.082,CHILE,West Coast of South America,Earthquake,6.4,11.0,0.0,,,CENTRAL CHILE
+5711,2019,6.0,15.0,-30.805,-178.095,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.2,34.0,0.0,,,"S OF RAOUL ISLAND, KERMADEC ISLANDS"
+5716,2019,8.0,28.0,38.789,15.213,ITALY,Mediterranean Sea,Volcano,0.0,,0.0,,,STROMBOLI ISLAND
+5717,2002,3.0,24.0,36.45,28.2,GREECE,Mediterranean Sea,Unknown,0.0,,0.0,,Limited (<$1 million),DODECANESE ISLANDS
+5721,2011,5.0,10.0,-20.244,168.226,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.8,11.0,0.0,,,LOYALTY ISLANDS
+5722,2015,11.0,18.0,-8.899,158.422,SOLOMON ISLANDS,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.8,13.0,0.0,,,SOLOMON ISLANDS
+5723,2017,11.0,19.0,-21.638,168.673,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.3,14.0,0.0,,,LOYALTY ISLANDS
+5724,2017,11.0,19.0,-21.503,168.59799999999998,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.6,13.0,0.0,,,LOYALTY ISLANDS
+5725,2018,10.0,16.0,-21.743,169.52200000000002,NEW CALEDONIA,"New Caledonia, New Guinea, Solomon Is., Vanuatu",Earthquake,6.5,17.0,0.0,,,LOYALTY ISLANDS
+5714,2018,12.0,11.0,50.56,131.47,RUSSIA,Kamchatka and Kuril Islands,Landslide,0.0,,0.0,,,"BUREYA, FAR EASTERN RUSSIA"
+5718,1978,,,21.4,108.0,VIETNAM,"China, North and South Korea, Philippines, Taiwan",Unknown,0.0,,0.0,,Limited (<$1 million),TRA CO COAST
+5720,1923,,,10.158,109.014,VIETNAM,"China, North and South Korea, Philippines, Taiwan",Volcano and Earthquake,6.1,,0.0,,Limited (<$1 million),OFF COAST OF CENTRAL VIETNAM
+5727,2006,6.0,15.0,40.0,3.83,SPAIN,Mediterranean Sea,Meteorological,0.0,,0.0,,Extreme (~$25 million or more),"CIUTADELLA, MENORCA ISLAND"
+5733,2019,11.0,14.0,1.6,126.416,INDONESIA,Indonesia (Pacific Ocean) and Malaysia,Earthquake,7.1,33.0,0.0,Few (~1 to 50 people),Limited (<$1 million),N. MOLUCCAS ISLANDS
+5734,2009,9.0,2.0,-7.782,107.297,INDONESIA,Indian Ocean (including west coast of Australia),Earthquake,7.0,46.0,0.0,Some (~51 to 100 people),Severe (~>$5 to $24 million),JAVA SEA
+5736,2020,1.0,7.0,17.916,-66.813,USA TERRITORY,Caribbean Sea,Earthquake,6.4,10.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),PUERTO RICO
+5737,1909,10.0,6.0,41.8,-112.7,USA,,Earthquake,0.0,,0.0,,Limited (<$1 million),UTAH
+5735,1988,8.0,20.0,26.755,86.616,BANGLADESH,Indian Ocean (including west coast of Australia),Earthquake,6.6,57.0,0.0,Many (~101 to 1000 people),Extreme (~$25 million or more),BANGLADESH
+5738,1952,,,70.3,-53.0,GREENLAND,Northwest Atlantic Ocean,Landslide,0.0,,0.0,Few (~1 to 50 people),Limited (<$1 million),"SOUTH COAST OF NUUSSUAQ, GREENLAND"
+5743,2014,7.0,21.0,65.02,-16.7,ICELAND,Northeast Atlantic Ocean,Landslide,0.0,,0.0,,,ASKJA LAKE
+5740,2020,1.0,28.0,19.44,-78.755,CUBA,Caribbean Sea,Earthquake,7.7,10.0,0.0,,Moderate (~$1 to $5 million),OFF SE COAST
+5741,2016,8.0,20.0,40.394,143.68,JAPAN,Japan,Earthquake,6.0,10.0,0.0,,,SANRIKU
+5742,1998,5.0,30.0,39.027,143.441,JAPAN,Japan,Earthquake,6.2,33.0,0.0,,,SANRIKU
+5746,2020,3.0,25.0,48.986,157.69299999999998,RUSSIA,Kamchatka and Kuril Islands,Earthquake,7.5,57.0,0.0,,,N. KURIL ISLANDS
+5744,1905,11.0,8.0,40.092,24.627,GREECE,Mediterranean Sea,Earthquake and Landslide,7.2,15.0,0.0,Few (~1 to 50 people),Moderate (~$1 to $5 million),NORTH AEGEAN SEA
+5747,2020,5.0,2.0,34.205,25.712,GREECE,Mediterranean Sea,Earthquake,6.6,17.0,0.0,,,CRETE
+5748,2020,5.0,29.0,-8.058,114.242,INDONESIA,Indian Ocean (including west coast of Australia),Volcano and Earthquake,0.0,,0.0,Few (~1 to 50 people),,LESSER SUNDA: BALI: IJEN VOLCANO
+5753,2020,7.0,22.0,55.03,-158.52200000000002,USA,Alaska (including Aleutian Islands),Earthquake,7.8,28.0,0.0,,,"SHUMAGIN ISLANDS, AK"
+5750,2020,6.0,18.0,-33.294000000000004,-177.838,NEW ZEALAND,"E Coast Australia, New Zealand, South Pacific Is.",Earthquake,7.4,10.0,0.0,,,"S OF RAOUL ISLAND, KERMADEC ISLANDS"
+5752,2013,4.0,22.0,18.081,-102.182,MEXICO,West Coast of North and Central America,Earthquake,6.0,30.0,0.0,,,MEXICO
+5751,2020,6.0,23.0,16.029,-95.901,MEXICO,West Coast of North and Central America,Earthquake,7.4,26.0,0.0,Few (~1 to 50 people),Extreme (~$25 million or more),OFF OF COAST OF OAXACA
