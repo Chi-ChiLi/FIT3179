@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Largest Tsunami Waves",
+    "subtitle": "Top-N waves in selected years • Size = wave height (m) • Color = country",
+    "color": "#e5f0ff"
+  },
+  "width": 980,
+  "height": 520,
+  "background": "#0d1117",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Data/waves_1.csv"
+  },
+  "params": [
+    {
+      "name": "yearStart",
+      "value": 1950,
+      "bind": { "input": "range", "min": 1900, "max": 2025, "step": 1, "name": "Year ≥ " }
+    },
+    {
+      "name": "yearEnd",
+      "value": 2025,
+      "bind": { "input": "range", "min": 1900, "max": 2025, "step": 1, "name": "Year ≤ " }
+    },
+    {
+      "name": "topN",
+      "value": 10,
+      "bind": { "input": "select", "options": [5,10,15,20,50], "name": "Show top: " }
+    }
+  ],
+  "transform": [
+    { "calculate": "toNumber(datum.YEAR)", "as": "YearNum" },
+    {
+      "calculate": "isValid(datum.WAVE_HEIGHT) ? toNumber(datum.WAVE_HEIGHT) : (isValid(datum.MAXIMUM_HEIGHT) ? toNumber(datum.MAXIMUM_HEIGHT) : (isValid(datum.MAX_WATER_HEIGHT) ? toNumber(datum.MAX_WATER_HEIGHT) : (isValid(datum.WATER_HEIGHT) ? toNumber(datum.WATER_HEIGHT) : null)))",
+      "as": "WaveHeight"
+    },
+    { "filter": "isValid(datum.YearNum) && isValid(datum.WaveHeight) && datum.WaveHeight > 0" },
+    { "filter": "datum.YearNum >= yearStart && datum.YearNum <= yearEnd" },
+    {
+      "window": [{ "op": "rank", "as": "rank" }],
+      "sort": [{ "field": "WaveHeight", "order": "descending" }]
+    },
+    { "filter": "datum.rank <= topN" }
+  ],
+  "mark": { "type": "circle", "opacity": 0.85, "stroke": "#0b1020", "strokeWidth": 0.6 },
+  "encoding": {
+    "x": {
+      "field": "YearNum",
+      "type": "quantitative",
+      "title": "Year",
+      "scale": { "domain": [1900, 2025] },
+      "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
+    },
+    "y": {
+      "field": "WaveHeight",
+      "type": "quantitative",
+      "title": "Wave height (m)",
+      "scale": { "zero": false },
+      "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
+    },
+    "size": {
+      "field": "WaveHeight",
+      "type": "quantitative",
+      "title": "Wave height (m)",
+      "scale": { "type": "sqrt", "range": [80, 1800] },
+      "legend": { "orient": "bottom", "labelColor": "#e5e7eb", "titleColor": "#e5e7eb", "values": [50,100,200,300,500] }
+    },
+    "color": {
+      "field": "COUNTRY",
+      "type": "nominal",
+      "title": "Country",
+      "scale": { "scheme": "tableau10" },
+      "legend": { "orient": "bottom", "labelColor": "#e5e7eb", "titleColor": "#e5e7eb" }
+    },
+    "tooltip": [
+      { "field": "LOCATION", "title": "Location" },
+      { "field": "COUNTRY", "title": "Country" },
+      { "field": "YEAR", "title": "Year" },
+      { "field": "WaveHeight", "title": "Wave height (m)" }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": { "labelFontSize": 11, "titleFontSize": 12, "grid": false },
+    "legend": { "direction": "horizontal", "padding": 6, "cornerRadius": 6 },
+    "title": { "color": "#e5f0ff", "subtitleColor": "#9fb7d2" }
+  }
+}
