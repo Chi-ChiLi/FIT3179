@@ -136,6 +136,7 @@
       </div>
     </div>
 
+    <!-- Trends -->
     <div class="heading"><p>Trends Over Time</p></div>
     <div id="trends_slide" class="slide">
       <div class="pure-g">
@@ -149,6 +150,36 @@
       </div>
     </div>
 
+    <!-- Largest Waves -->
+    <div class="heading"><p>Largest Waves</p></div>
+    <div id="largest_waves_slide" class="slide">
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="pr-0 md:pr-16">
+            <p class="subheading">The biggest recorded waves (1900–2025)</p>
+            <p class="text">
+              Explore the top-N largest tsunami waves within your selected year range.
+              Bubble size encodes wave height (m); color encodes country.
+            </p>
+          </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="card p-3">
+            <div id="wave_hgt_embed" class="center">
+              <div id="wave_hgt_vis" class="w-full"></div>
+            </div>
+          </div>
+          <div class="center mt-2">
+            <div class="flex items-center gap-2 caption">
+              <img src="images/magnifying_glass.png" alt="" style="width: 18px; height: 18px;">
+              <span>Interact: use the sliders and dropdowns under the chart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Severity & Impact -->
     <div class="heading"><p>Severity & Impact</p></div>
     <div id="impact_slide" class="slide">
       <div class="pure-g">
@@ -162,6 +193,7 @@
       </div>
     </div>
 
+    <!-- Sources -->
     <div class="heading"><p>Sources & Credits</p></div>
     <div id="sources_slide" class="slide">
       <div class="pure-g">
@@ -182,19 +214,13 @@
 
   <!-- Embeds -->
   <script>
+    // Date stamp
     document.getElementById('updated').textContent = new Date().toISOString().slice(0,10);
+
+    // Vega-Lite embeds
     vegaEmbed('#map_vis', 'Visualisations/global_tsunamis_interactive.vl.json', { actions: false }).catch(console.error);
-    fetch('Data/sources.csv').then(r => r.ok ? r.text() : '')
-      .then(text => {
-        if (!text) return;
-        const [header, ...rows] = text.trim().split(/\r?\n/);
-        const ul = document.getElementById('sources_list');
-        rows.forEach(line => {
-          const li = document.createElement('li');
-          li.textContent = line.split(',').join(' — ');
-          ul.appendChild(li);
-        });
-      }).catch(()=>{});
+    vegaEmbed('#wave_hgt_vis', 'Visualisations/wave_hght.vl.json', { actions: false }).catch(console.error);
+
   </script>
 
 </body>
