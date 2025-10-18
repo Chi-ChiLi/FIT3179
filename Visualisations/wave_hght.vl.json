@@ -15,7 +15,7 @@
     {
       "name": "topN",
       "value": 10,
-      "bind": { "input": "select", "options": [5,10,15,20,50], "name": "Show top: " }
+      "bind": { "input": "select", "options": [5, 10, 15, 20], "name": "Show top: " }
     }
   ],
   "vconcat": [
