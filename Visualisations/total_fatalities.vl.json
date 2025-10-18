@@ -1,0 +1,221 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Tsunami Fatalities Over Time",
+    "subtitle": "Total recorded deaths per year (1900–present)",
+    "color": "#e5f0ff",
+    "subtitleColor": "#9fb7d2"
+  },
+  "width": 950,
+  "height": 520,
+  "background": "#0d1117",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Data/sources_final.csv"
+  },
+  "transform": [
+    { "calculate": "toNumber(datum.ALL_FATALITIES)", "as": "FatalitiesNum" },
+    { "filter": "isValid(datum.YEAR) && isValid(datum.FatalitiesNum)" },
+    { "filter": "toNumber(datum.YEAR) >= 1900" },
+    {
+      "calculate": "isValid(datum.COUNTRY) ? datum.COUNTRY : (isValid(datum.Country) ? datum.Country : (isValid(datum.COUNTRY_NAME) ? datum.COUNTRY_NAME : 'Unknown'))",
+      "as": "CountryLabel"
+    },
+    {
+      "calculate": "isValid(datum.LOCATION) ? datum.LOCATION : (isValid(datum.LOCATION_NAME) ? datum.LOCATION_NAME : (isValid(datum.PLACE) ? datum.PLACE : ''))",
+      "as": "PlaceLabel"
+    }
+  ],
+  "layer": [
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "sum", "field": "FatalitiesNum", "as": "Total_Fatalities" }
+          ],
+          "groupby": ["YEAR"]
+        }
+      ],
+      "mark": { "type": "line", "color": "#8ab4ff", "strokeWidth": 3 },
+      "encoding": {
+        "x": {
+          "field": "YEAR",
+          "type": "quantitative",
+          "axis": {
+            "title": "Year of Event",
+            "labelColor": "#dbeafe",
+            "titleColor": "#dbeafe",
+            "format": "d",
+            "values": [1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020],
+            "labelAngle": 0,
+            "grid": false,
+            "tickColor": "#2a3a52"
+          }
+        },
+        "y": {
+          "field": "Total_Fatalities",
+          "type": "quantitative",
+          "axis": {
+            "title": "Total Fatalities",
+            "labelColor": "#dbeafe",
+            "titleColor": "#dbeafe",
+            "grid": true,
+            "gridColor": "#1b2635"
+          }
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "sum", "field": "FatalitiesNum", "as": "Total_Fatalities" },
+            { "op": "argmax", "field": "FatalitiesNum", "as": "argmax_Fatalities" }
+          ],
+          "groupby": ["YEAR"]
+        },
+        {
+          "calculate": "datum.argmax_Fatalities && datum.argmax_Fatalities.CountryLabel ? datum.argmax_Fatalities.CountryLabel : 'Unknown'",
+          "as": "TopCountry"
+        },
+        {
+          "calculate": "datum.argmax_Fatalities && datum.argmax_Fatalities.PlaceLabel ? datum.argmax_Fatalities.PlaceLabel : ''",
+          "as": "TopPlace"
+        }
+      ],
+      "mark": { "type": "point", "filled": true, "size": 120, "opacity": 0.0001 },
+      "encoding": {
+        "x": { "field": "YEAR", "type": "quantitative" },
+        "y": { "field": "Total_Fatalities", "type": "quantitative" },
+        "tooltip": [
+          { "field": "YEAR", "title": "Year" },
+          { "field": "Total_Fatalities", "title": "Total Fatalities", "format": "," },
+          { "field": "TopCountry", "title": "Country" },
+          { "field": "TopPlace", "title": "Location" }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "sum", "field": "FatalitiesNum", "as": "Total_Fatalities" },
+            { "op": "argmax", "field": "FatalitiesNum", "as": "argmax_Fatalities" }
+          ],
+          "groupby": ["YEAR"]
+        },
+        {
+          "window": [{ "op": "rank", "as": "FatalityRank" }],
+          "sort": [{ "field": "Total_Fatalities", "order": "descending" }]
+        },
+        { "filter": "datum.FatalityRank <= 5" },
+        {
+          "calculate": "(datum.argmax_Fatalities.CountryLabel ? datum.argmax_Fatalities.CountryLabel : 'Unknown') + (datum.argmax_Fatalities.PlaceLabel ? ' — ' + datum.argmax_Fatalities.PlaceLabel : '') + ' — ' + format(datum.Total_Fatalities, ',') + ' fatalities'",
+          "as": "AnnText"
+        },
+        { "calculate": "datum.YEAR >= 1995 ? -12 : 12", "as": "dyLabel" },
+        { "calculate": "datum.YEAR >= 1995 ? -6 : 6", "as": "dxLabel" }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 11,
+            "fontWeight": "bold",
+            "stroke": "#0d1117",
+            "strokeWidth": 3
+          },
+          "encoding": {
+            "x": { "field": "YEAR", "type": "quantitative" },
+            "y": { "field": "Total_Fatalities", "type": "quantitative" },
+            "text": { "field": "AnnText" },
+            "dx": { "field": "dxLabel" },
+            "dy": { "field": "dyLabel" }
+          }
+        },
+        {
+          "mark": { "type": "text", "align": "left", "fontSize": 11, "fontWeight": "bold", "fill": "#e5f0ff" },
+          "encoding": {
+            "x": { "field": "YEAR", "type": "quantitative" },
+            "y": { "field": "Total_Fatalities", "type": "quantitative" },
+            "text": { "field": "AnnText" },
+            "dx": { "field": "dxLabel" },
+            "dy": { "field": "dyLabel" }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "sum", "field": "FatalitiesNum", "as": "Total_Fatalities" }
+          ],
+          "groupby": ["YEAR"]
+        },
+        { "filter": "datum.YEAR == 2004 || datum.YEAR == 2010 || datum.YEAR == 1923" },
+        {
+          "calculate": "datum.YEAR == 2004 ? '🌊 2004 Indian Ocean Tsunami\\nDate: Dec 26, 2004\\nMagnitude: 9.1–9.3\\nCause: Megathrust earthquake near the Sunda Trench.\\nImpact: Waves up to 30 m; devastation across Indonesia, Thailand, Sri Lanka, India.\\nSignificance: Led to the Indian Ocean Tsunami Warning System.' : (datum.YEAR == 2010 ? '🇭🇹 2010 Haiti Earthquake & Tsunami\\nDate: Jan 12, 2010\\nMagnitude: 7.0\\nCause: Enriquillo-Plantain Garden fault.\\nImpact: 1–3 m tsunami compounded earthquake losses in Port-au-Prince.\\nSignificance: Exposed infrastructure vulnerability.' : '🇯🇵 1923 Great Kanto Earthquake\\nDate: Sep 1, 1923\\nMagnitude: 7.9\\nCause: Rupture beneath the Sagami Trough.\\nImpact: Local tsunami; most deaths from fires/building collapse.\\nSignificance: Urban planning & preparedness reforms.')",
+          "as": "Description"
+        },
+        {
+          "calculate": "datum.YEAR == 2010 ? 300000 : (datum.YEAR == 2004 ? 240000 : 260000)",
+          "as": "YPos"
+        },
+        {
+          "calculate": "datum.YEAR == 2010 ? 2021 : (datum.YEAR == 2004 ? 1960 : 1910)",
+          "as": "XText"
+        }
+      ],
+      "layer": [
+        {
+          "mark": { "type": "rule", "stroke": "#9ecfff", "strokeDash": [4,4], "opacity": 0.6 },
+          "encoding": {
+            "x": { "field": "YEAR", "type": "quantitative" },
+            "y": { "field": "Total_Fatalities", "type": "quantitative" },
+            "x2": { "field": "XText" },
+            "y2": { "field": "YPos" }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 11,
+            "lineBreak": "\n",
+            "lineHeight": 14,
+            "stroke": "#0d1117",
+            "strokeWidth": 3
+          },
+          "encoding": {
+            "x": { "field": "XText", "type": "quantitative" },
+            "y": { "field": "YPos", "type": "quantitative" },
+            "text": { "field": "Description" }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 11,
+            "lineBreak": "\n",
+            "lineHeight": 14,
+            "fill": "#dbeafe"
+          },
+          "encoding": {
+            "x": { "field": "XText", "type": "quantitative" },
+            "y": { "field": "YPos", "type": "quantitative" },
+            "text": { "field": "Description" }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": { "stroke": null },
+    "axis": { "labelFontSize": 11, "titleFontSize": 12, "grid": false },
+    "title": { "color": "#e5f0ff", "subtitleColor": "#9fb7d2" }
+  }
+}
