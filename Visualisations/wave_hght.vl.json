@@ -1,16 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Largest Tsunami Waves",
-    "subtitle": "Top-N waves in selected years • Size = wave height (m) • Color = country",
-    "color": "#e5f0ff"
-  },
-  "width": 980,
-  "height": 520,
   "background": "#0d1117",
-  "data": {
-    "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Data/waves_1.csv"
-  },
   "params": [
     {
       "name": "yearStart",
@@ -28,61 +18,144 @@
       "bind": { "input": "select", "options": [5,10,15,20,50], "name": "Show top: " }
     }
   ],
-  "transform": [
-    { "calculate": "toNumber(datum.YEAR)", "as": "YearNum" },
+  "vconcat": [
     {
-      "calculate": "isValid(datum.WAVE_HEIGHT) ? toNumber(datum.WAVE_HEIGHT) : (isValid(datum.MAXIMUM_HEIGHT) ? toNumber(datum.MAXIMUM_HEIGHT) : (isValid(datum.MAX_WATER_HEIGHT) ? toNumber(datum.MAX_WATER_HEIGHT) : (isValid(datum.WATER_HEIGHT) ? toNumber(datum.WATER_HEIGHT) : null)))",
-      "as": "WaveHeight"
+      "title": {
+        "text": "Top Tsunami Waves Worldwide",
+        "subtitle": "Showing the largest recorded waves by year • Circle size = wave height (m) • Color = country",
+        "color": "#e5f0ff"
+      },
+      "width": 980,
+      "height": 520,
+      "data": {
+        "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Data/waves_1.csv"
+      },
+      "transform": [
+        { "calculate": "toNumber(datum.YEAR)", "as": "YearNum" },
+        {
+          "calculate": "isFinite(toNumber(datum.WAVE_HEIGHT)) ? toNumber(datum.WAVE_HEIGHT) : (isFinite(toNumber(datum.MAXIMUM_HEIGHT)) ? toNumber(datum.MAXIMUM_HEIGHT) : (isFinite(toNumber(datum.MAX_WATER_HEIGHT)) ? toNumber(datum.MAX_WATER_HEIGHT) : (isFinite(toNumber(datum.WATER_HEIGHT)) ? toNumber(datum.WATER_HEIGHT) : null)))",
+          "as": "WaveHeight"
+        },
+        { "filter": "isFinite(datum.YearNum) && isFinite(datum.WaveHeight) && datum.WaveHeight > 0" },
+        { "filter": "datum.YearNum >= yearStart && datum.YearNum <= yearEnd" },
+        {
+          "window": [{ "op": "row_number", "as": "rownum" }],
+          "sort": [{ "field": "WaveHeight", "order": "descending" }]
+        },
+        { "filter": "datum.rownum <= topN" },
+        { "window": [{ "op": "count", "as": "tieCount" }], "groupby": ["YearNum", "WaveHeight"] },
+        { "window": [{ "op": "row_number", "as": "tieIndex" }], "groupby": ["YearNum", "WaveHeight"], "sort": [{ "field": "LOCATION" }] },
+        {
+          "calculate": "datum.YearNum + (datum.tieIndex - (datum.tieCount + 1)/2) * 0.25",
+          "as": "YearAdjusted"
+        }
+      ],
+      "mark": { "type": "circle", "opacity": 0.85, "stroke": "#0b1020", "strokeWidth": 0.6 },
+      "encoding": {
+        "x": {
+          "field": "YearAdjusted",
+          "type": "quantitative",
+          "title": "Event year (jittered for ties)",
+          "scale": { "domain": [1900, 2025] },
+          "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
+        },
+        "y": {
+          "field": "WaveHeight",
+          "type": "quantitative",
+          "title": "Maximum wave height (m)",
+          "scale": { "zero": false },
+          "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
+        },
+        "size": {
+          "field": "WaveHeight",
+          "type": "quantitative",
+          "title": "Wave height (m)",
+          "scale": { "type": "sqrt", "range": [80, 1800] },
+          "legend": {
+            "orient": "bottom",
+            "labelColor": "#e5e7eb",
+            "titleColor": "#e5e7eb",
+            "values": [50, 100, 200, 300, 500],
+            "title": "Relative wave size"
+          }
+        },
+        "color": {
+          "field": "COUNTRY",
+          "type": "nominal",
+          "title": "Country of occurrence",
+          "scale": { "scheme": "tableau10" },
+          "legend": { "orient": "bottom", "labelColor": "#e5e7eb", "titleColor": "#e5e7eb" }
+        },
+        "tooltip": [
+          { "field": "rownum", "title": "Global Rank" },
+          { "field": "LOCATION", "title": "Location" },
+          { "field": "COUNTRY", "title": "Country" },
+          { "field": "YEAR", "title": "Event Year" },
+          { "field": "WaveHeight", "title": "Maximum Height (m)" }
+        ]
+      },
+      "config": {
+        "view": { "stroke": null },
+        "axis": { "labelFontSize": 11, "titleFontSize": 12, "grid": false },
+        "legend": { "direction": "horizontal", "padding": 6, "cornerRadius": 6 },
+        "title": { "color": "#e5f0ff", "subtitleColor": "#9fb7d2" }
+      }
     },
-    { "filter": "isValid(datum.YearNum) && isValid(datum.WaveHeight) && datum.WaveHeight > 0" },
-    { "filter": "datum.YearNum >= yearStart && datum.YearNum <= yearEnd" },
     {
-      "window": [{ "op": "rank", "as": "rank" }],
-      "sort": [{ "field": "WaveHeight", "order": "descending" }]
-    },
-    { "filter": "datum.rank <= topN" }
-  ],
-  "mark": { "type": "circle", "opacity": 0.85, "stroke": "#0b1020", "strokeWidth": 0.6 },
-  "encoding": {
-    "x": {
-      "field": "YearNum",
-      "type": "quantitative",
-      "title": "Year",
-      "scale": { "domain": [1900, 2025] },
-      "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
-    },
-    "y": {
-      "field": "WaveHeight",
-      "type": "quantitative",
-      "title": "Wave height (m)",
-      "scale": { "zero": false },
-      "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
-    },
-    "size": {
-      "field": "WaveHeight",
-      "type": "quantitative",
-      "title": "Wave height (m)",
-      "scale": { "type": "sqrt", "range": [80, 1800] },
-      "legend": { "orient": "bottom", "labelColor": "#e5e7eb", "titleColor": "#e5e7eb", "values": [50,100,200,300,500] }
-    },
-    "color": {
-      "field": "COUNTRY",
-      "type": "nominal",
-      "title": "Country",
-      "scale": { "scheme": "tableau10" },
-      "legend": { "orient": "bottom", "labelColor": "#e5e7eb", "titleColor": "#e5e7eb" }
-    },
-    "tooltip": [
-      { "field": "LOCATION", "title": "Location" },
-      { "field": "COUNTRY", "title": "Country" },
-      { "field": "YEAR", "title": "Year" },
-      { "field": "WaveHeight", "title": "Wave height (m)" }
-    ]
-  },
-  "config": {
-    "view": { "stroke": null },
-    "axis": { "labelFontSize": 11, "titleFontSize": 12, "grid": false },
-    "legend": { "direction": "horizontal", "padding": 6, "cornerRadius": 6 },
-    "title": { "color": "#e5f0ff", "subtitleColor": "#9fb7d2" }
-  }
+      "title": { "text": "Selected Top-N Waves (Reference List)", "color": "#e5f0ff" },
+      "width": 980,
+      "height": 240,
+      "data": {
+        "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Data/waves_1.csv"
+      },
+      "transform": [
+        { "calculate": "toNumber(datum.YEAR)", "as": "YearNum" },
+        {
+          "calculate": "isFinite(toNumber(datum.WAVE_HEIGHT)) ? toNumber(datum.WAVE_HEIGHT) : (isFinite(toNumber(datum.MAXIMUM_HEIGHT)) ? toNumber(datum.MAXIMUM_HEIGHT) : (isFinite(toNumber(datum.MAX_WATER_HEIGHT)) ? toNumber(datum.MAX_WATER_HEIGHT) : (isFinite(toNumber(datum.WATER_HEIGHT)) ? toNumber(datum.WATER_HEIGHT) : null)))",
+          "as": "WaveHeight"
+        },
+        { "filter": "isFinite(datum.YearNum) && isFinite(datum.WaveHeight) && datum.WaveHeight > 0" },
+        { "filter": "datum.YearNum >= yearStart && datum.YearNum <= yearEnd" },
+        {
+          "window": [{ "op": "row_number", "as": "rownum" }],
+          "sort": [{ "field": "WaveHeight", "order": "descending" }]
+        },
+        { "filter": "datum.rownum <= topN" }
+      ],
+      "mark": { "type": "bar", "opacity": 0.9 },
+      "encoding": {
+        "y": {
+          "field": "rownum",
+          "type": "ordinal",
+          "title": "Rank (1 = tallest)",
+          "sort": "ascending",
+          "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
+        },
+        "x": {
+          "field": "WaveHeight",
+          "type": "quantitative",
+          "title": "Maximum recorded height (m)",
+          "axis": { "labelColor": "#dbeafe", "titleColor": "#dbeafe" }
+        },
+        "color": {
+          "field": "COUNTRY",
+          "type": "nominal",
+          "legend": null,
+          "scale": { "scheme": "tableau10" }
+        },
+        "tooltip": [
+          { "field": "rownum", "title": "Rank" },
+          { "field": "WaveHeight", "title": "Height (m)" },
+          { "field": "YEAR", "title": "Year" },
+          { "field": "LOCATION", "title": "Location" },
+          { "field": "COUNTRY", "title": "Country" }
+        ]
+      },
+      "config": {
+        "view": { "stroke": null },
+        "axis": { "labelFontSize": 11, "titleFontSize": 12, "grid": true },
+        "title": { "color": "#e5f0ff" }
+      }
+    }
+  ]
 }
