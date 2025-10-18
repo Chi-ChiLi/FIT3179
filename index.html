@@ -10,7 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-  <!-- Optional CSS + utilities -->
+  <!-- CSS + utilities -->
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
     integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
@@ -21,26 +21,119 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
   <style>
-    :root { --bg:#04121b; --panel:rgba(255,255,255,.08); --text:#e6f2ff; }
-    html,body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:"Ubuntu", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif; }
-    #bg { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(1) opacity(.35); z-index: -2; }
-    .slideshow { max-width: 1200px; margin: 0 auto; padding-bottom: 5rem; }
-    .slide { padding: 2rem 1rem 3rem; }
-    .heading { text-align:center; margin-top: 3.5rem; }
-    .heading p { font-family: "Yeseva One", serif; font-size: clamp(28px, 3.2vw, 40px); letter-spacing: .5px; margin: 0; }
-    .center { display:flex; justify-content:center; align-items:center; }
-    .text { color: rgba(255,255,255,.88); line-height: 1.7; }
-    .subheading { font-family: "Yeseva One", serif; font-size: clamp(20px, 2.2vw, 26px); margin: .5rem 0 .25rem; }
-    .columns-2 { column-count: 2; column-gap: 1.5rem; }
-    .card { background: var(--panel); border: 1px solid rgba(255,255,255,.12); border-radius: 14px; }
-    .buttons { background: var(--panel); border-radius: 12px; padding: .75rem; }
-    .caption { color: rgba(255,255,255,.7); font-size:.95rem; }
-    a { color:#8bd3ff; }
+    :root {
+      --bg: #04121b;
+      --panel: rgba(255, 255, 255, .08);
+      --text: #e6f2ff;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Ubuntu", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* 🌊 Ocean background setup */
+    #bg-container {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      overflow: hidden;
+    }
+
+    #bg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.8) saturate(1.1);
+    }
+
+    #bg-fade {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.95) 25%,
+        rgba(0, 0, 0, 0.85) 45%,
+        rgba(0, 0, 0, 0.6) 60%,
+        rgba(0, 0, 0, 0.3) 80%,
+        rgba(0, 0, 0, 0.1) 90%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Layout + typography */
+    .slideshow {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-bottom: 5rem;
+    }
+
+    .slide {
+      padding: 2rem 1rem 3rem;
+    }
+
+    .heading {
+      text-align: center;
+      margin-top: 3.5rem;
+    }
+
+    .heading p {
+      font-family: "Yeseva One", serif;
+      font-size: clamp(28px, 3.2vw, 40px);
+      letter-spacing: .5px;
+      margin: 0;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      color: rgba(255, 255, 255, .88);
+      line-height: 1.7;
+    }
+
+    .subheading {
+      font-family: "Yeseva One", serif;
+      font-size: clamp(20px, 2.2vw, 26px);
+      margin: .5rem 0 .25rem;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: 14px;
+    }
+
+    .caption {
+      color: rgba(255, 255, 255, .7);
+      font-size: .95rem;
+    }
+
+    a {
+      color: #8bd3ff;
+    }
   </style>
 </head>
 
 <body>
-  <img id="bg" src="images/ocean_background.jpg" alt="ocean background">
+  <!-- 🌊 Ocean background visible on sides -->
+  <div id="bg-container">
+    <img id="bg" src="images/ocean_background.jpg" alt="ocean background">
+    <div id="bg-fade"></div>
+  </div>
 
   <div class="slideshow">
 
@@ -60,14 +153,14 @@
           <div class="pr-0 md:pr-16">
             <p class="subheading">What causes a tsunami?</p>
             <p class="text">
-              Tsunamis are long, powerful sea waves most often triggered by undersea earthquakes, volcanic eruptions, 
-              or landslides that displace large volumes of water. When the seafloor suddenly shifts, it pushes the entire 
-              water column upward, releasing immense energy that travels outward as waves. In deep water, these waves can 
+              Tsunamis are long, powerful sea waves most often triggered by undersea earthquakes, volcanic eruptions,
+              or landslides that displace large volumes of water. When the seafloor suddenly shifts, it pushes the entire
+              water column upward, releasing immense energy that travels outward as waves. In deep water, these waves can
               move faster than a jet plane — up to 800 km/h — but are barely noticeable at the surface.
             </p>
             <p class="text">
-              As tsunamis approach shallow coastal areas, the wave energy compresses, slowing their speed but increasing 
-              their height dramatically. This process, known as <em>shoaling</em>, can transform a gentle offshore swell 
+              As tsunamis approach shallow coastal areas, the wave energy compresses, slowing their speed but increasing
+              their height dramatically. This process, known as <em>shoaling</em>, can transform a gentle offshore swell
               into a wall of water that inundates coastlines with devastating force.
             </p>
           </div>
@@ -75,9 +168,9 @@
 
         <div class="pure-u-1 pure-u-md-1-2">
           <div class="center">
-            <img src="images/tsunami_03.jpg" 
-                 alt="Diagram showing tsunami formation from undersea earthquake"
-                 style="width: 90%; border-radius: 12px; border: 1px solid rgba(255,255,255,.1); box-shadow: 0 0 20px rgba(0,0,0,.4);">
+            <img src="images/tsunami_03.jpg"
+              alt="Diagram showing tsunami formation from undersea earthquake"
+              style="width: 90%; border-radius: 12px; border: 1px solid rgba(255,255,255,.1); box-shadow: 0 0 20px rgba(0,0,0,.4);">
           </div>
           <p class="caption center mt-2">Illustration: Undersea fault movement generates waves that radiate outward across the ocean.</p>
         </div>
@@ -90,10 +183,10 @@
         <div class="pure-u-1">
           <p class="subheading">A global hazard shaped by the ocean floor</p>
           <p class="text">
-            Around 80% of the world’s tsunamis occur within the Pacific Ocean’s <em>Ring of Fire</em>, where major tectonic plates 
-            collide. Historic events such as the 2004 Indian Ocean tsunami and the 2011 Tōhoku tsunami in Japan demonstrate 
-            their devastating potential — both causing immense loss of life and reshaping entire coastlines. Modern monitoring 
-            networks, like the Pacific Tsunami Warning System, now use seismographs and ocean buoys to detect and track these 
+            Around 80% of the world’s tsunamis occur within the Pacific Ocean’s <em>Ring of Fire</em>, where major tectonic plates
+            collide. Historic events such as the 2004 Indian Ocean tsunami and the 2011 Tōhoku tsunami in Japan demonstrate
+            their devastating potential — both causing immense loss of life and reshaping entire coastlines. Modern monitoring
+            networks, like the Pacific Tsunami Warning System, now use seismographs and ocean buoys to detect and track these
             waves in real-time, improving global preparedness and response.
           </p>
         </div>
@@ -111,16 +204,16 @@
         <div class="pure-u-1 pure-u-md-1-2">
           <div class="pr-0 md:pr-16">
             <p class="subheading">Where do tsunamis occur?</p>
-              <p class="text" style="margin-bottom: 1.2em;">
-                Clusters trace subduction zones—the Pacific “Ring of Fire”—where vertical seafloor motion
-                during great earthquakes displaces water. Hotspots include the Alaska–Aleutians, Chile–Peru,
-                Japan/Kuril trenches, the Indonesia/Sunda arc, Tonga–Kermadec, and the Hellenic Arc in the
-                Mediterranean, with secondary activity across the Caribbean. Colour shows earthquake magnitude;
-                size reflects the selected severity metric (e.g., intensity or run-up). Use the year slider to
-                see bursts around 1960–64 (Chile/Alaska) and 2004–11 (Sumatra–Tōhoku). Note that high magnitude
-                does not guarantee large run-up—coastal bathymetry, depth and rupture geometry strongly modulate
-                impact.
-              </p>
+            <p class="text" style="margin-bottom: 1.2em;">
+              Clusters trace subduction zones—the Pacific “Ring of Fire”—where vertical seafloor motion
+              during great earthquakes displaces water. Hotspots include the Alaska–Aleutians, Chile–Peru,
+              Japan/Kuril trenches, the Indonesia/Sunda arc, Tonga–Kermadec, and the Hellenic Arc in the
+              Mediterranean, with secondary activity across the Caribbean. Colour shows earthquake magnitude;
+              size reflects the selected severity metric (e.g., intensity or run-up). Use the year slider to
+              see bursts around 1960–64 (Chile/Alaska) and 2004–11 (Sumatra–Tōhoku). Note that high magnitude
+              does not guarantee large run-up—coastal bathymetry, depth and rupture geometry strongly modulate
+              impact.
+            </p>
             <p class="caption">Notes: Early-century records may be incomplete. Visual encodings emphasise pattern, not precise risk.</p>
           </div>
         </div>
@@ -141,146 +234,43 @@
       </div>
     </div>
 
-    <!-- Largest Waves -->
-    <div class="heading"><p>Largest Waves</p></div>
-    <div id="largest_waves_slide" class="slide">
-      <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2">
-          <div class="pr-0 md:pr-16">
-            <p class="subheading">The biggest recorded waves (1900–2025)</p>
-            <p class="text">
-              Explore the top-N largest tsunami waves within your selected year range.
-              Bubble size encodes wave height (m); colour encodes country.
-            </p>
-          </div>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2">
-          <div class="card p-3">
-            <div id="wave_hgt_embed" class="center">
-              <div id="wave_hgt_vis" class="w-full"></div>
-            </div>
-          </div>
-          <div class="center mt-2">
-            <div class="flex items-center gap-2 caption">
-              <span>Interact: use the sliders and dropdowns under the chart</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Top 10 Tallest Recorded Waves -->
-    <div class="heading"><p>Top 10 Tallest Recorded Waves (since 1900)</p></div>
-    <div id="top_waves_slide" class="slide">
-      <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2">
-          <div class="pr-0 md:pr-16">
-            <p class="subheading">What stands out?</p>
-            <p class="text" style="margin-bottom: 1.2em;">
-              The tallest run-ups on record are dominated by <strong>landslide-driven waves in narrow fjords or lakes</strong>,
-              where displaced rock funnels water into extreme heights. The 1958 <em>Lituya Bay</em> event in Alaska reached an
-              astonishing ~524&nbsp;m after a massive rockfall—an order of magnitude higher than most open-ocean tsunamis.
-              Similar mechanics appear in <em>Spirit Lake</em> (1980, Mt&nbsp;St&nbsp;Helens), <em>Taan Fjord</em> (2015), and
-              the <em>Vajont Dam</em> disaster affecting multiple towns in Italy (1963). In short:
-              <strong>confined basins + sudden mass movement = extreme local run-up</strong>.
-            </p>
-          </div>
-        </div>
-
-        <div class="pure-u-1 pure-u-md-1-2">
-          <div class="card p-5">
-            <p class="subheading">Top 10 Tallest Recorded Waves</p>
-            <ul class="text list-disc pl-6 space-y-3">
-              <li><strong>1958 — Lituya Bay, Alaska (USA):</strong> ~<strong>524.26 m</strong>, giant rockslide; 2 fatalities.</li>
-              <li><strong>1980 — Spirit Lake (West), Washington (USA):</strong> ~<strong>250 m</strong>, Mt St Helens debris avalanche.</li>
-              <li><strong>1963 — Casso, Vajont Dam (Italy):</strong> ~<strong>235 m</strong>, landslide into reservoir overtopped the dam.</li>
-              <li><strong>1980 — Spirit Lake (East), Washington (USA):</strong> ~<strong>225 m</strong>, surge on opposite shore.</li>
-              <li><strong>2015 — Taan Fjord, Alaska (USA):</strong> ~<strong>190 m</strong>, glacial valley collapse.</li>
-              <li><strong>1936 — Lituya Bay, Alaska (USA):</strong> ~<strong>149.35 m</strong>, earlier rockfall-runup event.</li>
-              <li><strong>1963 — Pirago, Vajont Valley (Italy):</strong> ~<strong>70 m</strong>, downstream impact from Vajont wave.</li>
-              <li><strong>1963 — Longarone, Vajont Valley (Italy):</strong> ~<strong>70 m</strong>, downstream impact from Vajont wave.</li>
-              <li><strong>1964 — Cliff Mine, Valdez Inlet (USA):</strong> ~<strong>67.1 m</strong>, Great Alaska Earthquake–related slope failure.</li>
-              <li><strong>1965 — Lago Cabrera (Chile):</strong> ~<strong>60 m</strong>, landslide into mountain lake; 27 fatalities.</li>
-            </ul>
-            <p class="caption mt-3">
-              Note: Heights are maximum local run-up values measured near impact sites (not deep-water wave heights).
-              The 1963 Italian entries (Casso, Pirago, Longarone) are related to the single Vajont Dam landslide event.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Severity & Impact -->
-    <div class="heading"><p>Severity & Impact</p></div>
+    <div class="heading">
+      <p>Severity & Impact</p>
+    </div>
+
     <div id="impact_slide" class="slide">
       <div class="pure-g">
-        <!-- LEFT: charts -->
         <div class="pure-u-1 pure-u-md-2-3">
-          <!-- Total fatalities as a subheading and chart -->
           <div class="card p-4 mb-6">
             <p class="subheading">Total fatalities over time</p>
             <div id="fatalities_vis" class="w-full"></div>
           </div>
+        </div>
 
-        <!-- RIGHT: text -->
         <div class="pure-u-1 pure-u-md-1-3">
           <div class="pl-0 md:pl-10">
             <p class="subheading">Understanding Tsunami Mortality Patterns</p>
             <p class="text">
-              Tsunami-related deaths rarely occur evenly across decades — they cluster around a handful of 
-              catastrophic events. The <strong>1923 Great Kantō earthquake</strong>, 
-              <strong>2004 Indian Ocean tsunami</strong>, and 
-              <strong>2010 Haiti disaster</strong> each reshaped coastal safety policies worldwide. 
-              These moments reveal that the true risk lies not only in wave size, but in where and how 
-              societies build, prepare, and respond. Over time, advances in early warning systems, 
-              satellite monitoring, and international coordination have improved detection and evacuation, 
-              yet unequal access to infrastructure, education, and governance continues to shape outcomes. 
-              The most devastating losses occur where natural hazard meets social vulnerability — 
-              a reminder that resilience is as much about people and planning as it is about physics.
+              Tsunami-related deaths rarely occur evenly across decades — they cluster around a handful of
+              catastrophic events. The <strong>1923 Great Kantō earthquake</strong>,
+              <strong>2004 Indian Ocean tsunami</strong>, and
+              <strong>2010 Haiti disaster</strong> each reshaped coastal safety policies worldwide.
+              These moments reveal that the true risk lies not only in wave size, but in where and how
+              societies build, prepare, and respond.
             </p>
             <p class="caption">Hover over a spike to uncover which event defined that year's human cost.</p>
-
-            <hr class="opacity-20 my-6">
-
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Sources -->
-    <div class="heading"><p>Sources & Credits</p></div>
-    <div id="sources_slide" class="slide">
-      <div class="pure-g">
-        <div class="pure-u-1">
-          <div class="card p-5">
-            <p class="subheading">Data</p>
-            <ul id="sources_list" class="text list-disc pl-6"></ul>
-            <p class="caption mt-3">
-              This work is licensed under a
-              <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">CC BY 4.0</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 
   <!-- Embeds -->
   <script>
-    // Date stamp
-    document.getElementById('updated').textContent = new Date().toISOString().slice(0,10);
-
-    // Vega-Lite embeds
+    document.getElementById('updated').textContent = new Date().toISOString().slice(0, 10);
     vegaEmbed('#map_vis', 'Visualisations/global_tsunamis_interactive.vl.json', { actions: false }).catch(console.error);
-    vegaEmbed('#wave_hgt_vis', 'Visualisations/wave_hght.vl.json', { actions: false }).catch(console.error);
-
-    // Total Fatalities Over Time (now inside "Severity & Impact" section)
     vegaEmbed('#fatalities_vis', 'Visualisations/total_fatalities.vl.json', { actions: false }).catch(console.error);
-
-    // Existing impact chart (keep your spec/url here)
-    vegaEmbed('#impact_vis', 'Visualisations/impact_metric.vl.json', { actions: false }).catch(console.error);
   </script>
 
 </body>
