@@ -1,0 +1,183 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "title": {
+  "text": "A Century of Tsunami Economic Impact — Top Five-Country Analysis (1900–Present)",
+  "subtitle": "Annual economic damages by country • Values in USD millions",
+  "color": "#e5f0ff",
+  "subtitleColor": "#cbd5e1",
+  "subtitleFontSize": 13,
+  "subtitleFontWeight": "normal",
+  "subtitlePadding": 6
+},
+  "background": "#0d1117",
+  "width": 1000,
+  "height": 520,
+  "data": { "url": "https://raw.githubusercontent.com/Chi-ChiLi/FIT3179/main/Data/sources_damage_only.csv" },
+  "transform": [
+    { "calculate": "toNumber(datum.ALL_DAMAGE_MILLIONS)", "as": "DamageMillions" },
+    { "filter": "isValid(datum.YEAR) && isValid(datum.DamageMillions)" },
+    { "calculate": "year(datum.YEAR)", "as": "YearNum" },
+    { "filter": "datum.YearNum >= 1900" },
+    { "calculate": "['JAPAN','INDONESIA','CHILE','USA','ITALY']", "as": "top5Countries" },
+    { "filter": "indexof(datum.top5Countries, datum.COUNTRY) >= 0" }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "area", "interpolate": "basis" },
+      "encoding": {
+        "x": {
+          "field": "YEAR",
+          "type": "temporal",
+          "axis": { "labelColor": "#e5f0ff", "titleColor": "#e5f0ff", "title": "Year" }
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": "DamageMillions",
+          "type": "quantitative",
+          "stack": "center",
+          "axis": {
+            "title": "Annual Damage (USD millions)",
+            "titleColor": "#e5f0ff",
+            "titleFontSize": 12
+          }
+        },
+        "color": {
+          "field": "COUNTRY",
+          "type": "nominal",
+          "legend": { "labelColor": "#e5f0ff", "titleColor": "#e5f0ff", "title": "Country" },
+          "scale": { "scheme": "tableau10" }
+        },
+        "tooltip": [
+          { "field": "COUNTRY", "type": "nominal", "title": "Country" },
+          { "field": "YEAR", "type": "temporal", "title": "Year" },
+          { "aggregate": "sum", "field": "DamageMillions", "type": "quantitative", "title": "Damage (USD M)", "format": ",.2f" }
+        ]
+      }
+    },
+    {
+      "transform": [
+        { "timeUnit": "year", "field": "YEAR", "as": "YearT" },
+        { "aggregate": [{ "op": "sum", "field": "DamageMillions", "as": "TotalByYear" }], "groupby": ["YearT"] },
+        { "calculate": "year(datum.YearT)", "as": "YearOnly" },
+        {
+          "lookup": "YearOnly",
+          "from": {
+            "data": {
+              "values": [
+                {
+                  "y": 1992,
+                  "label": "1992 · Nicaragua & Central America\nMw 7.7–7.9 • local coastal damage\nPrecursor decade to 2004 reforms",
+                  "xShift": -30,
+                  "yShift": -1500
+                },
+                {
+                  "y": 1993,
+                  "label": "1993 · Japan (Okushiri, Hokkaidō)\nMw 7.8 • rapid run-up • up to 30 m waves\nTriggered by offshore earthquake near Hokkaidō\nOver 200 fatalities • coastal towns completely inundated\nHighlighted gaps in early warning response\nCatalyst for modern evacuation drills & sea-wall reconstruction",
+                  "xShift": -60,
+                  "yShift": 150000
+                },
+                {
+                  "y": 2004,
+                  "label": "2004 · Indian Ocean (Sumatra)\nMw 9.1–9.3 • regional devastation\nIndian Ocean Warning System",
+                  "xShift": 7,
+                  "yShift": 450
+                },
+                {
+                  "y": 2010,
+                  "label": "2010 · Chile (Maule)\nMw 8.8 • Pacific-wide alerts\nStronger early warning & codes",
+                  "xShift": -50,
+                  "yShift": -350
+                },
+                {
+                  "y": 2011,
+                  "label": "2011 · Japan (Tōhoku)\nMw 9.0 • catastrophic inundation\nTriggered the Fukushima Daiichi nuclear disaster\nOver 15,000 deaths • 2,500 missing • massive displacement\nPrompted global nuclear safety reviews\nCatalyst for Japan’s modern tsunami resilience framework",
+                  "xShift": -50,
+                  "yShift": 500
+                }
+                
+              ]
+            },
+            "key": "y",
+            "fields": ["label", "xShift", "yShift"]
+          }
+        },
+        { "filter": "isValid(datum.label)" },
+        { "calculate": "datetime(datum.YearOnly + datum.xShift, 0, 1)", "as": "XTextDate" },
+        { "calculate": "datum.TotalByYear + datum.yShift", "as": "YText" }
+      ],
+      "layer": [
+        {
+          "mark": { "type": "point", "filled": true, "size": 70 },
+          "encoding": {
+            "x": { "field": "YearT", "type": "temporal" },
+            "y": { "field": "TotalByYear", "type": "quantitative" },
+            "color": { "value": "#e5f0ff" }
+          }
+        },
+        {
+          "mark": { "type": "rule", "strokeDash": [4, 4], "strokeWidth": 1.2, "opacity": 0.7, "color": "#7f8b99" },
+          "encoding": {
+            "x": { "field": "YearT", "type": "temporal" },
+            "y": { "field": "TotalByYear", "type": "quantitative" },
+            "x2": { "field": "XTextDate", "type": "temporal" },
+            "y2": { "field": "YText", "type": "quantitative" }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 11.5,
+            "fontWeight": "bold",
+            "lineBreak": "\n",
+            "lineHeight": 14,
+            "stroke": "#0d1117",
+            "strokeWidth": 3
+          },
+          "encoding": {
+            "x": { "field": "XTextDate", "type": "temporal" },
+            "y": { "field": "YText", "type": "quantitative" },
+            "text": { "field": "label" }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 11.5,
+            "fontWeight": "bold",
+            "lineBreak": "\n",
+            "lineHeight": 14,
+            "fill": "#e5f0ff"
+          },
+          "encoding": {
+            "x": { "field": "XTextDate", "type": "temporal" },
+            "y": { "field": "YText", "type": "quantitative" },
+            "text": { "field": "label" }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        { "timeUnit": "year", "field": "YEAR", "as": "YearT" },
+        { "aggregate": [{ "op": "sum", "field": "DamageMillions", "as": "TotalByYear" }], "groupby": ["YearT"] }
+      ],
+      "mark": { "type": "point", "size": 180, "opacity": 0.0001 },
+      "encoding": {
+        "x": { "field": "YearT", "type": "temporal" },
+        "y": { "field": "TotalByYear", "type": "quantitative" },
+        "tooltip": [
+          { "field": "YearT", "title": "Year", "type": "temporal" },
+          { "field": "TotalByYear", "title": "Total Damage (USD M)", "type": "quantitative", "format": ",.2f" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "#0d1117",
+    "axis": { "domainColor": "#e5f0ff", "gridColor": "#333", "labelColor": "#e5f0ff", "titleColor": "#e5f0ff" },
+    "legend": { "labelColor": "#e5f0ff", "titleColor": "#e5f0ff" },
+    "title": { "color": "#e5f0ff" }
+  }
+}
