@@ -169,16 +169,28 @@
       </div>
     </div>
     
+<style>
+  /* Two columns ≥ 800px, stacked below that */
+  .two-col {
+    display: grid;
+    gap: 1.5rem;
+  }
+  @media (min-width: 800px) {
+    .two-col {
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+    }
+  }
+</style>
+
 <!-- Top 10 Tallest Recorded Waves -->
-<div class="heading">
-  <p>Top 10 Tallest Recorded Waves (since 1900)</p>
-</div>
+<div class="heading"><p>Top 10 Tallest Recorded Waves (since 1900)</p></div>
 
 <div id="top_waves_slide" class="slide">
-  <div class="pure-g">
+  <div class="two-col">
 
-    <!-- LEFT COLUMN: Explanation -->
-    <div class="pure-u-1 pure-u-md-1-2">
+    <!-- LEFT -->
+    <div>
       <div class="card p-5">
         <p class="subheading">What stands out?</p>
         <p class="text" style="margin-bottom: 1.2em;">
@@ -192,8 +204,8 @@
       </div>
     </div>
 
-    <!-- RIGHT COLUMN: Top 10 List -->
-    <div class="pure-u-1 pure-u-md-1-2">
+    <!-- RIGHT -->
+    <div>
       <div class="card p-5">
         <p class="subheading">Top 10 Tallest Recorded Waves</p>
         <ul class="text list-disc pl-6 space-y-3">
@@ -217,7 +229,6 @@
 
   </div>
 </div>
-
 
     <!-- Severity & Impact -->
     <div class="heading"><p>Severity & Impact</p></div>
