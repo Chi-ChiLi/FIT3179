@@ -102,7 +102,7 @@
       }
     },
     {
-      "title": { "text": "Selected Top-N Waves (Reference List)", "color": "#e5f0ff" },
+      "title": { "text": "Selected Top-N Waves", "color": "#e5f0ff" },
       "width": 980,
       "height": 240,
       "data": {
